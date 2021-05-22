@@ -1,1 +1,42 @@
 // Основные настройки, шаблоны типовых блоков и миксины
+
+// Шрифт: Roboto
+// Размер шрифта: 18px
+// Межстрочный интервал: 1.5
+// Цвет текста: #cacaca
+// Цвет фона: #08020d
+
+* {
+  box-sizing: border-box;
+}
+
+//  html {
+//    font-family: 'Roboto', sans-serif;
+//    @include set-typography($rem-base, 24px);
+//  }
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+input::placeholder {
+  color: inherit;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
