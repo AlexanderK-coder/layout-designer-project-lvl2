@@ -1,19 +1,36 @@
 // Основные настройки, шаблоны типовых блоков и миксины
+// Внутри файла расположите базовые стили проекта, которые не привязаны к конкретной секции.
 
-// Шрифт: Roboto
-// Размер шрифта: 18px
-// Межстрочный интервал: 1.5
-// Цвет текста: #cacaca
-// Цвет фона: #08020d
+@font-face {
+  font-family: "Rboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Rpbpto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
 }
 
-//  html {
-//    font-family: 'Roboto', sans-serif;
-//    @include set-typography($rem-base, 24px);
-//  }
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
+}
 
 body,
 h1,

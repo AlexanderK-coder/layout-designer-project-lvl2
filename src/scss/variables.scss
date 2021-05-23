@@ -12,3 +12,17 @@ $dark-gray: #cacaca;
 $dark: #3c3b3d;
 
 $type-base: 16px;
+
+@mixin set-header($font-size, $line-height) {
+  font-size: $font-size;
+  font-weight: bold;
+  line-height: $line-height;
+  text-transform: uppercase;
+}
+
+@mixin set-text($font-size, $line-height) {
+  font-size: $font-size;
+  font-weight: bold;
+  line-height: $line-height;
+  text-transform: uppercase;
+}
