@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+input::-webkit-input-placeholder {
+  color: inherit;
+  border: none;
+}
+
+input,
+input:-ms-input-placeholder {
+  color: inherit;
+  border: none;
+}
+
+input,
+input::-ms-input-placeholder {
+  color: inherit;
+  border: none;
+}
+
+input,
+input::placeholder {
+  color: inherit;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+.h1-mob {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+.h2-mob {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.h3-mob {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.h3-cap {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+}
+
+.h3-cap-bold {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.h4 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.h4-mob {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.h4-cap-bold {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.menu-font {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+.holder-font {
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jc-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.talign-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}

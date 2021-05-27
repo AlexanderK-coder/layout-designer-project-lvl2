@@ -1,24 +1,5 @@
-// Основные настройки, шаблоны типовых блоков и миксины
+// Основные настройки, шаблоны типовых блоков
 // Внутри файла расположите базовые стили проекта, которые не привязаны к конкретной секции.
-
-@font-face {
-  font-family: "Rboto-Regular";
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Rpbpto-Bold";
-  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Medium";
-  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
-  font-style: normal;
-}
 
 * {
   box-sizing: border-box;

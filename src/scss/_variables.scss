@@ -1,0 +1,48 @@
+// Переменные - базовые цвета, типографика(миксины)
+
+$white: #fff;
+$black: #08020d;
+$green: #34c176;
+$orange: #f89202;
+$red: #95390c;
+$purple: #5328a1;
+
+$gray: #e0e0e0;
+$dark-gray: #cacaca;
+$dark: #3c3b3d;
+
+// миксин для установки шрифтов H1-H4 descktop & mobil
+
+@mixin set-header($font-size, $line-height, $font-weight) {
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
+}
+
+@mixin set-header-cap($font-size, $line-height, $font-weight) {
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+// миксин для рядового текста
+
+@mixin set-text($font-size, $line-height) {
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: normal;
+  line-height: $line-height;
+}
+
+// шрифт Popular Track small bold
+
+@mixin pop-track {
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 150%; /* or 19px */
+  text-transform: uppercase;
+}

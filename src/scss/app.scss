@@ -1,1 +1,23 @@
 // Внутри этого файла подключайте все созданные SASS файлы. Именно этот файл и будет преобразован в css.
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+
+@import "variables";
+@import "general";
+@import "atomic";
