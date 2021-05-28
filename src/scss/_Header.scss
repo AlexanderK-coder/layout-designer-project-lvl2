@@ -1,0 +1,73 @@
+@include set-header(11px, 13px, bold);
+
+.header {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .logo {
+    margin-right: 64px;
+
+    &-image {
+      width: 24px;
+      margin-right: 16px;
+    }
+
+    &-title {
+      padding: 5px 0;
+    }
+  }
+
+  .menu ul > * {
+    margin-left: 24px;
+    display: flex;
+    color: $dark-gray;
+  }
+
+  .white {
+    color: $white;
+  }
+
+  .input {
+    // min-width: 248px;
+    width: 248px;
+    height: 25px;
+
+    margin-left: auto;
+    padding: 0 14px;
+
+    color: $white;
+
+    background: $dark;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .input::placeholder {
+    color: $placeholder;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 425px) {
+    .menu ul {
+      flex-direction: column;
+      margin-bottom: 23px;
+
+      li {
+        margin-bottom: 5px;
+        margin-left: 0;
+      }
+    }
+    // @include set-media(md) {
+    //   & > * {
+    //     flex: 1 1 100%;
+
+    //     margin-bottom: px-to-rem(23px);
+    //   }
+    // }
+  }
+}

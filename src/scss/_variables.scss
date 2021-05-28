@@ -10,6 +10,7 @@ $purple: #5328a1;
 $gray: #e0e0e0;
 $dark-gray: #cacaca;
 $dark: #3c3b3d;
+$placeholder: #757575;
 
 // миксин для установки шрифтов H1-H4 descktop & mobil
 
@@ -38,6 +39,14 @@ $dark: #3c3b3d;
 }
 
 // шрифт Popular Track small bold
+
+@mixin menu-header($font-size, $line-height, $font-weight) {
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
+}
 
 @mixin pop-track {
   font-size: 12.8px;

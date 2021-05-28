@@ -2,26 +2,56 @@
 
 .h1 {
   @include set-header(60px, 90px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h1-mob {
   @include set-header(30px, 45px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h2 {
   @include set-header(38px, 57px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h2-mob {
   @include set-header(18px, 27px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h3 {
   @include set-header(24px, 45px, normal);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h3-mob {
   @include set-header(16px, 24px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h3-cap {
@@ -34,10 +64,20 @@
 
 .h4 {
   @include set-header(18px, 27px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h4-mob {
   @include set-header(18px, 24px, bold);
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .h4-cap-bold {
@@ -51,6 +91,11 @@
 .holder-font {
   @include set-header(13.3px, 15px, normal);
   font-family: Arial, sans-serif;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: uppercase;
 }
 
 .d-flex {
