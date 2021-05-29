@@ -1,15 +1,19 @@
-@include set-header(11px, 13px, bold);
-
 .header {
   position: absolute;
   top: 25px;
   right: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 13px;
+  text-transform: uppercase;
 
   .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin-right: 64px;
 
     &-image {
@@ -18,14 +22,25 @@
     }
 
     &-title {
-      padding: 5px 0;
+      padding: 10px 0;
     }
   }
 
-  .menu ul > * {
-    margin-left: 24px;
-    display: flex;
+  .menu {
+    position: absolute;
+    width: 100%;
+    margin-left: 180px;
     color: $dark-gray;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  li {
+    margin-left: 24px;
   }
 
   .white {
@@ -33,15 +48,11 @@
   }
 
   .input {
-    // min-width: 248px;
     width: 248px;
     height: 25px;
-
-    margin-left: auto;
     padding: 0 14px;
-
+    margin-left: auto;
     color: $white;
-
     background: $dark;
     border: none;
     border-radius: 50px;
@@ -51,23 +62,51 @@
     color: $placeholder;
     text-transform: uppercase;
   }
+}
 
-  @media (max-width: 425px) {
-    .menu ul {
-      flex-direction: column;
-      margin-bottom: 23px;
+@media (max-width: 550px) {
+  .header {
+    .logo {
+      &-image {
+        width: 24px;
+        margin-right: 16px;
+      }
 
-      li {
-        margin-bottom: 5px;
-        margin-left: 0;
+      &-title {
+        padding: 10px 0;
       }
     }
-    // @include set-media(md) {
-    //   & > * {
-    //     flex: 1 1 100%;
 
-    //     margin-bottom: px-to-rem(23px);
-    //   }
-    // }
+    .menu {
+      position: relative;
+      margin-left: 0;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 17px;
+    }
+
+    li {
+      margin-bottom: 3px;
+      margin-left: 0;
+    }
+    .input {
+      position: relative;
+      margin-top: 18px;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 868px) {
+  header {
+    .input {
+      position: absolute;
+      margin-top: 75px;
+      margin-left: 0;
+    }
   }
 }

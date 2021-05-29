@@ -49,37 +49,38 @@
 }
 
 .holder-font {
-  @include set-header(13.3px, 15px, normal);
   font-family: Arial, sans-serif;
+
+  @include set-header(13.3px, 15px, normal);
 }
 
-.d-flex {
-  display: flex;
-}
+// .d-flex {
+//   display: flex;
+// }
 
-.flex-column {
-  flex-direction: column;
-}
+// .flex-column {
+//   flex-direction: column;
+// }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
+// .flex-wrap {
+//   flex-wrap: wrap;
+// }
 
-.jc-center {
-  justify-content: center;
-}
+// .jc-center {
+//   justify-content: center;
+// }
 
-.jc-between {
-  justify-content: space-between;
-}
+// .jc-between {
+//   justify-content: space-between;
+// }
 
-.align-items-center {
-  align-items: center;
-}
+// .align-items-center {
+//   align-items: center;
+// }
 
-.talign-center {
-  text-align: center;
-}
+// .talign-center {
+//   text-align: center;
+// }
 
 .w-100 {
   width: 100%;

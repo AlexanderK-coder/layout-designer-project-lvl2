@@ -28,11 +28,11 @@ ul {
   list-style: none;
 }
 
-input,
-input::placeholder {
-  color: inherit;
-  border: none;
-}
+// input,
+// input::placeholder {
+//   color: inherit;
+//   border: none;
+// }
 
 a {
   color: inherit;
@@ -41,7 +41,6 @@ a {
 
 .container {
   max-width: 1240px;
-  margin: 0 auto;
-
   padding: 0 20px;
+  margin: 0 auto;
 }
