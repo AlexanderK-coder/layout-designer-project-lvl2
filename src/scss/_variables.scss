@@ -48,13 +48,13 @@ $placeholder: #757575;
   text-transform: uppercase;
 }
 
-@mixin pop-track {
-  font-size: 12.8px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 150%; /* or 19px */
-  text-transform: uppercase;
-}
+// @mixin pop-track {
+//   font-size: 12.8px;
+//   font-style: normal;
+//   font-weight: bold;
+//   line-height: 150%; /* or 19px */
+//   text-transform: uppercase;
+// }
 
 @mixin bg-image($image) {
   background: url("../images/#{$image}");
@@ -84,40 +84,43 @@ $placeholder: #757575;
   @include set-header(18px, 27px, bold);
 }
 
-%h3 {
-  @include set-header(24px, 45px, normal);
-}
-
-%h3-mob {
-  @include set-header(16px, 24px, bold);
-}
-
-%h3-cap {
-  @include set-header-cap(24px, 45px, normal);
-}
-
-%h3-cap-bold {
-  @include set-header-cap(24px, 45px, bold);
-}
-
-%h4 {
-  @include set-header(18px, 27px, bold);
-}
-
-%h4-mob {
-  @include set-header(18px, 24px, bold);
-}
-
-%h4-cap-bold {
-  @include set-header-cap(18px, 27px, bold);
+@mixin text-size-1 {
+  @include set-text(16px, 24px);
 }
 
 @mixin menu-font {
   @include set-header(11px, 13px, bold);
 }
 
-%holder-font {
-  font-family: Arial, sans-serif;
+// %h3 {
+//   @include set-header(24px, 45px, normal);
+// }
 
-  @include set-header(13.3px, 15px, normal);
-}
+// %h3-mob {
+//   @include set-header(16px, 24px, bold);
+// }
+
+// %h3-cap {
+//   @include set-header-cap(24px, 45px, normal);
+// }
+
+// %h3-cap-bold {
+//   @include set-header-cap(24px, 45px, bold);
+// }
+
+// %h4 {
+//   @include set-header(18px, 27px, bold);
+// }
+
+// %h4-mob {
+//   @include set-header(18px, 24px, bold);
+// }
+
+// %h4-cap-bold {
+//   @include set-header-cap(18px, 27px, bold);
+// }
+// %holder-font {
+//   font-family: Arial, sans-serif;
+
+//   @include set-header(13.3px, 15px, normal);
+// }

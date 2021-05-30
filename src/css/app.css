@@ -75,62 +75,6 @@ a {
   text-decoration: none;
 }
 
-.base {
-  padding: 200px 0;
-  background: url("../images/banner");
-  repeat: no-repeat;
-  text-align: center;
-  background-size: cover;
-}
-
-@media (max-width: 425px) {
-  .base {
-    padding: 250px 0 200px 0;
-  }
-}
-
-.base .content {
-  max-width: 1240px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-.base h1 {
-  font-size: 60px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 90px;
-  text-transform: uppercase;
-}
-
-@media (max-width: 425px) {
-  .base h1 {
-    font-size: 30px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 45px;
-    text-transform: uppercase;
-  }
-}
-
-.base h2 {
-  font-size: 38px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 57px;
-  text-transform: uppercase;
-}
-
-@media (max-width: 425px) {
-  .base h2 {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 27px;
-    text-transform: uppercase;
-  }
-}
-
 .t-align-center {
   text-align: center;
 }
@@ -152,7 +96,6 @@ a {
   top: 25px;
   right: 0;
   left: 0;
-  margin: 0 auto;
   max-width: 1240px;
   font-size: 11px;
   font-style: normal;
@@ -170,7 +113,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 64px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .header .logo-image {
@@ -240,13 +184,12 @@ a {
 }
 
 @media (max-width: 425px) {
-  .header {
-    left: 20px;
-    right: 20px;
+  .header .logo {
+    margin-left: 20px;
   }
   .header .logo-image {
     width: 24px;
-    margin-right: 16px;
+    margin-right: 20px;
   }
   .header .logo-title {
     padding: 10px 0;
@@ -283,5 +226,61 @@ a {
     position: absolute;
     margin-top: 75px;
     margin-left: 0;
+  }
+}
+
+.base {
+  padding: 200px 0;
+  background: url("../images/banner");
+  repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+
+@media (max-width: 425px) {
+  .base {
+    padding: 250px 0 200px 0;
+  }
+}
+
+.base .content {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.base h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  .base h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+}
+
+.base h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  .base h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
   }
 }

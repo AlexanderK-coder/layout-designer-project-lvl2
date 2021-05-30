@@ -1,0 +1,31 @@
+.base {
+  padding: 200px 0;
+  @include bg-image(banner);
+  @include set-media(425px) {
+    padding: 250px 0 200px 0;
+    // padding: 250px 0 199px 0;
+  }
+
+  .content {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  h1 {
+    @include h1;
+
+    @include set-media(425px) {
+      @include h1-mob;
+    }
+  }
+
+  h2 {
+    @include h2;
+
+    @include set-media(425px) {
+      @include h2-mob;
+    }
+  }
+
+  // прописать пэшку
+}
