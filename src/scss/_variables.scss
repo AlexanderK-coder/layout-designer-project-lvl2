@@ -55,3 +55,69 @@ $placeholder: #757575;
   line-height: 150%; /* or 19px */
   text-transform: uppercase;
 }
+
+@mixin bg-image($image) {
+  background: url("../images/#{$image}");
+  repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+
+@mixin set-media($level) {
+  @media (max-width: ($level)) {
+    @content;
+  }
+}
+@mixin h1 {
+  @include set-header(60px, 90px, bold);
+}
+
+@mixin h1-mob {
+  @include set-header(30px, 45px, bold);
+}
+
+@mixin h2 {
+  @include set-header(38px, 57px, bold);
+}
+
+@mixin h2-mob {
+  @include set-header(18px, 27px, bold);
+}
+
+%h3 {
+  @include set-header(24px, 45px, normal);
+}
+
+%h3-mob {
+  @include set-header(16px, 24px, bold);
+}
+
+%h3-cap {
+  @include set-header-cap(24px, 45px, normal);
+}
+
+%h3-cap-bold {
+  @include set-header-cap(24px, 45px, bold);
+}
+
+%h4 {
+  @include set-header(18px, 27px, bold);
+}
+
+%h4-mob {
+  @include set-header(18px, 24px, bold);
+}
+
+%h4-cap-bold {
+  @include set-header-cap(18px, 27px, bold);
+}
+
+@mixin menu-font {
+  @include set-header(11px, 13px, bold);
+}
+
+%holder-font {
+  font-family: Arial, sans-serif;
+
+  @include set-header(13.3px, 15px, normal);
+}

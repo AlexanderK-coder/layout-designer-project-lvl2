@@ -19,7 +19,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -45,18 +45,57 @@ ul {
   list-style: none;
 }
 
+input {
+  color: inherit;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: inherit;
+  border: none;
+}
+
+input:-ms-input-placeholder {
+  color: inherit;
+  border: none;
+}
+
+input::-ms-input-placeholder {
+  color: inherit;
+  border: none;
+}
+
+input::placeholder {
+  color: inherit;
+  border: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-.container {
+.base {
+  padding: 200px 0;
+  background: url("../images/banner");
+  repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+
+@media (max-width: 425px) {
+  .base {
+    padding: 250px 0 200px 0;
+  }
+}
+
+.base .content {
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-.h1 {
+.base h1 {
   font-size: 60px;
   font-style: normal;
   font-weight: bold;
@@ -64,15 +103,17 @@ a {
   text-transform: uppercase;
 }
 
-.h1-mob {
-  font-size: 30px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 45px;
-  text-transform: uppercase;
+@media (max-width: 425px) {
+  .base h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
 }
 
-.h2 {
+.base h2 {
   font-size: 38px;
   font-style: normal;
   font-weight: bold;
@@ -80,90 +121,30 @@ a {
   text-transform: uppercase;
 }
 
-.h2-mob {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 27px;
-  text-transform: uppercase;
+@media (max-width: 425px) {
+  .base h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
 }
 
-.h3 {
-  font-size: 24px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 45px;
-  text-transform: uppercase;
-}
-
-.h3-mob {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 24px;
-  text-transform: uppercase;
-}
-
-.h3-cap {
-  font-size: 24px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 45px;
-}
-
-.h3-cap-bold {
-  font-size: 24px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 45px;
-}
-
-.h4 {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 27px;
-  text-transform: uppercase;
-}
-
-.h4-mob {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 24px;
-  text-transform: uppercase;
-}
-
-.h4-cap-bold {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 27px;
-}
-
-.menu-font {
-  font-size: 11px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 13px;
-  text-transform: uppercase;
-}
-
-.holder-font {
-  font-family: Arial, sans-serif;
-  font-size: 13.3px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 15px;
-  text-transform: uppercase;
+.t-align-center {
+  text-align: center;
 }
 
 .w-100 {
   width: 100%;
 }
 
-.pt-100 {
-  padding-top: 100px;
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #08020d;
 }
 
 .header {
@@ -171,7 +152,8 @@ a {
   top: 25px;
   right: 0;
   left: 0;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 1240px;
   font-size: 11px;
   font-style: normal;
   font-weight: bold;
@@ -184,10 +166,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 64px;
 }
 
@@ -211,11 +193,11 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  justify-content: start;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .header li {
@@ -247,44 +229,48 @@ a {
   text-transform: uppercase;
 }
 
+.header .input::-ms-input-placeholder {
+  color: #757575;
+  text-transform: uppercase;
+}
+
 .header .input::placeholder {
   color: #757575;
   text-transform: uppercase;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 425px) {
+  .header {
+    left: 20px;
+    right: 20px;
+  }
   .header .logo-image {
     width: 24px;
     margin-right: 16px;
   }
-
   .header .logo-title {
     padding: 10px 0;
   }
-
   .header .menu {
     position: relative;
     margin-left: 0;
   }
-
   .header ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-top: 17px;
   }
-
   .header li {
     margin-bottom: 3px;
     margin-left: 0;
   }
-
   .header .input {
     position: relative;
     margin-top: 18px;
@@ -292,7 +278,7 @@ a {
   }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 1100px) {
   header .input {
     position: absolute;
     margin-top: 75px;
