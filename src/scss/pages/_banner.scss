@@ -1,6 +1,6 @@
 .base {
   padding: 200px 0;
-  @include bg-image(banner);
+  @include bg-image("banner.png");
   @include set-media(425px) {
     padding: 250px 0 200px 0;
     // padding: 250px 0 199px 0;
@@ -26,6 +26,13 @@
       @include h2-mob;
     }
   }
+  // ! Этот текст на шаблоне 18 на 27
+  .sub {
+    @include text-size-1;
+    margin-top: 32px;
 
-  // прописать пэшку
+    @include set-media(425px) {
+      margin-top: 16px;
+    }
+  }
 }

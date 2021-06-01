@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 570px;
+  margin: 0 auto 0;
+
+  &-input {
+    flex: 1 1 250px;
+    // min-width: 270px;
+    min-height: 50px;
+    margin: 16px 12px 24px;
+    padding: 0 15px;
+    color: $white;
+    background: transparent;
+    border: 2px solid $dark-gray;
+    border-radius: 3px;
+  }
+
+  // &-input-2 {
+
+  // }
+
+  // @include set-media(425px) {
+  //   margin-top: 30px;
+  // }
+
+  // * найти и прописать классы btn, btn-green
+
+  .form-btn {
+    flex: 1 1 570px;
+    max-width: 570px;
+    min-height: 57px;
+    margin: 24px 15px 0;
+
+    // @include set-typography(13.3px, 15px, normal, uppercase);
+  }
+}
