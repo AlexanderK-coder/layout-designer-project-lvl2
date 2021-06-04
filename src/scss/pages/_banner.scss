@@ -30,6 +30,7 @@
   .sub {
     @include text-size-1;
     margin-top: 32px;
+    margin-bottom: 1.5rem;
 
     @include set-media(425px) {
       margin-top: 16px;

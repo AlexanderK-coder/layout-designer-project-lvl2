@@ -58,7 +58,7 @@ $placeholder: #757575;
 
 @mixin bg-image($image) {
   background: url("../images/#{$image}");
-  repeat: no-repeat;
+  background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
 }
