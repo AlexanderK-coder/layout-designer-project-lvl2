@@ -57,9 +57,9 @@ $placeholder: #757575;
 // }
 
 @mixin bg-image($image) {
+  text-align: center;
   background: url("../images/#{$image}");
   background-repeat: no-repeat;
-  text-align: center;
   background-size: cover;
 }
 
@@ -68,6 +68,11 @@ $placeholder: #757575;
     @content;
   }
 }
+
+@mixin col-gradient($color-1, $color-2) {
+  background: linear-gradient(265.08deg, $color-1 14.9%, $color-2 68.95%);
+}
+
 @mixin h1 {
   @include set-header(60px, 90px, bold);
 }
@@ -90,6 +95,10 @@ $placeholder: #757575;
 
 @mixin menu-font {
   @include set-header(11px, 13px, bold);
+}
+
+@mixin bg-footer {
+  @include col-gradient($red, $purple);
 }
 
 // %h3 {

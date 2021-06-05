@@ -25,6 +25,10 @@ button {
   margin: 0;
 }
 
+body {
+  max-width: 1440px;
+}
+
 ul {
   list-style: none;
 }
@@ -45,6 +49,12 @@ a {
 }
 
 // 1 страница баннер
+
+.content {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
 // конец первой страницы
 
