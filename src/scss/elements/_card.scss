@@ -1,0 +1,19 @@
+// position: absolute;
+// width: 368.2px;
+// height: 615px;
+// left: 122px;
+// top: 203px;
+
+// background: url(subscribe_1.png);
+
+.card {
+  width: 368.2px;
+  height: 615px;
+
+  border: 1px solid $white;
+  border-radius: 10px;
+}
+
+.card:not(:last-child) {
+  margin-right: 45px;
+}
