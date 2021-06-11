@@ -57,9 +57,8 @@ $placeholder: #757575;
 // }
 
 @mixin bg-image($image) {
-  text-align: center;
-  background: url("../images/#{$image}");
-  background-repeat: no-repeat;
+  // text-align: center;
+  background: url("../images/#{$image}") no-repeat center;
   background-size: cover;
 }
 

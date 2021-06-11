@@ -1,9 +1,12 @@
 .base {
   padding: 200px 0;
   @include bg-image("banner.png");
+
   @include set-media(425px) {
-    padding: 250px 0 200px 0;
+    padding: 250px 20px 200px 20px;
+
     // padding: 250px 0 199px 0;
+    // @include bg-image("banner.png");
   }
 
   h1 {

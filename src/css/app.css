@@ -23,7 +23,6 @@ html {
   font-size: 18px;
   line-height: 1.5;
   color: #cacaca;
-  background-color: #08020d;
 }
 
 body,
@@ -40,6 +39,12 @@ button {
 
 body {
   max-width: 1440px;
+}
+
+@media (max-width: 425px) {
+  body {
+    padding: 20px auto;
+  }
 }
 
 ul {
@@ -268,15 +273,13 @@ a {
 
 .base {
   padding: 200px 0;
-  text-align: center;
-  background: url("../images/banner.png");
-  background-repeat: no-repeat;
+  background: url("../images/banner.png") no-repeat center;
   background-size: cover;
 }
 
 @media (max-width: 425px) {
   .base {
-    padding: 250px 0 200px 0;
+    padding: 250px 20px 200px 20px;
   }
 }
 
@@ -503,25 +506,52 @@ a {
 }
 
 .card {
-  width: 368.2px;
+  width: 369px;
   height: 615px;
   border: 1px solid #fff;
-  border-radius: 10px;
+  border-radius: 16px;
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: 374px;
+    margin-top: 0 0 20px 0;
+  }
 }
 
 .card:not(:last-child) {
   margin-right: 45px;
 }
 
+@media (max-width: 425px) {
+  .card:not(:last-child) {
+    width: 374px;
+    margin: 0 0 20px 0;
+  }
+}
+
 #page-pricing {
   max-width: 1200px;
   padding-top: 100px;
   margin: 0 auto;
+  background-color: #08020d;
   text-align: center;
 }
 
-.flex-container {
+@media (max-width: 425px) {
+  #page-pricing {
+    padding: 0 20px;
+  }
+}
+
+#page-pricing .flex-container {
   margin: 45px 0px;
   padding: 0;
   width: 100%;
+}
+
+@media (max-width: 425px) {
+  #page-pricing .flex-container {
+    margin: 45px 0 20px 0;
+  }
 }

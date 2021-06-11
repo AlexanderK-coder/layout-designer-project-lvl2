@@ -5,15 +5,27 @@
 // top: 203px;
 
 // background: url(subscribe_1.png);
-
 .card {
-  width: 368.2px;
+  width: 369px;
   height: 615px;
 
   border: 1px solid $white;
-  border-radius: 10px;
-}
+  border-radius: 16px;
 
+  @include set-media(425px) {
+    width: 374px;
+    margin-top: 0 0 20px 0;
+
+    // * отступы карточек
+  }
+}
 .card:not(:last-child) {
   margin-right: 45px;
+
+  @include set-media(425px) {
+    width: 374px;
+    margin: 0 0 20px 0;
+
+    // * отступы последней карточки
+  }
 }

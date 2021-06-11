@@ -10,7 +10,7 @@ html {
   font-size: 18px;
   line-height: 1.5;
   color: #cacaca;
-  background-color: #08020d;
+  // background-color: #08020d;
 }
 
 body,
@@ -27,6 +27,9 @@ button {
 
 body {
   max-width: 1440px;
+  @include set-media(425px) {
+    padding: 20px auto;
+  }
 }
 
 ul {
