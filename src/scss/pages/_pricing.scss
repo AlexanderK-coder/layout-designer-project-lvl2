@@ -2,11 +2,17 @@
   max-width: 1200px;
   padding-top: 100px;
   margin: 0 auto;
-  background-color: $black;
+
   text-align: center;
 
+  h2 {
+    @include h2;
+    @include set-media(425px) {
+      @include h2-mob;
+    }
+  }
   @include set-media(425px) {
-    padding: 0 20px;
+    padding: 100px 20px 1px;
   }
 
   .flex-container {
@@ -17,4 +23,16 @@
       margin: 45px 0 20px 0;
     }
   }
+}
+
+.bg-card-1 {
+  @include bg-image(subscribe_1);
+}
+
+.bg-card-2 {
+  @include bg-image(subscribe_2);
+}
+
+.bg-card-3 {
+  @include bg-image(subscribe_3);
 }

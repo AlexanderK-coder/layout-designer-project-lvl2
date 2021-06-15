@@ -90,6 +90,7 @@ a {
 .main-page {
   padding-bottom: 100px;
   color: #fff;
+  background: #08020d;
 }
 
 .t-align-center {
@@ -193,10 +194,11 @@ a {
 }
 
 .header .input {
+  position: absolute;
   width: 248px;
   height: 25px;
   padding: 0 14px;
-  margin-left: auto;
+  right: 120px;
   color: #fff;
   background: #3c3b3d;
   border: none;
@@ -259,7 +261,7 @@ a {
     position: relative;
     width: 100%;
     margin-top: 18px;
-    margin-left: 0;
+    left: 0;
   }
 }
 
@@ -369,29 +371,6 @@ a {
     max-width: 570px;
     margin-left: 30px;
     margin-right: 30px;
-  }
-}
-
-.form-btn {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 570px;
-          flex: 1 1 570px;
-  max-width: 570px;
-  min-height: 57px;
-  background-color: #34c176;
-  font-family: Arial, sans-serif;
-  font-size: 13.3px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 15px;
-  color: #fff;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-
-@media (max-width: 425px) {
-  .form-btn {
-    margin: 0 30px;
   }
 }
 
@@ -508,6 +487,7 @@ a {
 .card {
   width: 369px;
   height: 615px;
+  padding: 24px 24px 64px 24px;
   border: 1px solid #fff;
   border-radius: 16px;
 }
@@ -517,6 +497,47 @@ a {
     width: 374px;
     margin-top: 0 0 20px 0;
   }
+}
+
+.card-title {
+  padding-bottom: 200px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  .card-title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+}
+
+.card-price {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 64px;
+  padding: 0;
+}
+
+.card-value {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+}
+
+.card-text {
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
 }
 
 .card:not(:last-child) {
@@ -530,17 +551,56 @@ a {
   }
 }
 
+.page-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.bg-card-1 {
+  background: url("../images/subscribe_1") no-repeat center;
+  background-size: cover;
+}
+
+.bg-card-2 {
+  background: url("../images/subscribe_2") no-repeat center;
+  background-size: cover;
+}
+
+.bg-card-3 {
+  background: url("../images/subscribe_3") no-repeat center;
+  background-size: cover;
+}
+
 #page-pricing {
   max-width: 1200px;
   padding-top: 100px;
   margin: 0 auto;
-  background-color: #08020d;
   text-align: center;
+}
+
+#page-pricing h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  #page-pricing h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
 }
 
 @media (max-width: 425px) {
   #page-pricing {
-    padding: 0 20px;
+    padding: 100px 20px 1px;
   }
 }
 
@@ -554,4 +614,71 @@ a {
   #page-pricing .flex-container {
     margin: 45px 0 20px 0;
   }
+}
+
+.bg-card-1 {
+  background: url("../images/subscribe_1") no-repeat center;
+  background-size: cover;
+}
+
+.bg-card-2 {
+  background: url("../images/subscribe_2") no-repeat center;
+  background-size: cover;
+}
+
+.bg-card-3 {
+  background: url("../images/subscribe_3") no-repeat center;
+  background-size: cover;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 570px;
+          flex: 1 1 570px;
+  max-width: 570px;
+  min-height: 57px;
+  background-color: #34c176;
+  font-family: Arial, sans-serif;
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+  .btn-form {
+    margin: 0 30px;
+  }
+}
+
+.btn-card {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 64px;
+  padding: 20px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #fff;
 }

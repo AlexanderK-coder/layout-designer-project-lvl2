@@ -47,10 +47,11 @@
   }
 
   .input {
+    position: absolute;
     width: 248px;
     height: 25px;
     padding: 0 14px;
-    margin-left: auto;
+    right: 120px;
     color: $white;
     background: $dark;
     border: none;
@@ -101,7 +102,7 @@
       position: relative;
       width: 100%;
       margin-top: 18px;
-      margin-left: 0;
+      left: 0;
       // width: 375px;
     }
   }

@@ -54,7 +54,7 @@ $placeholder: #757575;
 //   font-weight: bold;
 //   line-height: 150%; /* or 19px */
 //   text-transform: uppercase;
-// }
+//
 
 @mixin bg-image($image) {
   // text-align: center;
@@ -92,21 +92,33 @@ $placeholder: #757575;
   @include set-text(16px, 24px);
 }
 
+@mixin text-size-3 {
+  @include set-text(32px, 48px);
+}
+
 @mixin menu-font {
   @include set-header(11px, 13px, bold);
+}
+
+@mixin card-price {
+  @include set-text(64px, 64px);
 }
 
 @mixin bg-footer {
   @include col-gradient($red, $purple);
 }
 
-// %h3 {
-//   @include set-header(24px, 45px, normal);
-// }
+@mixin h3 {
+  @include set-header(24px, 45px, normal);
+}
 
-// %h3-mob {
-//   @include set-header(16px, 24px, bold);
-// }
+@mixin h3-mob {
+  @include set-header(16px, 24px, bold);
+}
+
+@mixin small-text {
+  @include set-text(12.8px, 19px);
+}
 
 // %h3-cap {
 //   @include set-header-cap(24px, 45px, normal);

@@ -8,6 +8,7 @@
 .card {
   width: 369px;
   height: 615px;
+  padding: 24px 24px 64px 24px;
 
   border: 1px solid $white;
   border-radius: 16px;
@@ -18,7 +19,30 @@
 
     // * отступы карточек
   }
+  &-title {
+    // padding-top: 24px;
+    padding-bottom: 200px;
+    @include h3;
+    @include set-media(425px) {
+      // padding-top: 19px;
+      @include h3-mob;
+    }
+  }
+  &-price {
+    @include card-price;
+    padding: 0;
+  }
+
+  &-value {
+    @include text-size-3;
+  }
+
+  &-text {
+    @include small-text;
+  }
+  // кнопка
 }
+
 .card:not(:last-child) {
   margin-right: 45px;
 
@@ -29,3 +53,54 @@
     // * отступы последней карточки
   }
 }
+
+.page-text {
+  @include text-size-1;
+}
+
+.bg-card-1 {
+  @include bg-image(subscribe_1);
+}
+
+.bg-card-2 {
+  @include bg-image(subscribe_2);
+}
+
+.bg-card-3 {
+  @include bg-image(subscribe_3);
+}
+
+// &-title {
+//   @include set-typography(24px, 45px, normal, uppercase);
+
+//   @include set-media(sm) {
+//     @include set-typography(16px, 24px, normal, uppercase);
+//   }
+// }
+
+// &-price {
+//   margin-top: px-to-rem(180px);
+//   @include set-typography(64px, 96px);
+
+//   .currency {
+//     top: -0.75em;
+
+//     margin-left: px-to-rem(16px);
+//     @include set-typography(32px, 48px, normal, uppercase);
+//   }
+// }
+
+// &-btn {
+//   @include set-typography(16px, 24px, normal, uppercase);
+//   max-width: 100%;
+//   margin-top: px-to-rem(26px);
+//   padding: px-to-rem(20px) 0;
+
+//   border: px-to-rem(1px) solid $white;
+// }
+
+// &-small-text {
+//   @include set-typography(12.8px, 19.2px);
+//   margin: px-to-rem(64px) 0 px-to-rem(66px);
+// }
+// }

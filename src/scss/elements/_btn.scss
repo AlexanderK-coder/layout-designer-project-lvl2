@@ -1,0 +1,67 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  // &-left-icon {
+  //   width: 20px;
+  //   height: 20px;
+  //   margin-right: 7px;
+  // }
+
+  // получить доступ
+  &-form {
+    flex: 1 1 570px;
+    max-width: 570px;
+    min-height: 57px;
+    background-color: $green;
+    font-family: Arial, sans-serif;
+
+    @include set-text(13.3px, 15px);
+
+    text-transform: uppercase;
+
+    color: $white;
+    border: none;
+    border-radius: 5px;
+
+    @include set-media(425px) {
+      margin: 0 30px;
+    }
+  }
+
+  // Оформить
+  &-card {
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    padding: 20px 0;
+
+    @include set-text(16px, 24px);
+    color: $white;
+
+    border: 1px solid $white;
+  }
+
+  // // К альбому
+  // &-feed {
+  //   max-width: px-to-rem(135px);
+  //   margin-top: px-to-rem(48px);
+
+  //   text-transform: uppercase;
+
+  //   border: 1px solid $dark-gray;
+  // }
+
+  // // Скачать
+  // &-download {
+  //   max-width: 131px;
+  //   border-radius: 32px;
+  // }
+}
