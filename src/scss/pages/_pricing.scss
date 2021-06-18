@@ -24,15 +24,3 @@
     }
   }
 }
-
-.bg-card-1 {
-  @include bg-image(subscribe_1);
-}
-
-.bg-card-2 {
-  @include bg-image(subscribe_2);
-}
-
-.bg-card-3 {
-  @include bg-image(subscribe_3);
-}

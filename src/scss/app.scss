@@ -21,10 +21,13 @@
 @import "variables";
 @import "general";
 @import "atomic";
+
 @import "../scss/pages/header";
 @import "../scss/pages/Banner";
-@import "../scss/elements/input";
-@import "../scss/pages/footer";
-@import "../scss/elements/card";
 @import "../scss/pages/pricing/";
+@import "../scss/pages/footer";
+@import "../scss/pages/news";
+
+@import "../scss/elements/input";
 @import "../scss/elements/btn";
+@import "../scss/elements/card";

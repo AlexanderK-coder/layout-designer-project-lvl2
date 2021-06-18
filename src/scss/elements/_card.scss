@@ -59,15 +59,15 @@
 }
 
 .bg-card-1 {
-  @include bg-image(subscribe_1);
+  @include bg-image("subscribe_1.png");
 }
 
 .bg-card-2 {
-  @include bg-image(subscribe_2);
+  @include bg-image("subscribe_2.png");
 }
 
 .bg-card-3 {
-  @include bg-image(subscribe_3);
+  @include bg-image("subscribe_3.png");
 }
 
 // &-title {
