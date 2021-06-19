@@ -9,12 +9,6 @@
 
   cursor: pointer;
 
-  // &-left-icon {
-  //   width: 20px;
-  //   height: 20px;
-  //   margin-right: 7px;
-  // }
-
   // получить доступ
   &-form {
     flex: 1 1 570px;
@@ -29,7 +23,6 @@
 
     color: $white;
     border: none;
-    border-radius: 5px;
 
     @include set-media(425px) {
       margin: 0 30px;
@@ -49,15 +42,15 @@
     border: 1px solid $white;
   }
 
-  // // К альбому
-  // &-feed {
-  //   max-width: px-to-rem(135px);
-  //   margin-top: px-to-rem(48px);
+  // К альбому
+  &-feed {
+    width: 135px;
+    height: 53px;
+    @include small-text;
+    text-transform: uppercase;
 
-  //   text-transform: uppercase;
-
-  //   border: 1px solid $dark-gray;
-  // }
+    border: 1px solid $dark-gray;
+  }
 
   // // Скачать
   // &-download {

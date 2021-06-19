@@ -120,13 +120,15 @@ $placeholder: #757575;
   @include set-text(12.8px, 19px);
 }
 
-// %h3-cap {
-//   @include set-header-cap(24px, 45px, normal);
-// }
+@mixin h3-cap {
+  @include set-header-cap(30px, 45px, normal);
+  text-transform: capitalize;
+}
 
-// %h3-cap-bold {
-//   @include set-header-cap(24px, 45px, bold);
-// }
+@mixin h3-cap-mob {
+  @include set-header-cap(16px, 24px, normal);
+  text-transform: capitalize;
+}
 
 // %h4 {
 //   @include set-header(18px, 27px, bold);
