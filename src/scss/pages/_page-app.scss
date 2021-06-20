@@ -1,0 +1,41 @@
+#page-app {
+  padding: 100px 120px 0 120px;
+  margin-bottom: 100px;
+  @include set-media(425px) {
+    padding: 100px 20px 0 20px;
+    // height: 822px;
+  }
+}
+
+.app-text {
+  width: 600px;
+  height: 112px;
+  margin-top: 64px;
+  @include text-size-1;
+  color: $dark-gray;
+  text-align: left;
+  @include set-media(425px) {
+    margin-top: 16px;
+    width: 370px;
+    height: 184px;
+  }
+}
+
+.iphone {
+  width: 333px;
+  height: 278px;
+  margin-top: 48px;
+  margin-left: 144px;
+  @include set-media(425px) {
+    margin-left: 20px;
+  }
+}
+
+.app-flex {
+  display: flex;
+  flex-direction: row;
+  @include set-media(425px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

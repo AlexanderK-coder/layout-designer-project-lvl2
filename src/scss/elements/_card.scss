@@ -6,7 +6,7 @@
 
 // background: url(subscribe_1.png);
 .card {
-  width: 369px;
+  width: 368.6px;
   height: 615px;
   padding: 24px 24px 64px 24px;
 
@@ -30,11 +30,12 @@
   }
   &-price {
     @include card-price;
-    padding: 0;
+    // padding: 0;
   }
 
   &-value {
     @include text-size-3;
+    margin-left: 16px;
   }
 
   &-text {
@@ -69,38 +70,3 @@
 .bg-card-3 {
   @include bg-image("subscribe_3.png");
 }
-
-// &-title {
-//   @include set-typography(24px, 45px, normal, uppercase);
-
-//   @include set-media(sm) {
-//     @include set-typography(16px, 24px, normal, uppercase);
-//   }
-// }
-
-// &-price {
-//   margin-top: px-to-rem(180px);
-//   @include set-typography(64px, 96px);
-
-//   .currency {
-//     top: -0.75em;
-
-//     margin-left: px-to-rem(16px);
-//     @include set-typography(32px, 48px, normal, uppercase);
-//   }
-// }
-
-// &-btn {
-//   @include set-typography(16px, 24px, normal, uppercase);
-//   max-width: 100%;
-//   margin-top: px-to-rem(26px);
-//   padding: px-to-rem(20px) 0;
-
-//   border: px-to-rem(1px) solid $white;
-// }
-
-// &-small-text {
-//   @include set-typography(12.8px, 19.2px);
-//   margin: px-to-rem(64px) 0 px-to-rem(66px);
-// }
-// }
