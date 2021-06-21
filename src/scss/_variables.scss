@@ -120,6 +120,11 @@ $placeholder: #757575;
   @include set-text(12.8px, 19px);
 }
 
+@mixin small-text-upp {
+  @include set-text(12.8px, 19.2px);
+  text-transform: uppercase;
+}
+
 @mixin h3-cap {
   @include set-header-cap(30px, 45px, normal);
   text-transform: capitalize;

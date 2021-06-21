@@ -41,8 +41,8 @@
 
   h1 {
     @include h1;
-    margin-left: 120px;
-    // text-align: start;
+    // margin-left: 120px;
+
     @include set-media(425px) {
       @include h1-mob;
     }
@@ -51,7 +51,7 @@
   .sub {
     @include text-size-1;
     margin-left: 120px;
-    // text-align: start;
+
     margin-top: 16px;
     margin-bottom: 48px;
 

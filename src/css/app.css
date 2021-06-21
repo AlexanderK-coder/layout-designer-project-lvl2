@@ -108,14 +108,6 @@ a {
   color: #08020d;
 }
 
-.purple {
-  color: #5328a1;
-}
-
-.red {
-  color: #95390c;
-}
-
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,7 +355,6 @@ a {
   font-weight: bold;
   line-height: 90px;
   text-transform: uppercase;
-  margin-left: 120px;
 }
 
 @media (max-width: 425px) {
@@ -865,6 +856,35 @@ h2 {
   font-weight: normal;
   line-height: 19px;
   background-color: #95390c;
+}
+
+.btn-description-purple, .btn-description-red {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19.2px;
+  text-transform: uppercase;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.btn-description-purple {
+  background-color: #5328a1;
+  margin-right: 24px;
+}
+
+.btn-description-red {
+  background-color: #95390c;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 31px;
+  margin-right: 16px;
 }
 
 .card {
