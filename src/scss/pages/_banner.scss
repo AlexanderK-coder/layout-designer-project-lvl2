@@ -1,17 +1,12 @@
 #page-description {
   padding: 200px 0;
-  @include bg-image("banner.png");
 
   @include set-media(425px) {
     padding: 250px 20px 200px 20px;
-
-    // padding: 250px 0 199px 0;
-    // @include bg-image("banner.png");
   }
 
   h1 {
     @include h1;
-
     @include set-media(425px) {
       @include h1-mob;
     }
@@ -24,14 +19,47 @@
       @include h2-mob;
     }
   }
-  // ! Этот текст на шаблоне 18 на 27
   .sub {
     @include text-size-1;
     margin-top: 32px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 27px;
 
     @include set-media(425px) {
       margin-top: 16px;
     }
   }
+}
+
+.banner-page {
+  @include bg-image("banner.png");
+
+  // ! Этот текст на шаблоне 18 на 27
+}
+
+.page-artists {
+  @include bg-image("Morten Harket.png");
+
+  h1 {
+    @include h1;
+    margin-left: 120px;
+    // text-align: start;
+    @include set-media(425px) {
+      @include h1-mob;
+    }
+  }
+
+  .sub {
+    @include text-size-1;
+    margin-left: 120px;
+    // text-align: start;
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+    @include set-media(425px) {
+      margin-top: 16px;
+    }
+  }
+  // .choose {
+
+  // }
 }

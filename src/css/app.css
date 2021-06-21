@@ -92,6 +92,10 @@ a {
   text-align: center;
 }
 
+.t-align-start {
+  text-align: start;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -102,6 +106,14 @@ a {
 
 .color-black {
   color: #08020d;
+}
+
+.purple {
+  color: #5328a1;
+}
+
+.red {
+  color: #95390c;
 }
 
 .d-flex {
@@ -125,6 +137,12 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.jc-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .header {
@@ -270,8 +288,6 @@ a {
 
 #page-description {
   padding: 200px 0;
-  background: url("../images/banner.png") no-repeat center;
-  background-size: cover;
 }
 
 @media (max-width: 425px) {
@@ -322,11 +338,56 @@ a {
   font-weight: normal;
   line-height: 24px;
   margin-top: 32px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 27px;
 }
 
 @media (max-width: 425px) {
   #page-description .sub {
+    margin-top: 16px;
+  }
+}
+
+.banner-page {
+  background: url("../images/banner.png") no-repeat center;
+  background-size: cover;
+}
+
+.page-artists {
+  background: url("../images/Morten Harket.png") no-repeat center;
+  background-size: cover;
+}
+
+.page-artists h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin-left: 120px;
+}
+
+@media (max-width: 425px) {
+  .page-artists h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+}
+
+.page-artists .sub {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  margin-left: 120px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 425px) {
+  .page-artists .sub {
     margin-top: 16px;
   }
 }
@@ -393,12 +454,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 61px 0 74px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: flex-between;
       -ms-flex-pack: flex-between;
           justify-content: flex-between;
-  padding: 61px 0 74px;
 }
 
 #footer .links-group .links-container > * {

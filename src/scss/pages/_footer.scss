@@ -9,12 +9,11 @@
 
     & .links-container {
       display: flex;
+      padding: 61px 0 74px;
       flex-wrap: wrap;
       justify-content: flex-between;
-      padding: 61px 0 74px;
 
       & > * {
-        // flex: 1 1 310px;
         width: 310px;
         margin-bottom: 30px;
       }

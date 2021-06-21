@@ -20,17 +20,14 @@
     // * отступы карточек
   }
   &-title {
-    // padding-top: 24px;
     padding-bottom: 200px;
     @include h3;
     @include set-media(425px) {
-      // padding-top: 19px;
       @include h3-mob;
     }
   }
   &-price {
     @include card-price;
-    // padding: 0;
   }
 
   &-value {
@@ -41,7 +38,6 @@
   &-text {
     @include small-text;
   }
-  // кнопка
 }
 
 .card:not(:last-child) {
@@ -50,8 +46,6 @@
   @include set-media(425px) {
     width: 374px;
     margin: 0 0 20px 0;
-
-    // * отступы последней карточки
   }
 }
 
