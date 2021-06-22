@@ -76,6 +76,10 @@
   &-description-purple {
     background-color: $purple;
     margin-right: 24px;
+
+    @include set-media(425px) {
+      margin-bottom: 24px;
+    }
   }
 
   &-description-red {
