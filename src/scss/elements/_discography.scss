@@ -1,0 +1,51 @@
+#page-discography {
+  max-width: 1440px;
+  height: auto;
+  padding: 75px 120px 0 120px;
+  // align-items: center;
+  color: $gray;
+
+  @include set-media(425px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .disks {
+    margin-bottom: 48px;
+    @include h2;
+    text-transform: uppercase;
+
+    @include set-media(425px) {
+      @include h2-mob;
+    }
+  }
+}
+
+.disk {
+  width: fit-content;
+  height: auto;
+  margin-right: 50px;
+  margin-bottom: 25px;
+
+  &-name {
+    @include h4;
+
+    // разобраться со шрифтом
+  }
+
+  &-date {
+    @include text-size-1;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+
+    @include set-media(425px) {
+      width: 137px;
+      height: 137px;
+    }
+
+    padding-bottom: 18px;
+  }
+}

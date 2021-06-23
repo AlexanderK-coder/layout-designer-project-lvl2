@@ -1,0 +1,60 @@
+#page-popular-tracks {
+  max-width: 1440px;
+  height: auto;
+  padding: 100px 120px 0 120px;
+
+  @include set-media(425px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tracks {
+    margin-bottom: 48px;
+    @include h2;
+    text-transform: uppercase;
+
+    @include set-media(425px) {
+      @include h2-mob;
+    }
+    color: $white;
+  }
+
+  .track-info,
+  .track-timing {
+    @include small-text;
+  }
+  .track-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  .artists,
+  .track-timing {
+    color: $gray;
+  }
+}
+
+.trakcs-container {
+  max-width: 1200px;
+  max-height: 215px;
+}
+
+.track {
+  width: 575px;
+  margin-bottom: 25px;
+
+  img {
+    width: 55px;
+    height: 55px;
+  }
+  &-info {
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 15px;
+  }
+
+  &-timing {
+    margin: auto;
+  }
+}

@@ -83,7 +83,6 @@ a {
 }
 
 .main-page {
-  padding-bottom: 100px;
   color: #fff;
   background: #08020d;
 }
@@ -626,7 +625,7 @@ a {
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
-  line-height: 19px;
+  line-height: 19.2px;
   color: #f89202;
 }
 
@@ -635,7 +634,7 @@ a {
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
-  line-height: 19px;
+  line-height: 19.2px;
   color: #cacaca;
 }
 
@@ -840,7 +839,7 @@ h2 {
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
-  line-height: 19px;
+  line-height: 19.2px;
   text-transform: uppercase;
   border: 1px solid #cacaca;
 }
@@ -853,7 +852,7 @@ h2 {
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
-  line-height: 19px;
+  line-height: 19.2px;
   background-color: #95390c;
 }
 
@@ -873,6 +872,7 @@ h2 {
 .btn-description-purple {
   background-color: #5328a1;
   margin-right: 24px;
+  border: 0;
 }
 
 @media (max-width: 425px) {
@@ -883,6 +883,7 @@ h2 {
 
 .btn-description-red {
   background-color: #95390c;
+  border: 0;
 }
 
 .btn-icon {
@@ -945,7 +946,7 @@ h2 {
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
-  line-height: 19px;
+  line-height: 19.2px;
 }
 
 .card:not(:last-child) {
@@ -979,4 +980,159 @@ h2 {
 .bg-card-3 {
   background: url("../images/subscribe_3.png") no-repeat center;
   background-size: cover;
+}
+
+#page-popular-tracks {
+  max-width: 1440px;
+  height: auto;
+  padding: 100px 120px 0 120px;
+}
+
+@media (max-width: 425px) {
+  #page-popular-tracks {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+#page-popular-tracks .tracks {
+  margin-bottom: 48px;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 425px) {
+  #page-popular-tracks .tracks {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+}
+
+#page-popular-tracks .track-info,
+#page-popular-tracks .track-timing {
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19.2px;
+}
+
+#page-popular-tracks .track-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#page-popular-tracks .artists,
+#page-popular-tracks .track-timing {
+  color: #e0e0e0;
+}
+
+.trakcs-container {
+  max-width: 1200px;
+  max-height: 215px;
+}
+
+.track {
+  width: 575px;
+  margin-bottom: 25px;
+}
+
+.track img {
+  width: 55px;
+  height: 55px;
+}
+
+.track-info {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-left: 15px;
+}
+
+.track-timing {
+  margin: auto;
+}
+
+#page-discography {
+  max-width: 1440px;
+  height: auto;
+  padding: 75px 120px 0 120px;
+  color: #e0e0e0;
+}
+
+@media (max-width: 425px) {
+  #page-discography {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+#page-discography .disks {
+  margin-bottom: 48px;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  #page-discography .disks {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+}
+
+.disk {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.disk-name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: uppercase;
+  text-transform: capitalize;
+}
+
+.disk-date {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.disk img {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 18px;
+}
+
+@media (max-width: 425px) {
+  .disk img {
+    width: 137px;
+    height: 137px;
+  }
 }

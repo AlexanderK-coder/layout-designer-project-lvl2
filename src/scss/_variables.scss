@@ -48,14 +48,6 @@ $placeholder: #757575;
   text-transform: uppercase;
 }
 
-// @mixin pop-track {
-//   font-size: 12.8px;
-//   font-style: normal;
-//   font-weight: bold;
-//   line-height: 150%; /* or 19px */
-//   text-transform: uppercase;
-//
-
 @mixin bg-image($image) {
   // text-align: center;
   background: url("../images/#{$image}") no-repeat center;
@@ -71,6 +63,14 @@ $placeholder: #757575;
 @mixin col-gradient($color-1, $color-2) {
   background: linear-gradient(265.08deg, $color-1 14.9%, $color-2 68.95%);
 }
+
+// @mixin pop-track {
+//   font-size: 12.8px;
+//   font-style: normal;
+//   font-weight: bold;
+//   line-height: 150%; /* or 19px */
+//   text-transform: uppercase;
+//
 
 @mixin h1 {
   @include set-header(60px, 90px, bold);
@@ -117,7 +117,7 @@ $placeholder: #757575;
 }
 
 @mixin small-text {
-  @include set-text(12.8px, 19px);
+  @include set-text(12.8px, 19.2px);
 }
 
 @mixin small-text-upp {
@@ -135,9 +135,10 @@ $placeholder: #757575;
   text-transform: capitalize;
 }
 
-// %h4 {
-//   @include set-header(18px, 27px, bold);
-// }
+@mixin h4 {
+  @include set-header(18px, 27px, bold);
+  text-transform: capitalize;
+}
 
 // %h4-mob {
 //   @include set-header(18px, 24px, bold);
