@@ -1075,7 +1075,7 @@ h2 {
 @media (max-width: 425px) {
   #page-discography {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0;
   }
 }
 
@@ -1099,11 +1099,14 @@ h2 {
   }
 }
 
+img {
+  width: 137px;
+  height: 137px;
+}
+
 .disk {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: auto;
+  width: 137px;
+  height: 137px;
   margin-right: 50px;
   margin-bottom: 25px;
 }
