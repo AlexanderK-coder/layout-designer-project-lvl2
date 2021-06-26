@@ -676,13 +676,13 @@ h2 {
 }
 
 #page-app {
-  padding: 100px 120px 0 120px;
-  margin-bottom: 100px;
+  padding: 100px 120px 100px 120px;
 }
 
 @media (max-width: 425px) {
   #page-app {
-    padding: 100px 20px 0 20px;
+    padding: 100px 20px 200px 20px;
+    height: 822px;
   }
 }
 
@@ -885,6 +885,7 @@ h2 {
   max-width: 131px;
   height: 53px;
   margin-top: 16px;
+  margin-bottom: 100px;
   border-radius: 32px;
   font-size: 12.8px;
   font-style: normal;
