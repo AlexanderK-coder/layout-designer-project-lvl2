@@ -25,13 +25,13 @@ button {
   margin: 0;
 }
 
-body {
-  max-width: 1440px;
-  padding: auto 120px;
-  @include set-media(425px) {
-    padding: 20px auto;
-  }
-}
+// body {
+//   max-width: 1440px;
+//   padding: auto 120px;
+//   @include set-media(425px) {
+//     padding: 20px auto;
+//   }
+// }
 
 ul {
   list-style: none;

@@ -1,45 +1,52 @@
 #page-discography {
   max-width: 1440px;
-  height: auto;
-  padding: 75px 120px 0 120px;
+  height: 868px;
+  padding: 100px 120px 0 120px;
   // align-items: center;
   color: $gray;
 
   @include set-media(425px) {
+    height: 897px;
     padding-left: 20px;
     padding-right: 0;
   }
+}
 
-  .disks {
-    margin-bottom: 48px;
-    @include h2;
-    text-transform: uppercase;
+.title {
+  margin-bottom: 48px;
+  @include h2;
+  text-transform: uppercase;
 
-    @include set-media(425px) {
-      @include h2-mob;
-    }
+  @include set-media(425px) {
+    @include h2-mob;
   }
 }
 
-img {
-  width: 137px;
-  height: 137px;
-}
-// !!НАДО ли??
-
-.disk {
-  width: 137px;
-  height: 137px;
+.item {
+  width: 250px;
+  height: auto;
   margin-right: 50px;
   margin-bottom: 25px;
 
+  @include set-media(425px) {
+    width: 137px;
+    height: auto;
+  }
+
   &-name {
+    width: fit-content;
+
     @include h4;
+
+    @include set-media(425px) {
+      width: 138px;
+      letter-spacing: -0.6px;
+    }
 
     // !! разобраться со шрифтом
   }
 
-  &-date {
+  &-info {
     @include text-size-1;
   }
 

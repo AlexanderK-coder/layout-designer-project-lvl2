@@ -37,17 +37,6 @@ button {
   margin: 0;
 }
 
-body {
-  max-width: 1440px;
-  padding: auto 120px;
-}
-
-@media (max-width: 425px) {
-  body {
-    padding: 20px auto;
-  }
-}
-
 ul {
   list-style: none;
 }
@@ -134,6 +123,14 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .header {
@@ -744,6 +741,46 @@ h2 {
   }
 }
 
+#page-similar {
+  max-width: 1440px;
+  height: 968px;
+  padding: 100px 120px 0 120px;
+  color: #e0e0e0;
+}
+
+@media (max-width: 425px) {
+  #page-similar {
+    height: 1270px;
+    padding-left: 20px;
+    padding-right: 0;
+  }
+}
+
+#page-similar img {
+  width: 250px;
+  height: 250px;
+  border: 0;
+  border-radius: 50%;
+  padding-bottom: 18px;
+}
+
+@media (max-width: 425px) {
+  #page-similar img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+#page-similar .item-name {
+  width: 250px;
+}
+
+@media (max-width: 425px) {
+  #page-similar .item-name {
+    width: 137px;
+  }
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -984,12 +1021,13 @@ h2 {
 
 #page-popular-tracks {
   max-width: 1440px;
-  height: auto;
+  height: 420px;
   padding: 100px 120px 0 120px;
 }
 
 @media (max-width: 425px) {
   #page-popular-tracks {
+    height: 630px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1067,19 +1105,20 @@ h2 {
 
 #page-discography {
   max-width: 1440px;
-  height: auto;
-  padding: 75px 120px 0 120px;
+  height: 868px;
+  padding: 100px 120px 0 120px;
   color: #e0e0e0;
 }
 
 @media (max-width: 425px) {
   #page-discography {
+    height: 897px;
     padding-left: 20px;
     padding-right: 0;
   }
 }
 
-#page-discography .disks {
+.title {
   margin-bottom: 48px;
   font-size: 38px;
   font-style: normal;
@@ -1090,7 +1129,7 @@ h2 {
 }
 
 @media (max-width: 425px) {
-  #page-discography .disks {
+  .title {
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
@@ -1099,19 +1138,24 @@ h2 {
   }
 }
 
-img {
-  width: 137px;
-  height: 137px;
-}
-
-.disk {
-  width: 137px;
-  height: 137px;
+.item {
+  width: 250px;
+  height: auto;
   margin-right: 50px;
   margin-bottom: 25px;
 }
 
-.disk-name {
+@media (max-width: 425px) {
+  .item {
+    width: 137px;
+    height: auto;
+  }
+}
+
+.item-name {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
@@ -1120,21 +1164,28 @@ img {
   text-transform: capitalize;
 }
 
-.disk-date {
+@media (max-width: 425px) {
+  .item-name {
+    width: 138px;
+    letter-spacing: -0.6px;
+  }
+}
+
+.item-info {
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
 }
 
-.disk img {
+.item img {
   width: 250px;
   height: 250px;
   padding-bottom: 18px;
 }
 
 @media (max-width: 425px) {
-  .disk img {
+  .item img {
     width: 137px;
     height: 137px;
   }
