@@ -26,6 +26,7 @@
   height: 278px;
   margin-top: 48px;
   margin-left: 144px;
+  
   @include set-media(425px) {
     margin-left: 20px;
   }
