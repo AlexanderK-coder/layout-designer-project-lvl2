@@ -1,13 +1,13 @@
 #page-description {
   padding: 200px 120px;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     padding: 250px 20px;
   }
 
   h1 {
     @include h1;
-    @include set-media(425px) {
+    @include set-media(414px) {
       @include h1-mob;
     }
   }
@@ -15,7 +15,7 @@
   h2 {
     @include h2;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       @include h2-mob;
     }
   }
@@ -24,7 +24,7 @@
     margin-top: 32px;
     margin-bottom: 27px;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       margin-top: 16px;
     }
   }
@@ -43,7 +43,7 @@
     @include h1;
     // margin-left: 120px;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       @include h1-mob;
     }
   }
@@ -54,7 +54,7 @@
     margin-top: 16px;
     margin-bottom: 48px;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       margin-top: 16px;
     }
   }

@@ -24,7 +24,7 @@
     color: $white;
     border: none;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       margin: 0 30px;
     }
   }
@@ -79,7 +79,7 @@
     margin-right: 24px;
     border: 0;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       margin-bottom: 24px;
     }
   }

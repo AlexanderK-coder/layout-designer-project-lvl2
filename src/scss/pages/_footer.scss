@@ -3,7 +3,7 @@
   & .links-group {
     max-width: 1200px;
     margin: 0 auto;
-    @include set-media(425px) {
+    @include set-media(414px) {
       padding: 0 20px;
     }
 

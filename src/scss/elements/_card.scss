@@ -13,7 +13,7 @@
   border: 1px solid $white;
   border-radius: 16px;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     width: 374px;
     margin-top: 0 0 20px 0;
 
@@ -22,7 +22,7 @@
   &-title {
     padding-bottom: 200px;
     @include h3;
-    @include set-media(425px) {
+    @include set-media(414px) {
       @include h3-mob;
     }
   }
@@ -43,7 +43,7 @@
 .card:not(:last-child) {
   margin-right: 45px;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     width: 374px;
     margin: 0 0 20px 0;
   }

@@ -1,6 +1,6 @@
 #news {
   padding: 100px 120px 0 120px;
-  @include set-media(425px) {
+  @include set-media(414px) {
     padding: 100px 20px 0 20px;
   }
 }
@@ -8,7 +8,7 @@
   margin-top: 42px;
   display: flex;
   flex-wrap: wrap;
-  @include set-media(425px) {
+  @include set-media(414px) {
     .foto-2 {
       order: -1;
     }
@@ -18,7 +18,7 @@
   text-align: left;
   max-width: 575px;
   height: auto;
-  @include set-media(425px) {
+  @include set-media(414px) {
     margin-top: 50px;
   }
 }
@@ -26,7 +26,7 @@
 .news-body {
   h3 {
     @include h3-cap;
-    @include set-media(425px) {
+    @include set-media(414px) {
       @include h3-cap-mob;
     }
   }
@@ -36,7 +36,7 @@
     padding-bottom: 24px;
     color: $dark-gray;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       padding-top: 16px;
     }
   }
@@ -67,7 +67,7 @@
 h2 {
   @include h2;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     @include h2-mob;
   }
 }
@@ -77,8 +77,8 @@ h2 {
   width: 575px;
   height: fit-content;
   padding: 0 42px 0 0;
-  @include set-media(425px) {
-    padding: 0 20px 0 20px;
+  @include set-media(414px) {
+    padding: 0;
   }
 
   img {

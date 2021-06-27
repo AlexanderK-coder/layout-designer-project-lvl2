@@ -5,7 +5,7 @@
   // align-items: center;
   color: $gray;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     height: 1270px;
     padding-left: 20px;
     padding-right: 0;
@@ -17,7 +17,7 @@
     border: 0;
     border-radius: 50%;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       width: 137px;
       height: 137px;
     }
@@ -28,7 +28,7 @@
   .item-name {
     width: 250px;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       width: 137px;
     }
   }

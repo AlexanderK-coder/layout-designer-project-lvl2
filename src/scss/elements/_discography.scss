@@ -5,7 +5,7 @@
   // align-items: center;
   color: $gray;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     height: 897px;
     padding-left: 20px;
     padding-right: 0;
@@ -17,7 +17,7 @@
   @include h2;
   text-transform: uppercase;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     @include h2-mob;
   }
 }
@@ -28,7 +28,7 @@
   margin-right: 50px;
   margin-bottom: 25px;
 
-  @include set-media(425px) {
+  @include set-media(414px) {
     width: 137px;
     height: auto;
   }
@@ -38,7 +38,7 @@
 
     @include h4;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       width: 138px;
       letter-spacing: -0.6px;
     }
@@ -54,7 +54,7 @@
     width: 250px;
     height: 250px;
 
-    @include set-media(425px) {
+    @include set-media(414px) {
       width: 137px;
       height: 137px;
     }

@@ -28,7 +28,7 @@ button {
 body {
   max-width: 1440px;
   padding: auto 120px;
-  @include set-media(425px) {
+  @include set-media(414px) {
     padding: 20px auto;
   }
 }
