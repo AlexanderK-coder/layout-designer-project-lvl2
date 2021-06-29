@@ -4,6 +4,7 @@
     padding: 100px 20px 0 20px;
   }
 }
+
 .news-item {
   margin-top: 42px;
   display: flex;
@@ -14,10 +15,12 @@
     }
   }
 }
+
 .news-info {
-  text-align: left;
   max-width: 575px;
   height: auto;
+  text-align: left;
+
   @include set-media(414px) {
     margin-top: 50px;
   }
@@ -30,8 +33,10 @@
       @include h3-cap-mob;
     }
   }
+
   p {
     @include text-size-1;
+
     padding-top: 30px;
     padding-bottom: 24px;
     color: $dark-gray;
@@ -41,25 +46,30 @@
     }
   }
 }
-// !!!!!
+
 .news-footer {
   .news-author {
     display: flex;
     margin-bottom: 50px;
   }
+
   .avatar {
     width: 19px;
     height: 19px;
     background-image: url(/src/images/avatar.png);
   }
+
   .autor {
     margin-left: 16px;
     @include small-text;
+
     color: $orange;
   }
+
   .date {
     margin-left: 16px;
     @include small-text;
+
     color: $dark-gray;
   }
 }

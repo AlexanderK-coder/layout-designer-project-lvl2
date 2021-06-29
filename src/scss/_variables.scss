@@ -64,14 +64,6 @@ $placeholder: #757575;
   background: linear-gradient(265.08deg, $color-1 14.9%, $color-2 68.95%);
 }
 
-// @mixin pop-track {
-//   font-size: 12.8px;
-//   font-style: normal;
-//   font-weight: bold;
-//   line-height: 150%; /* or 19px */
-//   text-transform: uppercase;
-//
-
 @mixin h1 {
   @include set-header(60px, 90px, bold);
 }
@@ -139,16 +131,3 @@ $placeholder: #757575;
   @include set-header(18px, 27px, bold);
   text-transform: capitalize;
 }
-
-// %h4-mob {
-//   @include set-header(18px, 24px, bold);
-// }
-
-// %h4-cap-bold {
-//   @include set-header-cap(18px, 27px, bold);
-// }
-// %holder-font {
-//   font-family: Arial, sans-serif;
-
-//   @include set-header(13.3px, 15px, normal);
-// }
