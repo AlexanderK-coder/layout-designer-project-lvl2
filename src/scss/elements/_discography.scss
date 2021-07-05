@@ -1,12 +1,12 @@
 #page-discography {
   max-width: 1440px;
-  height: 868px;
+  min-height: 868px;
   padding: 100px 120px 0 120px;
   // align-items: center;
   color: $gray;
 
   @include set-media(414px) {
-    height: 897px;
+    min-height: 897px;
     padding-left: 20px;
     padding-right: 0;
   }

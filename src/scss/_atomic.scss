@@ -1,4 +1,10 @@
 // типовые величины и основные константы (отступы, выравнивания и т.д.)
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .t-align-center {
   text-align: center;
 }

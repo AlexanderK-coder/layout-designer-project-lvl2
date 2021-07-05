@@ -36,7 +36,7 @@ button {
   margin: 0;
 }
 
-body {
+.wrapper {
   max-width: 1440px;
   padding: auto 120px;
 }
@@ -124,7 +124,7 @@ a {
   top: 25px;
   right: 0;
   left: 0;
-  max-width: 1480px;
+  max-width: 1440px;
   font-size: 11px;
   font-style: normal;
   font-weight: bold;
@@ -245,6 +245,14 @@ a {
   }
 }
 
+.page-artists h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
 #page-description h1 {
   font-size: 60px;
   font-style: normal;
@@ -263,6 +271,14 @@ a {
   }
 }
 
+h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
 #page-description h2 {
   font-size: 38px;
   font-style: normal;
@@ -279,6 +295,15 @@ a {
     line-height: 27px;
     text-transform: uppercase;
   }
+}
+
+.page-artists .sub {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
 }
 
 #page-description .sub {
@@ -306,14 +331,6 @@ a {
   background-size: cover;
 }
 
-.page-artists h1 {
-  font-size: 60px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 90px;
-  text-transform: uppercase;
-}
-
 @media (max-width: 414px) {
   .page-artists h1 {
     font-size: 30px;
@@ -322,15 +339,6 @@ a {
     line-height: 45px;
     text-transform: uppercase;
   }
-}
-
-.page-artists .sub {
-  margin-top: 16px;
-  margin-bottom: 48px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
 }
 
 @media (max-width: 414px) {
@@ -413,6 +421,16 @@ a {
   width: 270px;
 }
 
+#footer .links-last > ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
 #footer .links-group .links-img > ul {
   display: flex;
   flex-wrap: wrap;
@@ -445,6 +463,35 @@ a {
   line-height: 24px;
 }
 
+.foto-1 img,
+.foto-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.foto-2 {
+  order: -1;
+}
+
+.track img {
+  width: 55px;
+  height: 55px;
+}
+
+.item img {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 18px;
+}
+
+#page-similar img {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 18px;
+  border: 0;
+  border-radius: 50%;
+}
+
 #footer .links-group img {
   max-height: 20px;
   margin-top: 5px;
@@ -460,16 +507,6 @@ a {
 #footer .links-last {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-#footer .links-last > ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 40px 0 48px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
 }
 
 @media (max-width: 425px) {
@@ -586,14 +623,6 @@ a {
   color: #cacaca;
 }
 
-h2 {
-  font-size: 38px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 57px;
-  text-transform: uppercase;
-}
-
 @media (max-width: 414px) {
   h2 {
     font-size: 18px;
@@ -616,12 +645,6 @@ h2 {
   .foto-2 {
     padding: 0;
   }
-}
-
-.foto-1 img,
-.foto-2 img {
-  width: 100%;
-  height: auto;
 }
 
 #page-app {
@@ -682,25 +705,17 @@ h2 {
 
 #page-similar {
   max-width: 1440px;
-  height: 968px;
+  min-height: 968px;
   padding: 100px 120px 0 120px;
   color: #e0e0e0;
 }
 
 @media (max-width: 414px) {
   #page-similar {
-    height: 1270px;
+    min-height: 1270px;
     padding-right: 0;
     padding-left: 20px;
   }
-}
-
-#page-similar img {
-  width: 250px;
-  height: 250px;
-  padding-bottom: 18px;
-  border: 0;
-  border-radius: 50%;
 }
 
 @media (max-width: 414px) {
@@ -708,6 +723,15 @@ h2 {
     width: 137px;
     height: 137px;
   }
+}
+
+.item-name {
+  width: fit-content;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: capitalize;
 }
 
 #page-similar .item-name {
@@ -943,13 +967,13 @@ h2 {
 
 #page-popular-tracks {
   max-width: 1440px;
-  height: 420px;
+  min-height: 420px;
   padding: 100px 120px 0 120px;
 }
 
 @media (max-width: 414px) {
   #page-popular-tracks {
-    height: 630px;
+    min-height: 630px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -961,8 +985,8 @@ h2 {
   font-style: normal;
   font-weight: bold;
   line-height: 57px;
-  text-transform: uppercase;
   color: #fff;
+  text-transform: uppercase;
 }
 
 @media (max-width: 414px) {
@@ -975,6 +999,16 @@ h2 {
   }
 }
 
+.track-info {
+  flex-direction: column;
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.track-timing {
+  margin: auto;
+}
+
 #page-popular-tracks .track-info,
 #page-popular-tracks .track-timing {
   font-size: 12.8px;
@@ -985,8 +1019,8 @@ h2 {
 
 #page-popular-tracks .track-name {
   font-weight: bold;
-  text-transform: uppercase;
   color: #fff;
+  text-transform: uppercase;
 }
 
 #page-popular-tracks .artists,
@@ -1004,31 +1038,16 @@ h2 {
   margin-bottom: 25px;
 }
 
-.track img {
-  width: 55px;
-  height: 55px;
-}
-
-.track-info {
-  flex-direction: column;
-  flex-grow: 1;
-  padding-left: 15px;
-}
-
-.track-timing {
-  margin: auto;
-}
-
 #page-discography {
   max-width: 1440px;
-  height: 868px;
+  min-height: 868px;
   padding: 100px 120px 0 120px;
   color: #e0e0e0;
 }
 
 @media (max-width: 414px) {
   #page-discography {
-    height: 897px;
+    min-height: 897px;
     padding-right: 0;
     padding-left: 20px;
   }
@@ -1067,15 +1086,6 @@ h2 {
   }
 }
 
-.item-name {
-  width: fit-content;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 27px;
-  text-transform: capitalize;
-}
-
 @media (max-width: 414px) {
   .item-name {
     width: 138px;
@@ -1088,12 +1098,6 @@ h2 {
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
-}
-
-.item img {
-  width: 250px;
-  height: 250px;
-  padding-bottom: 18px;
 }
 
 @media (max-width: 414px) {

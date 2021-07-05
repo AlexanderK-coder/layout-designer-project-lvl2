@@ -1,12 +1,12 @@
 #page-similar {
   max-width: 1440px;
-  height: 968px;
+  min-height: 968px;
   padding: 100px 120px 0 120px;
   // align-items: center;
   color: $gray;
 
   @include set-media(414px) {
-    height: 1270px;
+    min-height: 1270px;
     padding-left: 20px;
     padding-right: 0;
   }
