@@ -25,14 +25,14 @@ button {
   margin: 0;
 }
 
-.wrapper {
-  max-width: 1440px;
-  padding: auto 120px;
-  @include set-media(414px) {
-    padding: 20px auto;
-  }
-  height: 100%;
-}
+// .wrapper {
+//   max-width: 1440px;
+//   padding: auto 120px;
+//   @include set-media(414px) {
+//     padding: 20px auto;
+//   }
+//   height: 100%;
+// }
 
 ul {
   list-style: none;
