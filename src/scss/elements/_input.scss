@@ -1,32 +1,26 @@
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 570px;
-  margin: 0 auto 0;
-  color: $white;
+// .form {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   max-width: 570px;
+//   margin: 0 auto 0;
+//   color: $white;
 
-  &-input {
-    flex: 1 1 270px;
-    max-width: 270px;
-    min-height: 50px;
-    margin-bottom: 1.5rem;
-    padding: 0 20px;
-    background: transparent;
-    border: 2px solid $dark-gray;
-    border-radius: 3px;
+//   &-input {
+//     flex: 1 1 270px;
+//     max-width: 270px;
+//     min-height: 50px;
+//     margin-bottom: 1.5rem;
+//     padding: 0 20px;
+//     background: transparent;
+//     border: 2px solid $dark-gray;
+//     border-radius: 3px;
 
-    @include set-media(414px) {
-      flex: 1 1 570px;
-      max-width: 570px;
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-  }
-}
-
-// @include set-media(425px) {
-//   margin-top: 30px;
+//     @include set-media(414px) {
+//       flex: 1 1 570px;
+//       max-width: 570px;
+//       margin-left: 30px;
+//       margin-right: 30px;
+//     }
+//   }
 // }
-
-// * найти и прописать классы btn, btn-green

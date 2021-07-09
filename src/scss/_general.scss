@@ -1,5 +1,19 @@
 // Основные настройки, шаблоны типовых блоков
 // Внутри файла расположите базовые стили проекта, которые не привязаны к конкретной секции.
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+}
 
 * {
   box-sizing: border-box;
@@ -10,9 +24,10 @@ html {
   font-size: 18px;
   line-height: 1.5;
   color: #cacaca;
-  // background-color: #08020d;
+  background-color: #08020d;
 }
 
+html,
 body,
 h1,
 h2,
@@ -25,14 +40,26 @@ button {
   margin: 0;
 }
 
-// .wrapper {
-//   max-width: 1440px;
-//   padding: auto 120px;
-//   @include set-media(414px) {
-//     padding: 20px auto;
-//   }
-//   height: 100%;
-// }
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.container {
+  min-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+
+  @include set-media(420px) {
+    // min-width: 458px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+  }
+}
 
 ul {
   list-style: none;
@@ -53,7 +80,7 @@ a {
   text-decoration: none;
 }
 
-.main-page {
-  color: $white;
-  background: $black;
-}
+// .main-page {
+//   color: $white;
+//   background: $black;
+// }

@@ -1,98 +1,98 @@
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// .btn {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
 
-  background: none;
+//   background: none;
 
-  border-radius: 5px;
+//   border-radius: 5px;
 
-  cursor: pointer;
+//   cursor: pointer;
 
-  // получить доступ
-  &-form {
-    flex: 1 1 570px;
-    max-width: 570px;
-    min-height: 57px;
-    background-color: $green;
-    font-family: Arial, sans-serif;
+//   // получить доступ
+//   &-form {
+//     flex: 1 1 570px;
+//     max-width: 570px;
+//     min-height: 57px;
+//     background-color: $green;
+//     font-family: Arial, sans-serif;
 
-    @include set-text(13.3px, 15px);
+//     @include set-text(13.3px, 15px);
 
-    text-transform: uppercase;
+//     text-transform: uppercase;
 
-    color: $white;
-    border: none;
+//     color: $white;
+//     border: none;
 
-    @include set-media(414px) {
-      margin: 0 30px;
-    }
-  }
+//     @include set-media(414px) {
+//       margin: 0 30px;
+//     }
+//   }
 
-  // Оформить
-  &-card {
-    max-width: 100%;
-    margin-top: 40px;
-    margin-bottom: 64px;
-    padding: 20px 0;
+//   // Оформить
+//   &-card {
+//     max-width: 100%;
+//     margin-top: 40px;
+//     margin-bottom: 64px;
+//     padding: 20px 0;
 
-    @include set-text(16px, 24px);
-    color: $white;
+//     @include set-text(16px, 24px);
+//     color: $white;
 
-    border: 1px solid $white;
-  }
+//     border: 1px solid $white;
+//   }
 
-  // К альбому
-  &-feed {
-    width: 135px;
-    height: 53px;
-    @include small-text;
-    text-transform: uppercase;
+//   // К альбому
+//   &-feed {
+//     width: 135px;
+//     height: 53px;
+//     @include small-text;
+//     text-transform: uppercase;
 
-    border: 1px solid $dark-gray;
-  }
+//     border: 1px solid $dark-gray;
+//   }
 
-  // Скачать
-  &-download {
-    max-width: 131px;
-    height: 53px;
-    margin-top: 16px;
-    margin-bottom: 100px;
-    border-radius: 32px;
-    @include small-text;
-    background-color: $red;
-  }
+//   // Скачать
+//   &-download {
+//     max-width: 131px;
+//     height: 53px;
+//     margin-top: 16px;
+//     margin-bottom: 100px;
+//     border-radius: 32px;
+//     @include small-text;
+//     background-color: $red;
+//   }
 
-  // choose
+//   // choose
 
-  &-description-purple,
-  &-description-red {
-    width: 200px;
-    height: 62px;
-    @include small-text-upp;
+//   &-description-purple,
+//   &-description-red {
+//     width: 200px;
+//     height: 62px;
+//     @include small-text-upp;
 
-    justify-content: flex-start;
-  }
+//     justify-content: flex-start;
+//   }
 
-  &-description-purple {
-    background-color: $purple;
-    margin-right: 24px;
-    border: 0;
+//   &-description-purple {
+//     background-color: $purple;
+//     margin-right: 24px;
+//     border: 0;
 
-    @include set-media(414px) {
-      margin-bottom: 24px;
-    }
-  }
+//     @include set-media(414px) {
+//       margin-bottom: 24px;
+//     }
+//   }
 
-  &-description-red {
-    background-color: $red;
-    border: 0;
-  }
+//   &-description-red {
+//     background-color: $red;
+//     border: 0;
+//   }
 
-  &-icon {
-    width: 20px;
-    height: 20px;
-    margin-left: 31px;
-    margin-right: 16px;
-  }
-}
+//   &-icon {
+//     width: 20px;
+//     height: 20px;
+//     margin-left: 31px;
+//     margin-right: 16px;
+//   }
+// }

@@ -3,117 +3,115 @@
   top: 25px;
   right: 0;
   left: 0;
-  // margin: 0 auto;
   max-width: 1440px;
-
-  @include menu-font;
-
-  .logo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: 120px;
-    margin-left: 120px;
-
-    &-image {
-      width: 24px;
-      margin-right: 16px;
-    }
-
-    &-title {
-      padding: 10px 0;
-    }
-  }
-
-  .menu {
-    position: absolute;
-    width: 100%;
-    margin-left: 180px;
-    color: $dark-gray;
-  }
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-
-  li {
-    margin-left: 24px;
-  }
-
-  .white {
-    color: $white;
-  }
-
-  .input {
-    position: absolute;
-    width: 248px;
-    height: 25px;
-    padding: 0 14px;
-    right: 120px;
-    color: $white;
-    background: $dark;
-    border: none;
-    border-radius: 50px;
-  }
-
-  .input::placeholder {
-    color: $placeholder;
-    text-transform: uppercase;
-  }
 }
+//   .logo {
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     margin-right: 120px;
+//     margin-left: 120px;
 
-@include set-media(414px) {
-  .header {
-    .logo {
-      margin-right: 20px;
-      margin-left: 20px;
-      // width: 375px;
+//     &-image {
+//       width: 24px;
+//       margin-right: 16px;
+//     }
 
-      &-image {
-        width: 24px;
-        margin-right: 20px;
-      }
+//     &-title {
+//       padding: 10px 0;
+//       @include menu-font;
+//     }
+//   }
 
-      &-title {
-        padding: 10px 0;
-      }
-    }
+//   .menu {
+//     position: absolute;
+//     width: 100%;
+//     margin-left: 180px;
+//     color: $dark-gray;
+//   }
 
-    .menu {
-      position: relative;
-      margin-left: 0;
-    }
+//   ul {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: start;
+//   }
 
-    ul {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      margin-top: 17px;
-    }
+//   li {
+//     margin-left: 24px;
+//   }
 
-    li {
-      margin-bottom: 3px;
-      margin-left: 0;
-    }
+//   .white {
+//     color: $white;
+//   }
 
-    .input {
-      position: relative;
-      width: 100%;
-      margin-top: 18px;
-      left: 0;
-      // width: 375px;
-    }
-  }
-}
+//   .input {
+//     position: absolute;
+//     width: 248px;
+//     height: 25px;
+//     padding: 0 14px;
+//     right: 120px;
+//     color: $white;
+//     background: $dark;
+//     border: none;
+//     border-radius: 50px;
+//   }
 
-@include set-media(1100px) {
-  header {
-    .input {
-      position: absolute;
-      margin-top: 75px;
-      margin-left: 0;
-    }
-  }
-}
+//   .input::placeholder {
+//     color: $placeholder;
+//     text-transform: uppercase;
+//   }
+// }
+
+// @include set-media(414px) {
+//   .header {
+//     .logo {
+//       margin-right: 20px;
+//       margin-left: 20px;
+//       // width: 375px;
+
+//       &-image {
+//         width: 24px;
+//         margin-right: 20px;
+//       }
+
+//       &-title {
+//         padding: 10px 0;
+//       }
+//     }
+
+//     .menu {
+//       position: relative;
+//       margin-left: 0;
+//     }
+
+//     ul {
+//       display: flex;
+//       flex-direction: column;
+//       flex-wrap: wrap;
+//       margin-top: 17px;
+//     }
+
+//     li {
+//       margin-bottom: 3px;
+//       margin-left: 0;
+//     }
+
+//     .input {
+//       position: relative;
+//       width: 100%;
+//       margin-top: 18px;
+//       left: 0;
+//       // width: 375px;
+//     }
+//   }
+// }
+
+// @include set-media(1100px) {
+//   header {
+//     .input {
+//       position: absolute;
+//       margin-top: 75px;
+//       margin-left: 0;
+//     }
+//   }
+// }

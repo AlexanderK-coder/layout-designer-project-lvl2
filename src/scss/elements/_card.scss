@@ -5,62 +5,63 @@
 // top: 203px;
 
 // background: url(subscribe_1.png);
-.card {
-  width: 368.6px;
-  height: 615px;
-  padding: 24px 24px 64px 24px;
 
-  border: 1px solid $white;
-  border-radius: 16px;
+// .card {
+//   width: 368.6px;
+//   height: 615px;
+//   padding: 24px 24px 64px 24px;
 
-  @include set-media(414px) {
-    width: 374px;
-    margin-top: 0 0 20px 0;
+//   border: 1px solid $white;
+//   border-radius: 16px;
 
-    // * отступы карточек
-  }
-  &-title {
-    padding-bottom: 200px;
-    @include h3;
-    @include set-media(414px) {
-      @include h3-mob;
-    }
-  }
-  &-price {
-    @include card-price;
-  }
+//   @include set-media(414px) {
+//     width: 374px;
+//     margin-top: 0 0 20px 0;
 
-  &-value {
-    @include text-size-3;
-    margin-left: 16px;
-  }
+//     // * отступы карточек
+//   }
+//   &-title {
+//     padding-bottom: 200px;
+//     @include h3;
+//     @include set-media(414px) {
+//       @include h3-mob;
+//     }
+//   }
+//   &-price {
+//     @include card-price;
+//   }
 
-  &-text {
-    @include small-text;
-  }
-}
+//   &-value {
+//     @include text-size-3;
+//     margin-left: 16px;
+//   }
 
-.card:not(:last-child) {
-  margin-right: 45px;
+//   &-text {
+//     @include small-text;
+//   }
+// }
 
-  @include set-media(414px) {
-    width: 374px;
-    margin: 0 0 20px 0;
-  }
-}
+// .card:not(:last-child) {
+//   margin-right: 45px;
 
-.page-text {
-  @include text-size-1;
-}
+//   @include set-media(414px) {
+//     width: 374px;
+//     margin: 0 0 20px 0;
+//   }
+// }
 
-.bg-card-1 {
-  @include bg-image("subscribe_1.png");
-}
+// .page-text {
+//   @include text-size-1;
+// }
 
-.bg-card-2 {
-  @include bg-image("subscribe_2.png");
-}
+// .bg-card-1 {
+//   @include bg-image("subscribe_1.png");
+// }
 
-.bg-card-3 {
-  @include bg-image("subscribe_3.png");
-}
+// .bg-card-2 {
+//   @include bg-image("subscribe_2.png");
+// }
+
+// .bg-card-3 {
+//   @include bg-image("subscribe_3.png");
+// }

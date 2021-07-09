@@ -19,14 +19,52 @@ $placeholder: #757575;
   font-style: normal;
   font-weight: $font-weight;
   line-height: $line-height;
+  //? Учесть обязательно uppercase & capitalize
+}
+
+@mixin h1 {
+  @include set-header(60px, 90px, bold);
   text-transform: uppercase;
 }
 
-@mixin set-header-cap($font-size, $line-height, $font-weight) {
-  font-size: $font-size;
-  font-style: normal;
-  font-weight: $font-weight;
-  line-height: $line-height;
+@mixin h1-mob {
+  @include set-header(30px, 45px, bold);
+  text-transform: uppercase;
+}
+
+@mixin h2 {
+  @include set-header(38px, 57px, bold);
+  text-transform: uppercase;
+}
+
+@mixin h2-mob {
+  @include set-header(18px, 27px, bold);
+  text-transform: uppercase;
+}
+
+@mixin h3 {
+  @include set-header(24px, 45px, normal);
+  // text-transform: uppercase;
+}
+
+@mixin h3-mob {
+  @include set-header(16px, 24px, bold);
+  // text-transform: uppercase;
+}
+
+@mixin h3-cap {
+  @include set-header(30px, 45px, normal);
+  text-transform: capitalize;
+}
+
+@mixin h3-cap-mob {
+  @include set-header-cap(16px, 24px, normal);
+  text-transform: capitalize;
+}
+
+@mixin h4 {
+  @include set-header(18px, 27px, bold);
+  text-transform: capitalize;
 }
 
 // миксин для рядового текста
@@ -38,15 +76,33 @@ $placeholder: #757575;
   line-height: $line-height;
 }
 
-// шрифт Popular Track small bold
-
-@mixin menu-header($font-size, $line-height, $font-weight) {
-  font-size: $font-size;
-  font-style: normal;
-  font-weight: $font-weight;
-  line-height: $line-height;
+@mixin menu-font {
+  @include set-text(10px, 16px);
   text-transform: uppercase;
 }
+
+@mixin text-size-1 {
+  @include set-text(16px, 24px);
+}
+
+@mixin text-size-3 {
+  @include set-text(32px, 48px);
+}
+
+@mixin card-price {
+  @include set-text(64px, 64px);
+}
+
+@mixin small-text {
+  @include set-text(12.8px, 19.2px);
+}
+
+@mixin small-text-upp {
+  @include set-text(12.8px, 19.2px);
+  text-transform: uppercase;
+}
+
+// background, media, gradient
 
 @mixin bg-image($image) {
   // text-align: center;
@@ -64,70 +120,13 @@ $placeholder: #757575;
   background: linear-gradient(265.08deg, $color-1 14.9%, $color-2 68.95%);
 }
 
-@mixin h1 {
-  @include set-header(60px, 90px, bold);
-}
-
-@mixin h1-mob {
-  @include set-header(30px, 45px, bold);
-}
-
-@mixin h2 {
-  @include set-header(38px, 57px, bold);
-}
-
-@mixin h2-mob {
-  @include set-header(18px, 27px, bold);
-}
-
-@mixin text-size-1 {
-  @include set-text(16px, 24px);
-}
-
-@mixin text-size-3 {
-  @include set-text(32px, 48px);
-}
-
-@mixin menu-font {
-  @include set-header(11px, 13px, bold);
-}
-
-@mixin card-price {
-  @include set-text(64px, 64px);
-}
-
 @mixin bg-footer {
   @include col-gradient($red, $purple);
 }
 
-@mixin h3 {
-  @include set-header(24px, 45px, normal);
-}
-
-@mixin h3-mob {
-  @include set-header(16px, 24px, bold);
-}
-
-@mixin small-text {
-  @include set-text(12.8px, 19.2px);
-}
-
-@mixin small-text-upp {
-  @include set-text(12.8px, 19.2px);
-  text-transform: uppercase;
-}
-
-@mixin h3-cap {
-  @include set-header-cap(30px, 45px, normal);
-  text-transform: capitalize;
-}
-
-@mixin h3-cap-mob {
-  @include set-header-cap(16px, 24px, normal);
-  text-transform: capitalize;
-}
-
-@mixin h4 {
-  @include set-header(18px, 27px, bold);
-  text-transform: capitalize;
-}
+// @mixin set-header-cap($font-size, $line-height, $font-weight) {
+//   font-size: $font-size;
+//   font-style: normal;
+//   font-weight: $font-weight;
+//   line-height: $line-height;
+// }
