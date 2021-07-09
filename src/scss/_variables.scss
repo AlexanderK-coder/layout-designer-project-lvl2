@@ -123,10 +123,3 @@ $placeholder: #757575;
 @mixin bg-footer {
   @include col-gradient($red, $purple);
 }
-
-// @mixin set-header-cap($font-size, $line-height, $font-weight) {
-//   font-size: $font-size;
-//   font-style: normal;
-//   font-weight: $font-weight;
-//   line-height: $line-height;
-// }
