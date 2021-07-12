@@ -1,64 +1,64 @@
-#page-description {
-  padding: 200px 120px;
+// #page-description {
+//   padding: 200px 120px;
 
-  @include set-media(414px) {
-    padding: 250px 20px;
-  }
+//   @include set-media(414px) {
+//     padding: 250px 20px;
+//   }
 
-  h1 {
-    @include h1;
-    @include set-media(414px) {
-      @include h1-mob;
-    }
-  }
+//   h1 {
+//     @include h1;
+//     @include set-media(414px) {
+//       @include h1-mob;
+//     }
+//   }
 
-  h2 {
-    @include h2;
+//   h2 {
+//     @include h2;
 
-    @include set-media(414px) {
-      @include h2-mob;
-    }
-  }
-  .sub {
-    @include text-size-1;
-    margin-top: 32px;
-    margin-bottom: 27px;
+//     @include set-media(414px) {
+//       @include h2-mob;
+//     }
+//   }
+//   .sub {
+//     @include text-size-1;
+//     margin-top: 32px;
+//     margin-bottom: 27px;
 
-    @include set-media(414px) {
-      margin-top: 16px;
-    }
-  }
-}
+//     @include set-media(414px) {
+//       margin-top: 16px;
+//     }
+//   }
+// }
 
-.banner-page {
-  @include bg-image("banner.png");
+// .banner-page {
+//   @include bg-image("banner.png");
 
-  // ! Этот текст на шаблоне 18 на 27
-}
+//   // ! Этот текст на шаблоне 18 на 27
+// }
 
-.page-artists {
-  @include bg-image("Morten Harket.png");
+// .page-artists {
+//   @include bg-image("Morten Harket.png");
 
-  h1 {
-    @include h1;
-    // margin-left: 120px;
+//   h1 {
+//     @include h1;
+//     // margin-left: 120px;
 
-    @include set-media(414px) {
-      @include h1-mob;
-    }
-  }
+//     @include set-media(414px) {
+//       @include h1-mob;
+//     }
+//   }
 
-  .sub {
-    @include text-size-1;
+//   .sub {
+//     @include text-size-1;
 
-    margin-top: 16px;
-    margin-bottom: 48px;
+//     margin-top: 16px;
+//     margin-bottom: 48px;
 
-    @include set-media(414px) {
-      margin-top: 16px;
-    }
-  }
-  // .choose {
+//     @include set-media(414px) {
+//       margin-top: 16px;
+//     }
+//   }
+//   // .choose {
 
-  // }
-}
+//   // }
+// }
