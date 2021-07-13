@@ -37,28 +37,27 @@ button {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
+
+  @include set-media(414px) {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+  }
 }
-//   @include set-media(420px) {
-//     // min-width: 458px;
-//     margin: 0 auto;
-//     padding: 0 20px 0 20px;
-//   }
-// }
 
 ul {
   list-style: none;
   text-decoration-style: unset;
 }
 
-// input {
-//   color: inherit;
-//   border: none;
-// }
+input {
+  color: inherit;
+  border: none;
+}
 
-// input::placeholder {
-//   color: inherit;
-//   border: none;
-// }
+input::placeholder {
+  color: inherit;
+  border: none;
+}
 
 a {
   color: inherit;
