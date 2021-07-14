@@ -1,38 +1,42 @@
-// #page-description {
-//   padding: 200px 120px;
+#page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
 
-//   @include set-media(414px) {
-//     padding: 250px 20px;
-//   }
+  //!! Выяснить по ТЗ падинг 250
 
-//   h1 {
-//     @include h1;
-//     @include set-media(414px) {
-//       @include h1-mob;
-//     }
-//   }
+  @include set-media(414px) {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
 
-//   h2 {
-//     @include h2;
+  h1 {
+    @include h1;
+    @include set-media(414px) {
+      @include h1-mob;
+    }
+  }
 
-//     @include set-media(414px) {
-//       @include h2-mob;
-//     }
-//   }
-//   .sub {
-//     @include text-size-1;
-//     margin-top: 32px;
-//     margin-bottom: 27px;
+  h2 {
+    @include h2;
 
-//     @include set-media(414px) {
-//       margin-top: 16px;
-//     }
-//   }
-// }
+    @include set-media(414px) {
+      @include h2-mob;
+    }
+  }
+  .sub {
+    @include text-size-1;
+    margin-top: 32px;
+    margin-bottom: 27px;
 
-// .banner-page {
-//   @include bg-image("banner.png");
+    @include set-media(414px) {
+      margin-top: 16px;
+    }
+  }
+}
 
+.banner {
+  @include bg-image("banner.png");
+}
 //   // ! Этот текст на шаблоне 18 на 27
 // }
 

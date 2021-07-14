@@ -16,9 +16,13 @@
   color: $white;
 }
 
-.color-black {
-  color: $black;
+.bg-black {
+  background-color: $black;
 }
+
+// .color-black {
+//   color: $black;
+// }
 
 .d-flex {
   display: flex;
