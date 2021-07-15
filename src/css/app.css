@@ -365,6 +365,7 @@ li {
 @media (max-width: 414px) {
   .form-input {
     flex: 1 1 570px;
+    max-width: 570px;
   }
 }
 
