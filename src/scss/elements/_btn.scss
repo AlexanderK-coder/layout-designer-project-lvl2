@@ -1,34 +1,29 @@
-// .btn {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-//   background: none;
+  background: none;
 
-//   border-radius: 5px;
+  border-radius: 5px;
 
-//   cursor: pointer;
+  cursor: pointer;
 
-//   // получить доступ
-//   &-form {
-//     flex: 1 1 570px;
-//     max-width: 570px;
-//     min-height: 57px;
-//     background-color: $green;
-//     font-family: Arial, sans-serif;
+  // получить доступ
+  &-form {
+    flex: 1 1 570px;
+    max-width: 570px;
+    min-height: 57px;
+    background-color: $green;
+    font-family: Arial, sans-serif;
 
-//     @include set-text(13.3px, 15px);
+    @include set-text(13.3px, 15px);
+    text-transform: uppercase;
 
-//     text-transform: uppercase;
-
-//     color: $white;
-//     border: none;
-
-//     @include set-media(414px) {
-//       margin: 0 30px;
-//     }
-//   }
-
+    color: $white;
+    border: none;
+  }
+}
 //   // Оформить
 //   &-card {
 //     max-width: 100%;

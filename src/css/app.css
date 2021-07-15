@@ -215,7 +215,6 @@ li {
 @media (max-width: 414px) {
   #page-description {
     padding-top: 250px;
-    padding-bottom: 250px;
   }
 }
 #page-description h1 {
@@ -343,4 +342,51 @@ li {
   #footer .links-last li:not(:last-child) {
     margin-bottom: 16px;
   }
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 570px;
+  margin: 0 auto 0;
+  color: #fff;
+}
+.form-input {
+  flex: 1 1 270px;
+  max-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.5rem;
+  padding: 0 20px;
+  background: transparent;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+}
+@media (max-width: 414px) {
+  .form-input {
+    flex: 1 1 570px;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-form {
+  flex: 1 1 570px;
+  max-width: 570px;
+  min-height: 57px;
+  background-color: #34c176;
+  font-family: Arial, sans-serif;
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
 }
