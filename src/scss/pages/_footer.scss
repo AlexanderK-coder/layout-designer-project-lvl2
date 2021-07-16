@@ -16,6 +16,15 @@
       max-width: 270px;
     }
 
+    .links-item:not(:first-child),
+    .links-img {
+      margin-left: 40px;
+
+      @include set-media(430px) {
+        margin-left: 0;
+      }
+    }
+
     .links-title,
     .exclude {
       margin-bottom: 16px;

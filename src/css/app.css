@@ -285,6 +285,16 @@ li {
 #footer .links-container .links-img {
   max-width: 270px;
 }
+#footer .links-container .links-item:not(:first-child),
+#footer .links-container .links-img {
+  margin-left: 40px;
+}
+@media (max-width: 430px) {
+  #footer .links-container .links-item:not(:first-child),
+#footer .links-container .links-img {
+    margin-left: 0;
+  }
+}
 #footer .links-container .links-title,
 #footer .links-container .exclude {
   margin-bottom: 16px;
