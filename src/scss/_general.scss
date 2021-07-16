@@ -38,7 +38,7 @@ button {
   margin: 0 auto;
   padding: 0;
 
-  @include set-media(414px) {
+  @include set-media(430px) {
     margin: 0 auto;
     padding: 0 20px 0 20px;
   }

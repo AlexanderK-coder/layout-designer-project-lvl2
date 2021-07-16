@@ -5,7 +5,7 @@
   right: 0;
   left: 0;
   min-height: 24px;
-  @include set-media(414px) {
+  @include set-media(430px) {
     flex-direction: column;
   }
 }
@@ -30,7 +30,7 @@
     margin-right: 90px;
     @include menu-font;
   }
-  @include set-media(414px) {
+  @include set-media(430px) {
     margin-bottom: 17px;
   }
 }
@@ -48,7 +48,7 @@
 .ul-menu {
   flex-grow: 1;
   flex-wrap: wrap;
-  @include set-media(414px) {
+  @include set-media(430px) {
     flex-direction: column;
     margin-bottom: 23px;
   }

@@ -55,11 +55,11 @@
 
   & .links-last {
     & > ul {
+      padding: 40px 0 48px;
       display: flex;
       flex-wrap: wrap;
-      padding: 40px 0 48px;
       @include text-size-1;
-      @include set-media(414px) {
+      @include set-media(430px) {
         flex-direction: column;
         padding: 20px 0;
       }
@@ -68,7 +68,7 @@
     li:not(:last-child) {
       margin-right: 15px;
 
-      @include set-media(414px) {
+      @include set-media(430px) {
         margin-bottom: 16px;
       }
     }

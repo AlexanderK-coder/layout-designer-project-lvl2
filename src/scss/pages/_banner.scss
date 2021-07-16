@@ -4,13 +4,13 @@
 
   //!! Выяснить по ТЗ падинг 250
 
-  @include set-media(414px) {
+  @include set-media(430px) {
     padding-top: 250px;
   }
 
   h1 {
     @include h1;
-    @include set-media(414px) {
+    @include set-media(430px) {
       @include h1-mob;
     }
   }
@@ -18,7 +18,7 @@
   h2 {
     @include h2;
 
-    @include set-media(414px) {
+    @include set-media(430px) {
       @include h2-mob;
     }
   }
@@ -27,7 +27,7 @@
     margin-top: 32px;
     margin-bottom: 27px;
 
-    @include set-media(414px) {
+    @include set-media(430px) {
       margin-top: 16px;
     }
   }
