@@ -23,20 +23,19 @@
     color: $white;
     border: none;
   }
+
+  &-card {
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    padding: 20px 0;
+
+    @include set-text(16px, 24px);
+    color: $white;
+
+    border: 1px solid $white;
+  }
 }
-//   // Оформить
-//   &-card {
-//     max-width: 100%;
-//     margin-top: 40px;
-//     margin-bottom: 64px;
-//     padding: 20px 0;
-
-//     @include set-text(16px, 24px);
-//     color: $white;
-
-//     border: 1px solid $white;
-//   }
-
 //   // К альбому
 //   &-feed {
 //     width: 135px;

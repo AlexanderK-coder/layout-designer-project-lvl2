@@ -278,7 +278,7 @@ li {
   line-height: 57px;
   text-transform: uppercase;
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   #page-pricing h2 {
     font-size: 18px;
     font-style: normal;
@@ -322,7 +322,7 @@ li {
 }
 @media (max-width: 430px) {
   #footer .links-container .links-item:not(:first-child),
-#footer .links-container .links-img {
+  #footer .links-container .links-img {
     margin-left: 0;
   }
 }
@@ -432,15 +432,27 @@ li {
   color: #fff;
   border: none;
 }
+.btn-card {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 64px;
+  padding: 20px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #fff;
+}
 
 .card {
-  width: 368.6px;
+  width: 368.2px;
   height: 615px;
   padding: 24px 24px 64px 24px;
   border: 1px solid #fff;
   border-radius: 16px;
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .card {
     width: 374px;
     margin-top: 0 0 20px 0;
@@ -453,7 +465,7 @@ li {
   font-weight: normal;
   line-height: 45px;
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .card-title {
     font-size: 16px;
     font-style: normal;
@@ -483,7 +495,7 @@ li {
 .card:not(:last-child) {
   margin-right: 45px;
 }
-@media (max-width: 414px) {
+@media (max-width: 430px) {
   .card:not(:last-child) {
     width: 374px;
     margin: 0 0 20px 0;

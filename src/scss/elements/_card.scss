@@ -1,20 +1,12 @@
-// position: absolute;
-// width: 368.2px;
-// height: 615px;
-// left: 122px;
-// top: 203px;
-
-// background: url(subscribe_1.png);
-
 .card {
-  width: 368.6px;
+  width: 368.2px;
   height: 615px;
   padding: 24px 24px 64px 24px;
 
   border: 1px solid $white;
   border-radius: 16px;
 
-  @include set-media(425px) {
+  @include set-media(430px) {
     width: 374px;
     margin-top: 0 0 20px 0;
 
@@ -24,7 +16,7 @@
   &-title {
     padding-bottom: 200px;
     @include h3;
-    @include set-media(425px) {
+    @include set-media(430px) {
       @include h3-mob;
     }
   }
@@ -45,7 +37,7 @@
   &:not(:last-child) {
     margin-right: 45px;
 
-    @include set-media(414px) {
+    @include set-media(430px) {
       width: 374px;
       margin: 0 0 20px 0;
     }
