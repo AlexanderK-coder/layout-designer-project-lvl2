@@ -268,6 +268,37 @@ li {
   background-size: cover;
 }
 
+#page-pricing {
+  padding-top: 100px;
+}
+#page-pricing h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+@media (max-width: 425px) {
+  #page-pricing h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+}
+#page-pricing .card-container {
+  margin: 45px 0px;
+  padding: 0;
+  width: 100%;
+}
+#page-pricing .page-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
 #footer {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
@@ -400,4 +431,83 @@ li {
   text-transform: uppercase;
   color: #fff;
   border: none;
+}
+
+.card {
+  width: 368.6px;
+  height: 615px;
+  padding: 24px 24px 64px 24px;
+  border: 1px solid #fff;
+  border-radius: 16px;
+}
+@media (max-width: 425px) {
+  .card {
+    width: 374px;
+    margin-top: 0 0 20px 0;
+  }
+}
+.card-title {
+  padding-bottom: 200px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 45px;
+}
+@media (max-width: 425px) {
+  .card-title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+  }
+}
+.card-price {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 64px;
+}
+.card-value {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+  margin-left: 16px;
+}
+.card-text {
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19.2px;
+}
+.card:not(:last-child) {
+  margin-right: 45px;
+}
+@media (max-width: 414px) {
+  .card:not(:last-child) {
+    width: 374px;
+    margin: 0 0 20px 0;
+  }
+}
+
+.page-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.bg-card-1 {
+  background: url("../images/subscribe_1.png") no-repeat center;
+  background-size: cover;
+}
+
+.bg-card-2 {
+  background: url("../images/subscribe_2.png") no-repeat center;
+  background-size: cover;
+}
+
+.bg-card-3 {
+  background: url("../images/subscribe_3.png") no-repeat center;
+  background-size: cover;
 }

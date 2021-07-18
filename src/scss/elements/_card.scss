@@ -6,62 +6,64 @@
 
 // background: url(subscribe_1.png);
 
-// .card {
-//   width: 368.6px;
-//   height: 615px;
-//   padding: 24px 24px 64px 24px;
+.card {
+  width: 368.6px;
+  height: 615px;
+  padding: 24px 24px 64px 24px;
 
-//   border: 1px solid $white;
-//   border-radius: 16px;
+  border: 1px solid $white;
+  border-radius: 16px;
 
-//   @include set-media(414px) {
-//     width: 374px;
-//     margin-top: 0 0 20px 0;
+  @include set-media(425px) {
+    width: 374px;
+    margin-top: 0 0 20px 0;
 
-//     // * отступы карточек
-//   }
-//   &-title {
-//     padding-bottom: 200px;
-//     @include h3;
-//     @include set-media(414px) {
-//       @include h3-mob;
-//     }
-//   }
-//   &-price {
-//     @include card-price;
-//   }
+    // * отступы карточек
+  }
 
-//   &-value {
-//     @include text-size-3;
-//     margin-left: 16px;
-//   }
+  &-title {
+    padding-bottom: 200px;
+    @include h3;
+    @include set-media(425px) {
+      @include h3-mob;
+    }
+  }
 
-//   &-text {
-//     @include small-text;
-//   }
-// }
+  &-price {
+    @include card-price;
+  }
 
-// .card:not(:last-child) {
-//   margin-right: 45px;
+  &-value {
+    @include text-size-3;
+    margin-left: 16px;
+  }
 
-//   @include set-media(414px) {
-//     width: 374px;
-//     margin: 0 0 20px 0;
-//   }
-// }
+  &-text {
+    @include small-text;
+  }
 
-// .page-text {
-//   @include text-size-1;
-// }
+  &:not(:last-child) {
+    margin-right: 45px;
 
-// .bg-card-1 {
-//   @include bg-image("subscribe_1.png");
-// }
+    @include set-media(414px) {
+      width: 374px;
+      margin: 0 0 20px 0;
+    }
+  }
+}
 
-// .bg-card-2 {
-//   @include bg-image("subscribe_2.png");
-// }
+.page-text {
+  @include text-size-1;
+}
 
-// .bg-card-3 {
-//   @include bg-image("subscribe_3.png");
-// }
+.bg-card-1 {
+  @include bg-image("subscribe_1.png");
+}
+
+.bg-card-2 {
+  @include bg-image("subscribe_2.png");
+}
+
+.bg-card-3 {
+  @include bg-image("subscribe_3.png");
+}
