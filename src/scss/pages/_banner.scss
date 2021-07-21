@@ -1,4 +1,5 @@
 #page-description {
+  @include bg-image("banner.png");
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -33,9 +34,9 @@
   }
 }
 
-.banner {
-  @include bg-image("banner.png");
-}
+// .banner {
+//   @include bg-image("banner.png");
+// }
 //   // ! Этот текст на шаблоне 18 на 27
 // }
 

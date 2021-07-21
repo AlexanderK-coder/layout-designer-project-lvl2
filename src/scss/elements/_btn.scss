@@ -35,17 +35,17 @@
 
     border: 1px solid $white;
   }
+
+  // К альбому
+
+  &-feed {
+    max-width: 135px;
+    height: 53px;
+    @include small-text-upp;
+ 
+    border: 1px solid $dark-gray;
+  }
 }
-//   // К альбому
-//   &-feed {
-//     width: 135px;
-//     height: 53px;
-//     @include small-text;
-//     text-transform: uppercase;
-
-//     border: 1px solid $dark-gray;
-//   }
-
 //   // Скачать
 //   &-download {
 //     max-width: 131px;
