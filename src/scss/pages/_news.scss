@@ -1,19 +1,16 @@
 #news {
   padding-top: 100px;
-  // @include set-media(430px) {
-  //   padding: 100px 0 0 20px;
-  // }
 }
 
 .news-item {
   margin-top: 42px;
   display: flex;
   flex-wrap: wrap;
- @include set-media(430px) {
+  @include set-media(430px) {
     .foto-2 {
       order: -1;
     }
-  } 
+  }
 }
 
 .news-info {

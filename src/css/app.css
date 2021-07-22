@@ -418,6 +418,59 @@ h2 {
   height: auto;
 }
 
+#page-app {
+  height: 583px;
+  padding: 100px 0;
+  text-align: center;
+}
+@media (max-width: 430px) {
+  #page-app {
+    height: 822px;
+  }
+}
+
+.app-text {
+  width: 600px;
+  height: 112px;
+  margin-top: 64px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #cacaca;
+  text-align: left;
+}
+@media (max-width: 430px) {
+  .app-text {
+    margin-top: 16px;
+    width: 370px;
+    height: 184px;
+  }
+}
+
+.iphone {
+  width: 333px;
+  height: 278px;
+  margin-top: 48px;
+  margin-left: 144px;
+}
+@media (max-width: 430px) {
+  .iphone {
+    margin-left: 20px;
+  }
+}
+
+.app-flex {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 430px) {
+  .app-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 #footer {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
@@ -572,6 +625,22 @@ h2 {
   line-height: 19.2px;
   text-transform: uppercase;
   border: 1px solid #cacaca;
+}
+.btn-download {
+  max-width: 131px;
+  height: 53px;
+  margin-top: 16px;
+  border-radius: 32px;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19.2px;
+  background-color: #95390c;
+}
+@media (max-width: 430px) {
+  .btn-download {
+    margin-bottom: 100px;
+  }
 }
 
 .card {

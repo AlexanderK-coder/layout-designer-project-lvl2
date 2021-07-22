@@ -1,42 +1,42 @@
-// #page-app {
-//   padding: 100px 120px 100px 120px;
-//   // margin-bottom: 100px;
-//   @include set-media(414px) {
-//     padding: 100px 20px 200px 20px;
-//     height: 822px;
-//   }
-// }
+#page-app {
+  height: 583px;
+  padding: 100px 0;
+  @include set-media(430px) {
+    height: 822px;
+  }
+  text-align: center;
+}
 
-// .app-text {
-//   width: 600px;
-//   height: 112px;
-//   margin-top: 64px;
-//   @include text-size-1;
-//   color: $dark-gray;
-//   text-align: left;
-//   @include set-media(414px) {
-//     margin-top: 16px;
-//     width: 370px;
-//     height: 184px;
-//   }
-// }
+.app-text {
+  width: 600px;
+  height: 112px;
+  margin-top: 64px;
+  @include text-size-1;
+  color: $dark-gray;
+  text-align: left;
+  @include set-media(430px) {
+    margin-top: 16px;
+    width: 370px;
+    height: 184px;
+  }
+}
 
-// .iphone {
-//   width: 333px;
-//   height: 278px;
-//   margin-top: 48px;
-//   margin-left: 144px;
+.iphone {
+  width: 333px;
+  height: 278px;
+  margin-top: 48px;
+  margin-left: 144px;
 
-//   @include set-media(414px) {
-//     margin-left: 20px;
-//   }
-// }
+  @include set-media(430px) {
+    margin-left: 20px;
+  }
+}
 
-// .app-flex {
-//   display: flex;
-//   flex-direction: row;
-//   @include set-media(414px) {
-//     display: flex;
-//     flex-direction: column-reverse;
-//   }
-// }
+.app-flex {
+  display: flex;
+  flex-direction: row;
+  @include set-media(430px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
