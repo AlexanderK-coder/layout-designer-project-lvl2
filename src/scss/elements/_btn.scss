@@ -58,37 +58,36 @@
     @include small-text;
     background-color: $red;
   }
+
+  //   // choose
+
+  &-description-purple,
+  &-description-red {
+    width: 200px;
+    height: 62px;
+    @include small-text-upp;
+
+    justify-content: flex-start;
+    border: 0;
+  }
+
+  &-description-purple {
+    background-color: $purple;
+    margin-right: 24px;
+
+    @include set-media(430px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &-description-red {
+    background-color: $red;
+  }
+
+  &-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 31px;
+    margin-right: 16px;
+  }
 }
-//   // choose
-
-//   &-description-purple,
-//   &-description-red {
-//     width: 200px;
-//     height: 62px;
-//     @include small-text-upp;
-
-//     justify-content: flex-start;
-//   }
-
-//   &-description-purple {
-//     background-color: $purple;
-//     margin-right: 24px;
-//     border: 0;
-
-//     @include set-media(414px) {
-//       margin-bottom: 24px;
-//     }
-//   }
-
-//   &-description-red {
-//     background-color: $red;
-//     border: 0;
-//   }
-
-//   &-icon {
-//     width: 20px;
-//     height: 20px;
-//     margin-left: 31px;
-//     margin-right: 16px;
-//   }
-// }

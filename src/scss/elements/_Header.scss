@@ -1,6 +1,6 @@
 .header {
-  flex-wrap: wrap;
   position: absolute;
+  flex-wrap: wrap;
   top: 25px;
   right: 0;
   left: 0;
@@ -74,7 +74,9 @@ li {
   color: $placeholder;
 }
 
-// @include set-media(414px) {
+// header на странице aryists
+
+// @include set-media(430px) {
 //   .header {
 //     .logo {
 //       margin-right: 20px;

@@ -1,9 +1,6 @@
 #page-description {
-  @include bg-image("banner.png");
   padding-top: 200px;
   padding-bottom: 200px;
-
-  //!! Выяснить по ТЗ падинг 250
 
   @include set-media(430px) {
     padding-top: 250px;
@@ -34,14 +31,13 @@
   }
 }
 
-// .banner {
-//   @include bg-image("banner.png");
-// }
-//   // ! Этот текст на шаблоне 18 на 27
-// }
+.banner {
+  @include bg-image("banner.png");
+}
 
-// .page-artists {
-//   @include bg-image("Morten Harket.png");
+.artists-banner {
+  @include bg-image("Morten Harket.png");
+}
 
 //   h1 {
 //     @include h1;

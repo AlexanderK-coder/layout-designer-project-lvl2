@@ -120,97 +120,7 @@ a {
   margin-bottom: 0;
 }
 
-.header {
-  flex-wrap: wrap;
-  position: absolute;
-  top: 25px;
-  right: 0;
-  left: 0;
-  min-height: 24px;
-}
-@media (max-width: 430px) {
-  .header {
-    flex-direction: column;
-  }
-}
-
-.logo-image {
-  width: 24px;
-  height: 24px;
-  margin-right: 16px;
-}
-.logo img {
-  flex: 0 0 24px;
-  width: 100%;
-  height: 100%;
-}
-.logo-title {
-  padding-top: 6px;
-  flex-grow: 0 0 57px;
-  margin-right: 90px;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 16px;
-  text-transform: uppercase;
-}
-@media (max-width: 430px) {
-  .logo {
-    margin-bottom: 17px;
-  }
-}
-
-.nav {
-  flex: 1 1 auto;
-}
-
-.menu {
-  flex-grow: 1;
-  padding-top: 6px;
-  color: #cacaca;
-}
-
-.ul-menu {
-  flex-grow: 1;
-  flex-wrap: wrap;
-}
-@media (max-width: 430px) {
-  .ul-menu {
-    flex-direction: column;
-    margin-bottom: 23px;
-  }
-}
-
-li {
-  margin-right: 24px;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 16px;
-  text-transform: uppercase;
-}
-
-.input {
-  min-width: 248px;
-  height: 25px;
-  padding-left: 10px;
-  font-size: 13.3px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 15px;
-  text-transform: uppercase;
-  background: #3c3b3d;
-  border: none;
-  border-radius: 50px;
-}
-
-.input::placeholder {
-  color: #757575;
-}
-
 #page-description {
-  background: url("../images/banner.png") no-repeat center;
-  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -263,6 +173,16 @@ li {
   #page-description .sub {
     margin-top: 16px;
   }
+}
+
+.banner {
+  background: url("../images/banner.png") no-repeat center;
+  background-size: cover;
+}
+
+.artists-banner {
+  background: url("../images/Morten Harket.png") no-repeat center;
+  background-size: cover;
 }
 
 #page-pricing {
@@ -471,6 +391,94 @@ h2 {
   }
 }
 
+.header {
+  position: absolute;
+  flex-wrap: wrap;
+  top: 25px;
+  right: 0;
+  left: 0;
+  min-height: 24px;
+}
+@media (max-width: 430px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.logo-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.logo img {
+  flex: 0 0 24px;
+  width: 100%;
+  height: 100%;
+}
+.logo-title {
+  padding-top: 6px;
+  flex-grow: 0 0 57px;
+  margin-right: 90px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+@media (max-width: 430px) {
+  .logo {
+    margin-bottom: 17px;
+  }
+}
+
+.nav {
+  flex: 1 1 auto;
+}
+
+.menu {
+  flex-grow: 1;
+  padding-top: 6px;
+  color: #cacaca;
+}
+
+.ul-menu {
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+@media (max-width: 430px) {
+  .ul-menu {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+}
+
+li {
+  margin-right: 24px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.input {
+  min-width: 248px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  text-transform: uppercase;
+  background: #3c3b3d;
+  border: none;
+  border-radius: 50px;
+}
+
+.input::placeholder {
+  color: #757575;
+}
+
 #footer {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
@@ -641,6 +649,35 @@ h2 {
   .btn-download {
     margin-bottom: 100px;
   }
+}
+.btn-description-purple, .btn-description-red {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19.2px;
+  text-transform: uppercase;
+  justify-content: flex-start;
+  border: 0;
+}
+.btn-description-purple {
+  background-color: #5328a1;
+  margin-right: 24px;
+}
+@media (max-width: 430px) {
+  .btn-description-purple {
+    margin-bottom: 24px;
+  }
+}
+.btn-description-red {
+  background-color: #95390c;
+}
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 31px;
+  margin-right: 16px;
 }
 
 .card {
