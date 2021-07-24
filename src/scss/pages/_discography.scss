@@ -1,64 +1,51 @@
-// #page-discography {
-//   max-width: 1440px;
-//   min-height: 868px;
-//   padding: 100px 120px 0 120px;
-//   // align-items: center;
-//   color: $gray;
+#page-discography {
+  // min-height: 868px;
+  // padding: 100px 0 0 0;
+  color: $white;
 
-//   @include set-media(414px) {
-//     min-height: 897px;
-//     padding-left: 20px;
-//     padding-right: 0;
-//   }
-// }
+  // @include set-media(430px) {
+  //   min-height: 897px;
+  // }
+}
 
-// .title {
-//   margin-bottom: 48px;
-//   @include h2;
-//   text-transform: uppercase;
+.title {
+  margin-bottom: 23px;
+  @include h2;
 
-//   @include set-media(414px) {
-//     @include h2-mob;
-//   }
-// }
+  @include set-media(430px) {
+    @include h2-mob;
+  }
+}
 
-// .item {
-//   width: 250px;
-//   height: auto;
-//   margin-right: 50px;
-//   margin-bottom: 25px;
+.item {
+  margin-right: 50px;
+  margin-top: 25px;
 
-//   @include set-media(414px) {
-//     width: 137px;
-//     height: auto;
-//   }
+  &-foto {
+    width: 250px;
+    height: 250px;
 
-//   &-name {
-//     width: fit-content;
+    @include set-media(430px) {
+      width: 137px;
+      height: 137px;
+    }
+  }
 
-//     @include h4;
+  &-name {
+    // width: fit-content;
 
-//     @include set-media(414px) {
-//       width: 138px;
-//       letter-spacing: -0.6px;
-//     }
-
-//     // !! разобраться со шрифтом
-//   }
-
-//   &-info {
-//     @include text-size-1;
-//   }
-
-//   img {
-//     width: 250px;
-//     height: 250px;
-
-//     @include set-media(414px) {
-//       width: 137px;
-//       height: 137px;
-//     }
-
-//     padding-bottom: 18px;
-//   }
-// }
+    @include h4;
+    //! разобраться со шрифтами
+    @include set-media(430px) {
+      width: 137px;
+      letter-spacing: -0.6px;
+    }
+  }
+  &-date {
+    @include text-size-1;
+    color: $gray;
+  }
+  img {
+    width: 100%;
+  }
+}

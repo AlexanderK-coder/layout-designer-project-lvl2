@@ -1,61 +1,50 @@
-// #page-popular-tracks {
-//   max-width: 1440px;
-//   min-height: 420px;
-//   padding: 100px 120px 0 120px;
+#page-popular-tracks {
+  min-height: 420px;
 
-//   @include set-media(414px) {
-//     height: 630px;
-//     padding-left: 20px;
-//     padding-right: 20px;
-//   }
+  @include set-media(430px) {
+    min-height: 630px;
+  }
 
-//   .tracks {
-//     margin-bottom: 48px;
-//     @include h2;
-//     text-transform: uppercase;
+  .tracks {
+    margin-bottom: 23px;
+    @include h2;
 
-//     @include set-media(414px) {
-//       @include h2-mob;
-//     }
-//     color: $white;
-//   }
+    @include set-media(430px) {
+      @include h2-mob;
+    }
+    color: $white;
+  }
+}
 
-//   .track-info,
-//   .track-timing {
-//     @include small-text;
-//   }
-//   .track-name {
-//     font-weight: bold;
-//     text-transform: uppercase;
-//     color: $white;
-//   }
+.track {
+  width: 575px;
+  margin-top: 25px;
 
-//   .artists,
-//   .track-timing {
-//     color: $gray;
-//   }
-// }
+  &-info {
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 15px;
+    @include small-text;
+  }
 
-// .trakcs-container {
-//   max-width: 1200px;
-//   max-height: 215px;
-// }
+  &-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
+  }
 
-// .track {
-//   width: 575px;
-//   margin-bottom: 25px;
+  &-timing {
+    margin: auto;
+    @include small-text;
+    color: $gray;
+  }
 
-//   img {
-//     width: 55px;
-//     height: 55px;
-//   }
-//   &-info {
-//     flex-direction: column;
-//     flex-grow: 1;
-//     padding-left: 15px;
-//   }
+  img {
+    width: 55px;
+    height: 55px;
+  }
+}
 
-//   &-timing {
-//     margin: auto;
-//   }
-// }
+.artists {
+  color: $gray;
+}

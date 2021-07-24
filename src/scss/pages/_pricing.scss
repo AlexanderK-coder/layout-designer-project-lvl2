@@ -1,6 +1,4 @@
 #page-pricing {
-  padding-top: 100px;
-
   h2 {
     @include h2;
     @include set-media(430px) {
