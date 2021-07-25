@@ -33,12 +33,13 @@
 
   &-name {
     // width: fit-content;
+    margin-top: 18px;
 
     @include h4;
     //! разобраться со шрифтами
     @include set-media(430px) {
       width: 137px;
-      letter-spacing: -0.6px;
+      // letter-spacing: -0.6px;
     }
   }
   &-date {
