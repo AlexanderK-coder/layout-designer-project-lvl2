@@ -8,11 +8,6 @@
       width: 137px;
     }
 
-    @include set-media(375px) {
-      width: 250px;
-      text-align: center;
-    }
-
     img {
       width: 100%;
     }
