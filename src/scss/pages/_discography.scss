@@ -1,11 +1,34 @@
 #page-discography {
-  // min-height: 868px;
-  // padding: 100px 0 0 0;
-  color: $white;
+  text-align: left;
+  .item {
+    width: 250px;
+    margin: 25px 50px 0 0;
 
-  // @include set-media(430px) {
-  //   min-height: 897px;
-  // }
+    @include set-media(430px) {
+      width: 137px;
+    }
+
+    @include set-media(375px) {
+      width: 250px;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    &-name {
+      max-width: 100%;
+      margin-top: 18px;
+      @include h4;
+      color: $white;
+    }
+
+    &-date {
+      @include text-size-1;
+      color: $gray;
+    }
+  }
 }
 
 .title {
@@ -14,39 +37,5 @@
 
   @include set-media(430px) {
     @include h2-mob;
-  }
-}
-
-.item {
-  margin-right: 50px;
-  margin-top: 25px;
-
-  &-foto {
-    width: 250px;
-    height: 250px;
-
-    @include set-media(430px) {
-      width: 137px;
-      height: 137px;
-    }
-  }
-
-  &-name {
-    // width: fit-content;
-    margin-top: 18px;
-
-    @include h4;
-    //! разобраться со шрифтами
-    @include set-media(430px) {
-      width: 137px;
-      // letter-spacing: -0.6px;
-    }
-  }
-  &-date {
-    @include text-size-1;
-    color: $gray;
-  }
-  img {
-    width: 100%;
   }
 }

@@ -382,6 +382,50 @@ a {
   }
 }
 
+#page-similar {
+  padding-bottom: 100px;
+}
+#page-similar .item {
+  width: 250px;
+  margin: 25px 50px 0 0;
+}
+@media (max-width: 430px) {
+  #page-similar .item {
+    width: 137px;
+  }
+  #page-similar .item .item-bottom {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 376px) {
+  #page-similar .item {
+    width: 250px;
+    text-align: center;
+  }
+}
+#page-similar .item img {
+  max-width: 100%;
+  border: 0;
+  border-radius: 50%;
+}
+#page-similar .item-name {
+  max-width: 100%;
+  margin-top: 18px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #fff;
+}
+#page-similar .item-info {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #e0e0e0;
+}
+
 #page-popular-tracks {
   min-height: 420px;
 }
@@ -445,7 +489,42 @@ a {
 }
 
 #page-discography {
+  text-align: left;
+}
+#page-discography .item {
+  width: 250px;
+  margin: 25px 50px 0 0;
+}
+@media (max-width: 430px) {
+  #page-discography .item {
+    width: 137px;
+  }
+}
+@media (max-width: 375px) {
+  #page-discography .item {
+    width: 250px;
+    text-align: center;
+  }
+}
+#page-discography .item img {
+  width: 100%;
+}
+#page-discography .item-name {
+  max-width: 100%;
+  margin-top: 18px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: capitalize;
   color: #fff;
+}
+#page-discography .item-date {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #e0e0e0;
 }
 
 .title {
@@ -464,44 +543,6 @@ a {
     line-height: 27px;
     text-transform: uppercase;
   }
-}
-
-.item {
-  margin-right: 50px;
-  margin-top: 25px;
-}
-.item-foto {
-  width: 250px;
-  height: 250px;
-}
-@media (max-width: 430px) {
-  .item-foto {
-    width: 137px;
-    height: 137px;
-  }
-}
-.item-name {
-  margin-top: 18px;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 27px;
-  text-transform: capitalize;
-}
-@media (max-width: 430px) {
-  .item-name {
-    width: 137px;
-  }
-}
-.item-date {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  color: #e0e0e0;
-}
-.item img {
-  width: 100%;
 }
 
 .header {
