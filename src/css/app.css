@@ -358,6 +358,13 @@ a {
     height: 184px;
   }
 }
+@media (max-width: 376px) {
+  .app-text {
+    margin-top: 16px;
+    width: 340px;
+    height: 184px;
+  }
+}
 
 .iphone {
   width: 333px;
