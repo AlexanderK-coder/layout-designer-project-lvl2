@@ -2,17 +2,14 @@
   font-family: "Roboto-Regular";
   src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Roboto-Bold";
   src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Roboto-Medium";
   src: url("../fonts/Roboto-Medium.ttf") format("truetype");
 }
-
 * {
   box-sizing: border-box;
 }
@@ -49,14 +46,13 @@ section {
 
 .container {
   max-width: 1200px;
-  padding: 0;
   margin: 0 auto;
+  padding: 0;
 }
-
 @media (max-width: 430px) {
   .container {
-    padding: 0 20px 0 20px;
     margin: 0 auto;
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -128,17 +124,12 @@ a {
   margin-bottom: 0;
 }
 
-#page-description {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 @media (max-width: 430px) {
   #page-description {
     padding-top: 250px;
+    padding-bottom: 200px;
   }
 }
-
 #page-description h1 {
   font-size: 60px;
   font-style: normal;
@@ -146,7 +137,6 @@ a {
   line-height: 90px;
   text-transform: uppercase;
 }
-
 @media (max-width: 430px) {
   #page-description h1 {
     font-size: 30px;
@@ -156,7 +146,6 @@ a {
     text-transform: uppercase;
   }
 }
-
 #page-description h2 {
   font-size: 38px;
   font-style: normal;
@@ -164,7 +153,6 @@ a {
   line-height: 57px;
   text-transform: uppercase;
 }
-
 @media (max-width: 430px) {
   #page-description h2 {
     font-size: 18px;
@@ -174,16 +162,12 @@ a {
     text-transform: uppercase;
   }
 }
-
 #page-description .sub {
-  margin-top: 32px;
-  margin-bottom: 27px;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
 }
-
 @media (max-width: 430px) {
   #page-description .sub {
     margin-top: 16px;
@@ -191,13 +175,25 @@ a {
 }
 
 .banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: url("../images/banner.png") no-repeat center;
   background-size: cover;
 }
+.banner .sub {
+  margin-top: 31px;
+  margin-bottom: 17px;
+}
 
 .artists-banner {
+  padding-top: 250px;
+  padding-bottom: 200px;
   background: url("../images/Morten Harket.png") no-repeat center;
   background-size: cover;
+}
+.artists-banner .sub {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #page-pricing h2 {
@@ -207,7 +203,6 @@ a {
   line-height: 57px;
   text-transform: uppercase;
 }
-
 @media (max-width: 430px) {
   #page-pricing h2 {
     font-size: 18px;
@@ -217,20 +212,11 @@ a {
     text-transform: uppercase;
   }
 }
-
 #page-pricing .card-container {
-  width: 100%;
+  margin: 45px 0px;
   padding: 0;
-  margin: 45px 0;
+  width: 100%;
 }
-
-.page-text {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-}
-
 #page-pricing .page-text {
   font-size: 16px;
   font-style: normal;
@@ -239,29 +225,25 @@ a {
 }
 
 #news .news-item {
+  margin-top: 42px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 42px;
 }
-
 @media (max-width: 430px) {
   #news .news-item .foto-2 {
     order: -1;
   }
 }
-
 #news .news-info {
   max-width: 575px;
   height: auto;
   text-align: left;
 }
-
 @media (max-width: 430px) {
   #news .news-info {
     margin-top: 50px;
   }
 }
-
 #news .news-body h3 {
   font-size: 30px;
   font-style: normal;
@@ -269,7 +251,6 @@ a {
   line-height: 45px;
   text-transform: capitalize;
 }
-
 @media (max-width: 430px) {
   #news .news-body h3 {
     font-size: 16px;
@@ -279,34 +260,29 @@ a {
     text-transform: capitalize;
   }
 }
-
 #news .news-body p {
-  padding-top: 30px;
-  padding-bottom: 24px;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
+  padding-top: 30px;
+  padding-bottom: 24px;
   color: #cacaca;
 }
-
 @media (max-width: 430px) {
   #news .news-body p {
     padding-top: 16px;
   }
 }
-
 #news .news-footer .news-author {
   display: flex;
   margin-bottom: 50px;
 }
-
 #news .news-footer .avatar {
   width: 19px;
   height: 19px;
   background-image: url(/src/images/avatar.png);
 }
-
 #news .news-footer .autor {
   margin-left: 16px;
   font-size: 12.8px;
@@ -315,7 +291,6 @@ a {
   line-height: 19.2px;
   color: #f89202;
 }
-
 #news .news-footer .date {
   margin-left: 16px;
   font-size: 12.8px;
@@ -324,7 +299,6 @@ a {
   line-height: 19.2px;
   color: #cacaca;
 }
-
 #news h2 {
   font-size: 38px;
   font-style: normal;
@@ -332,7 +306,6 @@ a {
   line-height: 57px;
   text-transform: uppercase;
 }
-
 @media (max-width: 430px) {
   #news h2 {
     font-size: 18px;
@@ -342,37 +315,22 @@ a {
     text-transform: uppercase;
   }
 }
-
-.logo img {
-  flex: 0 0 24px;
-  width: 100%;
-  height: 100%;
-}
-
 #news .foto-1,
 #news .foto-2 {
   width: 575px;
   height: fit-content;
   padding: 0 42px 0 0;
 }
-
 @media (max-width: 430px) {
   #news .foto-1,
-  #news .foto-2 {
+#news .foto-2 {
     padding: 0;
   }
 }
-
 #news .foto-1 .foto-2,
 #news .foto-2 .foto-2 {
   order: -1;
 }
-
-.track img {
-  width: 55px;
-  height: 55px;
-}
-
 #news .foto-1 img,
 #news .foto-2 img {
   width: 100%;
@@ -383,7 +341,6 @@ a {
   height: 583px;
   text-align: center;
 }
-
 @media (max-width: 430px) {
   #page-app {
     height: 822px;
@@ -401,12 +358,11 @@ a {
   color: #cacaca;
   text-align: left;
 }
-
 @media (max-width: 430px) {
   .app-text {
+    margin-top: 16px;
     width: 370px;
     height: 184px;
-    margin-top: 16px;
   }
 }
 
@@ -416,7 +372,6 @@ a {
   margin-top: 48px;
   margin-left: 144px;
 }
-
 @media (max-width: 430px) {
   .iphone {
     margin-left: 20px;
@@ -427,7 +382,6 @@ a {
   display: flex;
   flex-direction: row;
 }
-
 @media (max-width: 430px) {
   .app-flex {
     display: flex;
@@ -438,28 +392,23 @@ a {
 #page-similar {
   padding-bottom: 100px;
 }
-
 #page-similar .item {
   width: 250px;
   margin: 25px 50px 0 0;
 }
-
 @media (max-width: 430px) {
   #page-similar .item {
     width: 137px;
   }
-
   #page-similar .item .item-bottom {
     margin-bottom: 0;
   }
 }
-
 #page-similar .item img {
   max-width: 100%;
   border: 0;
   border-radius: 50%;
 }
-
 #page-similar .item-name {
   max-width: 100%;
   margin-top: 18px;
@@ -467,10 +416,9 @@ a {
   font-style: normal;
   font-weight: bold;
   line-height: 27px;
-  color: #fff;
   text-transform: capitalize;
+  color: #fff;
 }
-
 #page-similar .item-info {
   font-size: 16px;
   font-style: normal;
@@ -482,23 +430,20 @@ a {
 #page-popular-tracks {
   min-height: 420px;
 }
-
 @media (max-width: 430px) {
   #page-popular-tracks {
     min-height: 630px;
   }
 }
-
 #page-popular-tracks .tracks {
   margin-bottom: 23px;
   font-size: 38px;
   font-style: normal;
   font-weight: bold;
   line-height: 57px;
-  color: #fff;
   text-transform: uppercase;
+  color: #fff;
 }
-
 @media (max-width: 430px) {
   #page-popular-tracks .tracks {
     font-size: 18px;
@@ -513,7 +458,6 @@ a {
   width: 575px;
   margin-top: 25px;
 }
-
 .track-info {
   flex-direction: column;
   flex-grow: 1;
@@ -523,13 +467,11 @@ a {
   font-weight: normal;
   line-height: 19.2px;
 }
-
 .track-name {
   font-weight: bold;
-  color: #fff;
   text-transform: uppercase;
+  color: #fff;
 }
-
 .track-timing {
   margin: auto;
   font-size: 12.8px;
@@ -537,6 +479,10 @@ a {
   font-weight: normal;
   line-height: 19.2px;
   color: #e0e0e0;
+}
+.track img {
+  width: 55px;
+  height: 55px;
 }
 
 .artists {
@@ -546,22 +492,18 @@ a {
 #page-discography {
   text-align: left;
 }
-
 #page-discography .item {
   width: 250px;
   margin: 25px 50px 0 0;
 }
-
 @media (max-width: 430px) {
   #page-discography .item {
     width: 137px;
   }
 }
-
 #page-discography .item img {
   width: 100%;
 }
-
 #page-discography .item-name {
   max-width: 100%;
   margin-top: 18px;
@@ -569,10 +511,9 @@ a {
   font-style: normal;
   font-weight: bold;
   line-height: 27px;
-  color: #fff;
   text-transform: capitalize;
+  color: #fff;
 }
-
 #page-discography .item-date {
   font-size: 16px;
   font-style: normal;
@@ -589,7 +530,6 @@ a {
   line-height: 57px;
   text-transform: uppercase;
 }
-
 @media (max-width: 430px) {
   .title {
     font-size: 18px;
@@ -602,13 +542,12 @@ a {
 
 .header {
   position: absolute;
+  flex-wrap: wrap;
   top: 25px;
   right: 0;
   left: 0;
-  flex-wrap: wrap;
   min-height: 24px;
 }
-
 @media (max-width: 430px) {
   .header {
     flex-direction: column;
@@ -620,10 +559,14 @@ a {
   height: 24px;
   margin-right: 16px;
 }
-
+.logo img {
+  flex: 0 0 24px;
+  width: 100%;
+  height: 100%;
+}
 .logo-title {
-  flex-grow: 0 0 57px;
   padding-top: 6px;
+  flex-grow: 0 0 57px;
   margin-right: 90px;
   font-size: 10px;
   font-style: normal;
@@ -631,7 +574,6 @@ a {
   line-height: 16px;
   text-transform: uppercase;
 }
-
 @media (max-width: 430px) {
   .logo {
     margin-bottom: 17px;
@@ -652,7 +594,6 @@ a {
   flex-grow: 1;
   flex-wrap: wrap;
 }
-
 @media (max-width: 430px) {
   .ul-menu {
     flex-direction: column;
@@ -690,36 +631,30 @@ li {
 #footer {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
-
 #footer .links-container {
   display: flex;
+  padding: 61px 0 74px;
   flex-wrap: wrap;
   justify-content: flex-between;
-  padding: 61px 0 74px;
 }
-
 #footer .links-container > * {
   width: 310px;
   margin-bottom: 30px;
 }
-
 #footer .links-container .links-item,
 #footer .links-container .links-img {
   max-width: 270px;
 }
-
 #footer .links-container .links-item:not(:first-child),
 #footer .links-container .links-img {
   margin-left: 40px;
 }
-
 @media (max-width: 430px) {
   #footer .links-container .links-item:not(:first-child),
-  #footer .links-container .links-img {
+#footer .links-container .links-img {
     margin-left: 0;
   }
 }
-
 #footer .links-container .links-title,
 #footer .links-container .exclude {
   margin-bottom: 16px;
@@ -727,61 +662,52 @@ li {
   font-style: normal;
   font-weight: bold;
   line-height: 27px;
-  color: #fff;
   text-transform: uppercase;
+  color: #fff;
 }
-
 #footer .links-container li {
-  margin-right: 0;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
   color: #e0e0e0;
   text-transform: lowercase;
+  margin-right: 0;
 }
-
-#footer .links-last > ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 40px 0 48px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-}
-
 #footer .links-container .links-img > ul {
   display: flex;
   flex-wrap: nowrap;
 }
-
-#footer .links-last li:not(:last-child) {
-  margin-right: 15px;
-}
-
 #footer .links-container .links-img li:not(:first-child) {
   margin-left: 24px;
 }
-
 #footer .links-container img {
-  max-height: 20px;
   margin-top: 5px;
+  max-height: 20px;
 }
-
 #footer .links-container hr {
   margin: 0;
   border: 0;
   border-bottom: 1px solid #e0e0e0;
 }
-
+#footer .links-last > ul {
+  padding: 40px 0 48px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
 @media (max-width: 430px) {
   #footer .links-last > ul {
     flex-direction: column;
     padding: 20px 0;
   }
 }
-
+#footer .links-last li:not(:last-child) {
+  margin-right: 15px;
+}
 @media (max-width: 430px) {
   #footer .links-last li:not(:last-child) {
     margin-bottom: 16px;
@@ -796,18 +722,16 @@ li {
   margin: 0 auto 0;
   color: #fff;
 }
-
 .form-input {
   flex: 1 1 270px;
   max-width: 270px;
   min-height: 50px;
-  padding: 0 20px;
   margin-bottom: 1.5rem;
+  padding: 0 20px;
   background: transparent;
   border: 2px solid #cacaca;
   border-radius: 3px;
 }
-
 @media (max-width: 430px) {
   .form-input {
     flex: 1 1 570px;
@@ -819,31 +743,29 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   background: none;
   border-radius: 5px;
+  cursor: pointer;
 }
-
 .btn-form {
   flex: 1 1 570px;
   max-width: 570px;
   min-height: 57px;
+  background-color: #34c176;
   font-family: Arial, sans-serif;
   font-size: 13.3px;
   font-style: normal;
   font-weight: normal;
   line-height: 15px;
-  color: #fff;
   text-transform: uppercase;
-  background-color: #34c176;
+  color: #fff;
   border: none;
 }
-
 .btn-card {
   max-width: 100%;
-  padding: 20px 0;
   margin-top: 40px;
   margin-bottom: 64px;
+  padding: 20px 0;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -851,7 +773,6 @@ li {
   color: #fff;
   border: 1px solid #fff;
 }
-
 .btn-feed {
   max-width: 135px;
   height: 53px;
@@ -862,28 +783,23 @@ li {
   text-transform: uppercase;
   border: 1px solid #cacaca;
 }
-
 .btn-download {
   max-width: 131px;
   height: 53px;
   margin-top: 16px;
+  border-radius: 32px;
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
   line-height: 19.2px;
   background-color: #95390c;
-  border-radius: 32px;
 }
-
 @media (max-width: 430px) {
   .btn-download {
     margin-bottom: 100px;
   }
 }
-
-.btn-description-purple,
-.btn-description-red {
-  justify-content: flex-start;
+.btn-description-purple, .btn-description-red {
   width: 200px;
   height: 62px;
   font-size: 12.8px;
@@ -891,29 +807,26 @@ li {
   font-weight: normal;
   line-height: 19.2px;
   text-transform: uppercase;
+  justify-content: flex-start;
   border: 0;
 }
-
 .btn-description-purple {
-  margin-right: 24px;
   background-color: #5328a1;
+  margin-right: 24px;
 }
-
 @media (max-width: 430px) {
   .btn-description-purple {
     margin-bottom: 24px;
   }
 }
-
 .btn-description-red {
   background-color: #95390c;
 }
-
 .btn-icon {
   width: 20px;
   height: 20px;
-  margin-right: 16px;
   margin-left: 31px;
+  margin-right: 16px;
 }
 
 .card {
@@ -923,14 +836,12 @@ li {
   border: 1px solid #fff;
   border-radius: 16px;
 }
-
 @media (max-width: 430px) {
   .card {
     width: 374px;
     margin-top: 0 0 20px 0;
   }
 }
-
 .card-title {
   padding-bottom: 200px;
   font-size: 24px;
@@ -938,7 +849,6 @@ li {
   font-weight: normal;
   line-height: 45px;
 }
-
 @media (max-width: 430px) {
   .card-title {
     font-size: 16px;
@@ -947,38 +857,40 @@ li {
     line-height: 24px;
   }
 }
-
 .card-price {
   font-size: 64px;
   font-style: normal;
   font-weight: normal;
   line-height: 64px;
 }
-
 .card-value {
-  margin-left: 16px;
   font-size: 32px;
   font-style: normal;
   font-weight: normal;
   line-height: 48px;
+  margin-left: 16px;
 }
-
 .card-text {
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
   line-height: 19.2px;
 }
-
 .card:not(:last-child) {
   margin-right: 45px;
 }
-
 @media (max-width: 430px) {
   .card:not(:last-child) {
     width: 374px;
     margin: 0 0 20px 0;
   }
+}
+
+.page-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
 }
 
 .bg-card-1 {

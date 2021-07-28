@@ -1,13 +1,12 @@
 #page-description {
-  padding-top: 200px;
-  padding-bottom: 200px;
-
   @include set-media(430px) {
     padding-top: 250px;
+    padding-bottom: 200px;
   }
 
   h1 {
     @include h1;
+
     @include set-media(430px) {
       @include h1-mob;
     }
@@ -22,8 +21,6 @@
   }
   .sub {
     @include text-size-1;
-    margin-top: 32px;
-    margin-bottom: 27px;
 
     @include set-media(430px) {
       margin-top: 16px;
@@ -32,33 +29,24 @@
 }
 
 .banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   @include bg-image("banner.png");
+  .sub {
+    margin-top: 31px;
+    margin-bottom: 17px;
+  }
 }
 
 .artists-banner {
+  padding-top: 250px;
+  padding-bottom: 200px;
+
   @include bg-image("Morten Harket.png");
+
+  .sub {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
-
-//   h1 {
-//     @include h1;
-//     // margin-left: 120px;
-
-//     @include set-media(414px) {
-//       @include h1-mob;
-//     }
-//   }
-
-//   .sub {
-//     @include text-size-1;
-
-//     margin-top: 16px;
-//     margin-bottom: 48px;
-
-//     @include set-media(414px) {
-//       margin-top: 16px;
-//     }
-//   }
-//   // .choose {
-
-//   // }
-// }
