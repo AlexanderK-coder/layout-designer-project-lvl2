@@ -171,6 +171,7 @@ a {
 @media (max-width: 430px) {
   #page-description .sub {
     margin-top: 16px;
+    margin-bottom: 48px;
   }
 }
 
@@ -597,7 +598,6 @@ a {
 @media (max-width: 430px) {
   .ul-menu {
     flex-direction: column;
-    margin-bottom: 23px;
   }
 }
 
@@ -614,6 +614,7 @@ li {
   min-width: 248px;
   height: 25px;
   padding-left: 10px;
+  margin-top: 18px;
   font-size: 13.3px;
   font-style: normal;
   font-weight: normal;

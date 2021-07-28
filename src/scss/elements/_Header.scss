@@ -50,7 +50,6 @@
   flex-wrap: wrap;
   @include set-media(430px) {
     flex-direction: column;
-    margin-bottom: 23px;
   }
 }
 
@@ -63,6 +62,7 @@ li {
   min-width: 248px;
   height: 25px;
   padding-left: 10px;
+  margin-top: 18px;
   @include set-text(13.3px, 15px);
   text-transform: uppercase;
   background: $dark;
