@@ -71,14 +71,13 @@ li {
   height: 25px;
   padding-left: 10px;
 
-  @include set-text(13.3px, 15px);
-  text-transform: uppercase;
+  @include main-btn;
   background: $dark;
   border: none;
   border-radius: 50px;
 
   @include set-media(430px) {
-    margin-top: 18px;
+    margin-top: 16px;
   }
 }
 
