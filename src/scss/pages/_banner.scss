@@ -36,18 +36,19 @@
 
 .banner {
   height: 750px;
-  margin-top: 50px;
+
   @include set-media(430px) {
     height: 853px;
-    margin-top: 25px;
   }
   @include bg-image("banner.png");
 }
 
 .artists-banner {
   height: 713px;
+  margin-top: 50px;
   @include set-media(430px) {
     height: 730px;
+    margin-top: 25px;
   }
   @include bg-image("Morten Harket.png");
 }
