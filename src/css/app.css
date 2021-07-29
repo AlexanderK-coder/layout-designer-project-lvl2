@@ -338,6 +338,7 @@ a {
   font-weight: bold;
   line-height: 57px;
   text-transform: uppercase;
+  text-align: center;
 }
 @media (max-width: 430px) {
   #news h2 {
@@ -890,6 +891,7 @@ li {
 @media (max-width: 430px) {
   .card {
     width: 374px;
+    margin-top: 0 0 20px 0;
   }
 }
 .card-title {
