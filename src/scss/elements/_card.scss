@@ -14,6 +14,7 @@
   }
 
   &-title {
+    margin-bottom: 200px;
     @include set-header(24px, 36px, normal);
     @include set-media(430px) {
       @include h3-mob;
