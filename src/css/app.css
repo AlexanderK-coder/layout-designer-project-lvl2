@@ -167,12 +167,22 @@ a {
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
+  margin-top: 31px;
+  margin-bottom: 17px;
 }
 @media (max-width: 430px) {
   #page-description .sub {
     margin-top: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 17px;
   }
+}
+#page-description .sub-art {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
 }
 
 .banner {
@@ -181,20 +191,12 @@ a {
   background: url("../images/banner.png") no-repeat center;
   background-size: cover;
 }
-.banner .sub {
-  margin-top: 31px;
-  margin-bottom: 17px;
-}
 
 .artists-banner {
   padding-top: 250px;
   padding-bottom: 200px;
   background: url("../images/Morten Harket.png") no-repeat center;
   background-size: cover;
-}
-.artists-banner .sub {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 #page-pricing h2 {
@@ -577,17 +579,21 @@ a {
 }
 @media (max-width: 430px) {
   .logo {
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
 }
 
 .nav {
   flex: 1 1 auto;
-}
-
-.menu {
-  flex-grow: 1;
   padding-top: 6px;
+}
+@media (max-width: 430px) {
+  .nav {
+    max-width: fit-content;
+  }
+}
+.nav .menu {
+  flex-grow: 1;
   color: #cacaca;
 }
 
@@ -609,12 +615,16 @@ li {
   line-height: 16px;
   text-transform: uppercase;
 }
+@media (max-width: 430px) {
+  li {
+    margin-right: 0;
+  }
+}
 
 .input {
   min-width: 248px;
   height: 25px;
   padding-left: 10px;
-  margin-top: 18px;
   font-size: 13.3px;
   font-style: normal;
   font-weight: normal;
@@ -623,6 +633,11 @@ li {
   background: #3c3b3d;
   border: none;
   border-radius: 50px;
+}
+@media (max-width: 430px) {
+  .input {
+    margin-top: 18px;
+  }
 }
 
 .input::placeholder {
@@ -727,7 +742,7 @@ li {
   flex: 1 1 270px;
   max-width: 270px;
   min-height: 50px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
   padding: 0 20px;
   background: transparent;
   border: 2px solid #cacaca;

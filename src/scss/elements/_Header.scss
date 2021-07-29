@@ -31,18 +31,22 @@
     @include menu-font;
   }
   @include set-media(430px) {
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
 }
 
 .nav {
   flex: 1 1 auto;
-}
-
-.menu {
-  flex-grow: 1;
   padding-top: 6px;
-  color: $dark-gray;
+  @include set-media(430px) {
+    max-width: fit-content;
+  }
+
+  .menu {
+    flex-grow: 1;
+
+    color: $dark-gray;
+  }
 }
 
 .ul-menu {
@@ -56,18 +60,25 @@
 li {
   margin-right: 24px;
   @include menu-font;
+  @include set-media(430px) {
+    margin-right: 0;
+  }
 }
 
 .input {
   min-width: 248px;
   height: 25px;
   padding-left: 10px;
-  margin-top: 18px;
+
   @include set-text(13.3px, 15px);
   text-transform: uppercase;
   background: $dark;
   border: none;
   border-radius: 50px;
+
+  @include set-media(430px) {
+    margin-top: 18px;
+  }
 }
 
 .input::placeholder {
