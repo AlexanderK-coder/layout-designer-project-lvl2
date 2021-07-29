@@ -35,6 +35,13 @@
 }
 
 .desc {
+  margin-top: 0;
+  @include set-media(430px) {
+    margin-top: 50px;
+  }
+}
+
+.art-desc {
   margin-top: 50px;
   @include set-media(430px) {
     margin-top: 25px;
