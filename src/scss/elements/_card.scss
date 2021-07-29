@@ -8,13 +8,12 @@
 
   @include set-media(430px) {
     width: 374px;
-    margin-top: 0 0 20px 0;
+    // margin-top: 0 0 20px 0;
 
     // * отступы карточек
   }
 
   &-title {
-    padding-bottom: 200px;
     @include h3;
     @include set-media(430px) {
       @include h3-mob;
@@ -22,6 +21,7 @@
   }
 
   &-price {
+    padding-top: 200px;
     @include card-price;
   }
 

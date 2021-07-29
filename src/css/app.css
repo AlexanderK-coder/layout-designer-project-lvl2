@@ -250,11 +250,6 @@ a {
   padding: 0;
   width: 100%;
 }
-#page-pricing .type {
-  width: 100%;
-  height: 244px;
-  text-align: center;
-}
 #page-pricing .page-text {
   font-size: 16px;
   font-style: normal;
@@ -895,11 +890,9 @@ li {
 @media (max-width: 430px) {
   .card {
     width: 374px;
-    margin-top: 0 0 20px 0;
   }
 }
 .card-title {
-  padding-bottom: 200px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
@@ -914,6 +907,7 @@ li {
   }
 }
 .card-price {
+  padding-top: 200px;
   font-size: 64px;
   font-style: normal;
   font-weight: normal;
