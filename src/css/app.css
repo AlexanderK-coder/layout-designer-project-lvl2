@@ -137,6 +137,7 @@ a {
   font-weight: bold;
   line-height: 90px;
   text-transform: uppercase;
+  margin-top: 50px;
 }
 @media (max-width: 430px) {
   #page-description h1 {
@@ -145,6 +146,7 @@ a {
     font-weight: bold;
     line-height: 45px;
     text-transform: uppercase;
+    margin-top: 25px;
   }
 }
 #page-description h2 {
@@ -194,7 +196,7 @@ a {
 }
 
 .artists-banner {
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 200px;
   background: url("../images/Morten Harket.png") no-repeat center;
   background-size: cover;
@@ -327,7 +329,7 @@ a {
 }
 @media (max-width: 430px) {
   #news .foto-1,
-  #news .foto-2 {
+#news .foto-2 {
     padding: 0;
   }
 }
@@ -569,7 +571,7 @@ a {
   height: 100%;
 }
 .logo-title {
-  padding-top: 6px;
+  padding-top: 4px;
   flex-grow: 0 0 57px;
   margin-right: 90px;
   font-size: 10px;
@@ -591,6 +593,7 @@ a {
 @media (max-width: 430px) {
   .nav {
     max-width: fit-content;
+    padding-top: 0;
   }
 }
 .nav .menu {
@@ -668,7 +671,7 @@ li {
 }
 @media (max-width: 430px) {
   #footer .links-container .links-item:not(:first-child),
-  #footer .links-container .links-img {
+#footer .links-container .links-img {
     margin-left: 0;
   }
 }
@@ -816,8 +819,7 @@ li {
     margin-bottom: 100px;
   }
 }
-.btn-description-purple,
-.btn-description-red {
+.btn-description-purple, .btn-description-red {
   width: 200px;
   height: 62px;
   font-size: 12.8px;

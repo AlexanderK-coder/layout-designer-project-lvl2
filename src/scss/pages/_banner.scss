@@ -5,9 +5,10 @@
 
   h1 {
     @include h1;
-
+    margin-top: 50px;
     @include set-media(430px) {
       @include h1-mob;
+      margin-top: 25px;
     }
   }
 
@@ -43,7 +44,7 @@
 }
 
 .artists-banner {
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 200px;
 
   @include bg-image("Morten Harket.png");
