@@ -896,7 +896,7 @@ li {
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
-  line-height: 45px;
+  line-height: 36px;
 }
 @media (max-width: 430px) {
   .card-title {
@@ -939,11 +939,6 @@ li {
   width: 100%;
   height: 100%;
   flex-direction: column;
-  justify-content: flex-end;
-}
-
-.card-title {
-  flex-grow: 1;
 }
 
 .page-text {
