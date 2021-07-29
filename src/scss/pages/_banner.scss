@@ -1,20 +1,12 @@
 #page-description {
-  height: 713px;
-  @include set-media(430px) {
-    height: 730px;
-  }
   padding-top: 200px;
   padding-bottom: 200px;
-  .desc {
-    margin-top: 50px;
-  }
 
   h1 {
     @include h1;
-    margin-top: 50px;
+
     @include set-media(430px) {
       @include h1-mob;
-      margin-top: 25px;
     }
   }
 
@@ -43,9 +35,19 @@
 }
 
 .banner {
+  height: 750px;
+  margin-top: 50px;
+  @include set-media(430px) {
+    height: 853px;
+    margin-top: 25px;
+  }
   @include bg-image("banner.png");
 }
 
 .artists-banner {
+  height: 713px;
+  @include set-media(430px) {
+    height: 730px;
+  }
   @include bg-image("Morten Harket.png");
 }
