@@ -79,6 +79,15 @@ $placeholder: #757575;
   text-transform: uppercase;
 }
 
+@mixin main-input {
+  @include set-text(14px, 16px);
+}
+
+@mixin main-btn {
+  @include set-text(13.3px, 15px);
+  text-transform: uppercase;
+}
+
 @mixin text-size-1 {
   @include set-text(16px, 24px);
 }

@@ -17,8 +17,7 @@
     background-color: $green;
     font-family: Arial, sans-serif;
 
-    @include set-text(13.3px, 15px);
-    text-transform: uppercase;
+    @include main-btn;
 
     color: $white;
     border: none;

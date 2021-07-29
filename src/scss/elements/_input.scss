@@ -15,6 +15,7 @@
     background: transparent;
     border: 2px solid $dark-gray;
     border-radius: 3px;
+    @include main-input;
 
     @include set-media(430px) {
       flex: 1 1 570px;
