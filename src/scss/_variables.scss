@@ -112,8 +112,8 @@ $placeholder: #757575;
 // background, media, gradient
 
 @mixin bg-image($image) {
-  // text-align: center;
-  background: url("../images/#{$image}") no-repeat center;
+  background-image: url("../images/#{$image}");
+  background-position: center;
   background-size: cover;
 }
 

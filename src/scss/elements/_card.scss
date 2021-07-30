@@ -8,6 +8,8 @@
 
   @include set-media(430px) {
     width: 374px;
+    height: auto;
+    padding: 24px 17px 86px 24px;
     margin-top: 0 0 20px 0;
   }
   // * отступы карточек
