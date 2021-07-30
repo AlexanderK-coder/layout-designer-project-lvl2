@@ -972,3 +972,6 @@ li {
   background-position: center;
   background-size: cover;
 }
+.bg-card-3 .card-text {
+  padding: 0 5px;
+}
