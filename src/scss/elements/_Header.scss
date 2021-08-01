@@ -28,7 +28,7 @@
   &-title {
     padding-top: 4px;
     flex-grow: 0 0 57px;
-    margin-right: 0px;
+
     @include menu-font;
   }
   @include set-media(430px) {
@@ -39,15 +39,12 @@
 .nav {
   width: 675px;
   flex: 0 0 auto;
-  padding-top: 6px;
   @include set-media(430px) {
     max-width: fit-content;
     margin-top: 16px;
   }
 
   .menu {
-    flex-grow: 1;
-
     color: $dark-gray;
   }
 }
