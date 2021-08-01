@@ -50,7 +50,7 @@
 }
 
 .ul-menu {
-  flex-grow: 1;
+  // flex-grow: 1;
   flex-wrap: wrap;
   @include set-media(430px) {
     flex-direction: column;
