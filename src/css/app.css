@@ -590,6 +590,9 @@ a {
   }
 }
 
+.logo {
+  width: 97px;
+}
 .logo-image {
   width: 24px;
   height: 24px;
@@ -603,7 +606,7 @@ a {
 .logo-title {
   padding-top: 4px;
   flex-grow: 0 0 57px;
-  margin-right: 90px;
+  margin-right: 0px;
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
@@ -612,18 +615,19 @@ a {
 }
 @media (max-width: 430px) {
   .logo {
-    margin-bottom: 16px;
+    margin-right: 0;
   }
 }
 
 .nav {
-  flex: 1 1 auto;
+  width: 675px;
+  flex: 0 0 auto;
   padding-top: 6px;
 }
 @media (max-width: 430px) {
   .nav {
     max-width: fit-content;
-    padding-top: 0;
+    margin-top: 16px;
   }
 }
 .nav .menu {
