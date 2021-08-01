@@ -11,7 +11,7 @@
 }
 
 .logo {
-  width: 97px;
+  max-width: fit-content;
   &-image {
     width: 24px;
     height: 24px;
@@ -26,31 +26,37 @@
   }
 
   &-title {
-    padding-top: 4px;
     flex-grow: 0 0 59px;
+    padding-top: 4px;
 
     @include menu-font;
   }
   @include set-media(430px) {
     margin-right: 0;
+    @include menu-font-mob;
   }
 }
 
 .nav {
   width: 675px;
   flex: 0 0 auto;
+
   @include set-media(430px) {
-    max-width: fit-content;
-    margin-top: 17px;
+    width: fit-content;
+    margin-top: 15px;
   }
 
   .menu {
+    padding-top: 5px;
+
     color: $dark-gray;
+    @include set-media(430px) {
+      padding-top: 2px;
+    }
   }
 }
 
 .ul-menu {
-  // flex-grow: 1;
   flex-wrap: wrap;
   @include set-media(430px) {
     flex-direction: column;
@@ -61,7 +67,11 @@ li {
   margin-right: 24px;
   @include menu-font;
   @include set-media(430px) {
-    margin-right: 0;
+    &:not(:last-child) {
+      padding-bottom: 3px;
+    }
+    margin-right: 0px;
+    @include menu-font-mob;
   }
 }
 

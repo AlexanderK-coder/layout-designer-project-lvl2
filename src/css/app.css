@@ -591,7 +591,7 @@ a {
 }
 
 .logo {
-  width: 97px;
+  max-width: fit-content;
 }
 .logo-image {
   width: 24px;
@@ -604,17 +604,22 @@ a {
   height: 100%;
 }
 .logo-title {
-  padding-top: 4px;
   flex-grow: 0 0 59px;
-  font-size: 10px;
+  padding-top: 4px;
+  font-size: 11px;
   font-style: normal;
   font-weight: normal;
-  line-height: 16px;
+  line-height: 16.5px;
   text-transform: uppercase;
 }
 @media (max-width: 430px) {
   .logo {
     margin-right: 0;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12.89px;
+    text-transform: uppercase;
   }
 }
 
@@ -624,12 +629,18 @@ a {
 }
 @media (max-width: 430px) {
   .nav {
-    max-width: fit-content;
-    margin-top: 17px;
+    width: fit-content;
+    margin-top: 15px;
   }
 }
 .nav .menu {
+  padding-top: 5px;
   color: #cacaca;
+}
+@media (max-width: 430px) {
+  .nav .menu {
+    padding-top: 2px;
+  }
 }
 
 .ul-menu {
@@ -643,15 +654,23 @@ a {
 
 li {
   margin-right: 24px;
-  font-size: 10px;
+  font-size: 11px;
   font-style: normal;
   font-weight: normal;
-  line-height: 16px;
+  line-height: 16.5px;
   text-transform: uppercase;
 }
 @media (max-width: 430px) {
   li {
-    margin-right: 0;
+    margin-right: 0px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12.89px;
+    text-transform: uppercase;
+  }
+  li:not(:last-child) {
+    padding-bottom: 3px;
   }
 }
 
