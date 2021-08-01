@@ -11,6 +11,7 @@
 }
 
 .logo {
+  width: 97px;
   &-image {
     width: 24px;
     height: 24px;
@@ -27,20 +28,21 @@
   &-title {
     padding-top: 4px;
     flex-grow: 0 0 57px;
-    margin-right: 90px;
+    margin-right: 0px;
     @include menu-font;
   }
   @include set-media(430px) {
-    margin-bottom: 16px;
+    margin-right: 0;
   }
 }
 
 .nav {
-  flex: 1 1 auto;
+  width: 675px;
+  flex: 0 0 auto;
   padding-top: 6px;
   @include set-media(430px) {
     max-width: fit-content;
-    padding-top: 0;
+    margin-top: 16px;
   }
 
   .menu {
