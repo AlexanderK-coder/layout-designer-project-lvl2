@@ -606,7 +606,6 @@ a {
 .logo-title {
   padding-top: 4px;
   flex-grow: 0 0 57px;
-  margin-right: 0px;
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
@@ -622,21 +621,18 @@ a {
 .nav {
   width: 675px;
   flex: 0 0 auto;
-  padding-top: 6px;
 }
 @media (max-width: 430px) {
   .nav {
     max-width: fit-content;
-    margin-top: 16px;
+    margin-top: 17px;
   }
 }
 .nav .menu {
-  flex-grow: 1;
   color: #cacaca;
 }
 
 .ul-menu {
-  flex-grow: 1;
   flex-wrap: wrap;
 }
 @media (max-width: 430px) {

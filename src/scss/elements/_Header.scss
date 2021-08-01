@@ -32,7 +32,6 @@
     @include menu-font;
   }
   @include set-media(430px) {
-    padding-top: 0;
     margin-right: 0;
   }
 }
@@ -42,7 +41,7 @@
   flex: 0 0 auto;
   @include set-media(430px) {
     max-width: fit-content;
-    margin-top: 16px;
+    margin-top: 17px;
   }
 
   .menu {
