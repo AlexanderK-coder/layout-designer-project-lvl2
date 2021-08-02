@@ -75,12 +75,12 @@ $placeholder: #757575;
 }
 
 @mixin menu-font {
-  @include set-text(11px, 16.5px);
+  @include set-text(10px, 16px);
   text-transform: uppercase;
 }
 
 @mixin menu-font-mob {
-  @include set-text(11px, 12.89px);
+  @include set-text(11px, 13px);
   text-transform: uppercase;
 }
 
