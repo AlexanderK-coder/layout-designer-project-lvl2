@@ -14,8 +14,10 @@
   // * отступы карточек
 
   &-title {
+    margin-top: 2px;
     margin-bottom: 200px;
     @include set-header(24px, 36px, normal);
+    text-transform: uppercase;
     @include set-media(430px) {
       @include h3-mob;
     }

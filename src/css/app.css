@@ -844,7 +844,7 @@ li {
   max-width: 100%;
   margin-top: 40px;
   margin-bottom: 64px;
-  padding: 20px 0;
+  padding: 20px 30px;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -923,11 +923,13 @@ li {
   }
 }
 .card-title {
+  margin-top: 2px;
   margin-bottom: 200px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
   line-height: 36px;
+  text-transform: uppercase;
 }
 @media (max-width: 430px) {
   .card-title {
@@ -935,6 +937,7 @@ li {
     font-style: normal;
     font-weight: bold;
     line-height: 24px;
+    text-transform: uppercase;
   }
 }
 .card-price {
