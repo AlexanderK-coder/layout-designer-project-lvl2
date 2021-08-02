@@ -2,10 +2,6 @@
   padding-top: 200px;
   padding-bottom: 200px;
 
-  @include set-media(430px) {
-    margin-top: -2px;
-  }
-
   h1 {
     @include h1;
 
@@ -41,7 +37,7 @@
 .desc {
   margin-top: 0;
   @include set-media(430px) {
-    margin-top: 50px;
+    margin-top: 48px;
   }
 }
 
