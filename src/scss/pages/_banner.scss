@@ -53,7 +53,7 @@
 
   @include set-media(430px) {
     height: 853px;
-    margin-top: -2px;
+    top: -2px;
   }
   @include bg-image("banner.png");
 }
