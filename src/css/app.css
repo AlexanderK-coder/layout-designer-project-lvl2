@@ -194,7 +194,7 @@ a {
 }
 @media (max-width: 430px) {
   .desc {
-    margin-top: 48px;
+    margin-top: 50px;
   }
 }
 
@@ -216,6 +216,7 @@ a {
 @media (max-width: 430px) {
   .banner {
     height: 853px;
+    margin-top: -2px;
   }
 }
 
