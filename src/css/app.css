@@ -231,6 +231,14 @@ a {
   }
 }
 
+#page-pricing {
+  height: 908px;
+}
+@media (max-width: 430px) {
+  #page-pricing {
+    height: 2220px;
+  }
+}
 #page-pricing h2 {
   font-size: 38px;
   font-style: normal;

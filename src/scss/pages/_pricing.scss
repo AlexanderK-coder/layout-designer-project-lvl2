@@ -1,4 +1,8 @@
 #page-pricing {
+  height: 908px;
+  @include set-media(430px) {
+    height: 2220px;
+  }
   h2 {
     @include h2;
     @include set-media(430px) {
