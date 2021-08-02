@@ -940,6 +940,7 @@ li {
   }
 }
 .card-price {
+  height: 64px;
   font-size: 64px;
   font-style: normal;
   font-weight: normal;

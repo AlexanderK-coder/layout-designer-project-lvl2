@@ -22,6 +22,7 @@
   }
 
   &-price {
+    height: 64px;
     @include card-price;
   }
 
