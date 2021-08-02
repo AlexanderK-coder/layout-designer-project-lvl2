@@ -18,7 +18,7 @@
   &-image {
     width: 24px;
     height: 24px;
-    margin-right: 16px;
+    // margin-right: 16px;
   }
 
   & img {
@@ -30,13 +30,17 @@
   &-title {
     flex-grow: 0 0 59px;
     padding-top: 5px;
+    margin-left: 16px;
 
     @include menu-font;
-  }
 
-  @include set-media(430px) {
-    margin-right: 0;
-    @include menu-font-mob;
+    @include set-media(430px) {
+      margin: 5px 0 0 16px;
+      padding-top: 0;
+      max-height: 13px;
+
+      @include menu-font-mob;
+    }
   }
 }
 
@@ -52,6 +56,7 @@
     padding-top: 5px;
 
     color: $dark-gray;
+
     @include set-media(430px) {
       padding: 2px 0;
     }
@@ -60,6 +65,7 @@
 
 .ul-menu {
   flex-wrap: wrap;
+
   @include set-media(430px) {
     flex-direction: column;
   }
@@ -67,12 +73,15 @@
 
 li {
   margin-right: 24px;
+
   @include menu-font;
+
   @include set-media(430px) {
     &:not(:last-child) {
       padding-bottom: 3px;
     }
     margin-right: 0px;
+
     @include menu-font-mob;
   }
 }

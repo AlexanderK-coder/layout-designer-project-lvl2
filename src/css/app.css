@@ -601,7 +601,6 @@ a {
 .logo-image {
   width: 24px;
   height: 24px;
-  margin-right: 16px;
 }
 .logo img {
   flex: 0 0 24px;
@@ -611,6 +610,7 @@ a {
 .logo-title {
   flex-grow: 0 0 59px;
   padding-top: 5px;
+  margin-left: 16px;
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
@@ -618,8 +618,10 @@ a {
   text-transform: uppercase;
 }
 @media (max-width: 430px) {
-  .logo {
-    margin-right: 0;
+  .logo-title {
+    margin: 5px 0 0 16px;
+    padding-top: 0;
+    max-height: 13px;
     font-size: 11px;
     font-style: normal;
     font-weight: normal;
