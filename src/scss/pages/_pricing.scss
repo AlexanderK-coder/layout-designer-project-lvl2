@@ -1,7 +1,7 @@
 #page-pricing {
   height: 908px;
   @include set-media(430px) {
-    height: 2220px;
+    height: auto;
   }
   h2 {
     @include h2;
@@ -11,12 +11,20 @@
   }
 
   .card-container {
-    margin: 45px 0px;
+    // height: 2220px;
+    margin: 45px 0 43px 0;
     padding: 0;
     width: 100%;
+    @include set-media(430px) {
+      margin: 45px 0 19px 0;
+    }
   }
 
-  .page-text {
+  .card-text {
+    height: 64px;
     @include text-size-1;
+    @include set-media(430px) {
+      height: 120px;
+    }
   }
 }

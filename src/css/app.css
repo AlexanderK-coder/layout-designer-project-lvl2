@@ -236,7 +236,7 @@ a {
 }
 @media (max-width: 430px) {
   #page-pricing {
-    height: 2220px;
+    height: auto;
   }
 }
 #page-pricing h2 {
@@ -256,15 +256,26 @@ a {
   }
 }
 #page-pricing .card-container {
-  margin: 45px 0px;
+  margin: 45px 0 43px 0;
   padding: 0;
   width: 100%;
 }
-#page-pricing .page-text {
+@media (max-width: 430px) {
+  #page-pricing .card-container {
+    margin: 45px 0 19px 0;
+  }
+}
+#page-pricing .card-text {
+  height: 64px;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
+}
+@media (max-width: 430px) {
+  #page-pricing .card-text {
+    height: 120px;
+  }
 }
 
 #news .news-item {
