@@ -929,7 +929,6 @@ li {
   }
 }
 .card-title {
-  margin-top: 2px;
   margin-bottom: 200px;
   font-size: 24px;
   font-style: normal;
@@ -972,7 +971,7 @@ li {
 @media (max-width: 430px) {
   .card:not(:last-child) {
     width: 374px;
-    margin: 0 0 20px 0;
+    margin: 0 0 27px 0;
   }
 }
 
