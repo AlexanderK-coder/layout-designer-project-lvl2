@@ -943,6 +943,7 @@ li {
     font-weight: bold;
     line-height: 24px;
     text-transform: uppercase;
+    font-weight: 400;
   }
 }
 .card-price {
@@ -1004,4 +1005,7 @@ li {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+}
+.bg-card-3 .card-text {
+  padding: 0 2px;
 }
