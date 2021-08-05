@@ -20,11 +20,11 @@
     }
   }
 
-  .card-text {
-    height: 64px;
-    @include text-size-1;
-    @include set-media(430px) {
-      height: 120px;
-    }
-  }
+  // .card-text {
+  //   height: 64px;
+  //   @include text-size-1;
+  //   @include set-media(430px) {
+  //     height: 120px;
+  //   }
+  // }
 }

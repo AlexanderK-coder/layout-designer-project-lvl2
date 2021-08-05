@@ -265,18 +265,6 @@ a {
     margin: 45px 0 19px 0;
   }
 }
-#page-pricing .card-text {
-  height: 64px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-}
-@media (max-width: 430px) {
-  #page-pricing .card-text {
-    height: 120px;
-  }
-}
 
 #news .news-item {
   margin-top: 42px;
@@ -930,14 +918,14 @@ li {
 .card {
   width: 369px;
   height: 615px;
-  padding: 24px 24px 64px 24px;
+  padding: 24px 26px 64px 24px;
   border-radius: 16px;
 }
 @media (max-width: 430px) {
   .card {
     width: 374px;
     height: auto;
-    padding: 1rem 24px 86px 24px;
+    padding: 16px 26px 86px 24px;
   }
 }
 .card-title {
@@ -1017,7 +1005,4 @@ li {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
-}
-.bg-card-3 .card-text {
-  padding: 0 5px;
 }

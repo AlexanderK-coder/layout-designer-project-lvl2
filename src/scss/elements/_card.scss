@@ -1,13 +1,13 @@
 .card {
   width: 369px;
   height: 615px;
-  padding: 24px 24px 64px 24px;
+  padding: 24px 26px 64px 24px;
   border-radius: 16px;
 
   @include set-media(430px) {
     width: 374px;
     height: auto;
-    padding: 1rem 24px 86px 24px;
+    padding: 16px 26px 86px 24px;
   }
   // * отступы карточек
 
@@ -65,7 +65,7 @@
 
 .bg-card-3 {
   @include bg-image("subscribe_3.png");
-  .card-text {
-    padding: 0 5px;
-  }
+  // .card-text {
+  //   padding: 0 5px;
+  // }
 }
