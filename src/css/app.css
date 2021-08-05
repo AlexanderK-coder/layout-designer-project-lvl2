@@ -928,16 +928,16 @@ li {
 }
 
 .card {
-  width: 368.2px;
+  width: 369px;
   height: 615px;
-  padding: 24px 1.5rem 64px 1.5rem;
+  padding: 24px 24px 64px 24px;
   border-radius: 16px;
 }
 @media (max-width: 430px) {
   .card {
     width: 374px;
     height: auto;
-    padding: 1rem 1.5rem 86px 1.5rem;
+    padding: 1rem 24px 86px 24px;
   }
 }
 .card-title {
