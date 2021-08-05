@@ -470,15 +470,15 @@ a {
   color: #e0e0e0;
 }
 
-#page-popular-tracks {
+#page-popular-track {
   min-height: 420px;
 }
 @media (max-width: 430px) {
-  #page-popular-tracks {
+  #page-popular-track {
     min-height: 630px;
   }
 }
-#page-popular-tracks .tracks {
+#page-popular-track .tracks {
   margin-bottom: 23px;
   font-size: 38px;
   font-style: normal;
@@ -488,7 +488,7 @@ a {
   color: #fff;
 }
 @media (max-width: 430px) {
-  #page-popular-tracks .tracks {
+  #page-popular-track .tracks {
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
