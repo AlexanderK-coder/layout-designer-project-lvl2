@@ -237,6 +237,7 @@ a {
 }
 @media (max-width: 430px) {
   #page-pricing {
+    max-width: 430px;
     height: auto;
   }
 }
