@@ -12,6 +12,7 @@
   // * отступы карточек
 
   &-title {
+    margin-top: 3px;
     margin-bottom: 200px;
     @include set-header(24px, 36px, normal);
     text-transform: uppercase;
@@ -53,6 +54,9 @@
 
 .page-text {
   @include text-size-1;
+  @include set-media(430px) {
+    max-width: 374px;
+  }
 }
 
 .bg-card-1 {
