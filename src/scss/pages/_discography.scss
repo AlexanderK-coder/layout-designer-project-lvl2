@@ -4,7 +4,7 @@
     width: 250px;
     margin: 25px 50px 0 0;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       width: 137px;
     }
 
@@ -30,7 +30,7 @@
   margin-bottom: 23px;
   @include h2;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     @include h2-mob;
   }
 }

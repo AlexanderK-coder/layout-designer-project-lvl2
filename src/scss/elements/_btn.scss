@@ -50,7 +50,7 @@
     max-width: 131px;
     height: 53px;
     margin-top: 16px;
-    @include set-media(430px) {
+    @include set-media(414px) {
       margin-bottom: 100px;
     }
     border-radius: 32px;
@@ -74,7 +74,7 @@
     background-color: $purple;
     margin-right: 24px;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       margin-bottom: 24px;
     }
   }

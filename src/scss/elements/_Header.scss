@@ -5,14 +5,14 @@
   right: 0;
   left: 0;
   min-height: 24px;
-  @include set-media(430px) {
+  @include set-media(414px) {
     flex-direction: column;
   }
 }
 
 .logo {
   max-width: fit-content;
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin-bottom: 17px;
   }
   &-image {
@@ -34,7 +34,7 @@
 
     @include menu-font;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       margin: 5px 0 0 16px;
       padding-top: 0;
       max-height: 13px;
@@ -48,7 +48,7 @@
   width: 675px;
   flex: 0 0 auto;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     width: fit-content;
   }
 
@@ -57,7 +57,7 @@
 
     color: $dark-gray;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       padding: 2px 0;
     }
   }
@@ -66,7 +66,7 @@
 .ul-menu {
   flex-wrap: wrap;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     flex-direction: column;
   }
 }
@@ -76,7 +76,7 @@ li {
 
   @include menu-font;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     &:not(:last-child) {
       padding-bottom: 3px;
     }
@@ -96,7 +96,7 @@ li {
   border: none;
   border-radius: 50px;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin-top: 14px;
   }
 }

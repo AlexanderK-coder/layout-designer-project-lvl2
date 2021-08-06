@@ -4,7 +4,7 @@
   padding: 24px 26px 64px 24px;
   border-radius: 16px;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     width: 374px;
     height: auto;
     padding: 16px 26px 86px 24px;
@@ -16,7 +16,7 @@
     margin-bottom: 200px;
     @include set-header(24px, 36px, normal);
     text-transform: uppercase;
-    @include set-media(430px) {
+    @include set-media(414px) {
       @include h3-mob;
       font-weight: 400;
     }
@@ -39,7 +39,7 @@
   &:not(:last-child) {
     margin-right: 45px;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       width: 374px;
       margin: 0 0 27px 0;
     }
@@ -54,7 +54,7 @@
 
 .page-text {
   @include text-size-1;
-  @include set-media(430px) {
+  @include set-media(414px) {
     max-width: 374px;
   }
 }

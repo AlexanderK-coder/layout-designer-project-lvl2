@@ -20,7 +20,7 @@
     .links-img {
       margin-left: 40px;
 
-      @include set-media(430px) {
+      @include set-media(414px) {
         margin-left: 0;
       }
     }
@@ -68,7 +68,7 @@
       display: flex;
       flex-wrap: wrap;
       @include text-size-1;
-      @include set-media(430px) {
+      @include set-media(414px) {
         flex-direction: column;
         padding: 20px 0;
       }
@@ -77,7 +77,7 @@
     li:not(:last-child) {
       margin-right: 15px;
 
-      @include set-media(430px) {
+      @include set-media(414px) {
         margin-bottom: 16px;
       }
     }

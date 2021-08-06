@@ -1,7 +1,7 @@
 #page-popular-track {
   min-height: 420px;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     min-height: 630px;
   }
 
@@ -9,7 +9,7 @@
     margin-bottom: 23px;
     @include h2;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       @include h2-mob;
     }
     color: $white;

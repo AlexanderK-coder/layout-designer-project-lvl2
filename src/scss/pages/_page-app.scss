@@ -1,6 +1,6 @@
 #page-app {
   height: 583px;
-  @include set-media(430px) {
+  @include set-media(414px) {
     height: 822px;
   }
   text-align: center;
@@ -13,7 +13,7 @@
   @include text-size-1;
   color: $dark-gray;
   text-align: left;
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin-top: 16px;
     width: 370px;
     height: 184px;
@@ -26,7 +26,7 @@
   margin-top: 48px;
   margin-left: 144px;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin-left: 20px;
   }
 }
@@ -34,7 +34,7 @@
 .app-flex {
   display: flex;
   flex-direction: row;
-  @include set-media(430px) {
+  @include set-media(414px) {
     display: flex;
     flex-direction: column-reverse;
   }

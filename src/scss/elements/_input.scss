@@ -17,7 +17,7 @@
     border-radius: 3px;
     @include main-input;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       flex: 1 1 570px;
       max-width: 570px;
     }

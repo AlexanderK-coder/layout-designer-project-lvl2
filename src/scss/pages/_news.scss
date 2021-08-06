@@ -3,7 +3,7 @@
     margin-top: 42px;
     display: flex;
     flex-wrap: wrap;
-    @include set-media(430px) {
+    @include set-media(414px) {
       .foto-2 {
         order: -1;
       }
@@ -15,7 +15,7 @@
     height: auto;
     text-align: left;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       margin-top: 50px;
     }
   }
@@ -23,7 +23,7 @@
   .news-body {
     h3 {
       @include h3-cap;
-      @include set-media(430px) {
+      @include set-media(414px) {
         @include h3-cap-mob;
       }
     }
@@ -35,7 +35,7 @@
       padding-bottom: 24px;
       color: $dark-gray;
 
-      @include set-media(430px) {
+      @include set-media(414px) {
         padding-top: 16px;
       }
     }
@@ -71,7 +71,7 @@
   h2 {
     @include h2;
     text-align: center;
-    @include set-media(430px) {
+    @include set-media(414px) {
       @include h2-mob;
     }
   }
@@ -81,7 +81,7 @@
     width: 575px;
     height: fit-content;
     padding: 0 42px 0 0;
-    @include set-media(430px) {
+    @include set-media(414px) {
       padding: 0;
     }
 

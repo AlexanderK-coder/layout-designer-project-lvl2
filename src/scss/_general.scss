@@ -44,7 +44,7 @@ section {
   margin: 0 auto;
   padding: 0;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin: 0 auto;
     padding: 0 20px 0 20px;
   }

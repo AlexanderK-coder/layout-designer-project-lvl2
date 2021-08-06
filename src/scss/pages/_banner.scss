@@ -5,7 +5,7 @@
   h1 {
     @include h1;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       @include h1-mob;
     }
   }
@@ -13,7 +13,7 @@
   h2 {
     @include h2;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       @include h2-mob;
     }
   }
@@ -22,7 +22,7 @@
     margin-top: 31px;
     margin-bottom: 17px;
 
-    @include set-media(430px) {
+    @include set-media(414px) {
       margin-top: 16px;
       margin-bottom: 17px;
     }
@@ -36,14 +36,14 @@
 
 .desc {
   margin-top: 0;
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin-top: 48px;
   }
 }
 
 .art-desc {
   margin-top: 50px;
-  @include set-media(430px) {
+  @include set-media(414px) {
     margin-top: 25px;
   }
 }
@@ -51,7 +51,7 @@
 .banner {
   height: 750px;
 
-  @include set-media(430px) {
+  @include set-media(414px) {
     height: 853px;
   }
   @include bg-image("banner.png");
@@ -59,7 +59,7 @@
 
 .artists-banner {
   height: 713px;
-  @include set-media(430px) {
+  @include set-media(414px) {
     height: 730px;
   }
   @include bg-image("Morten Harket.png");
