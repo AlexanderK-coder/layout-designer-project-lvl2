@@ -372,8 +372,7 @@ a {
 }
 @media (max-width: 414px) {
   #page-news .news-footer .news-author {
-    margin-bottom: 0;
-    padding-bottom: 45px;
+    margin-bottom: 45px;
   }
 }
 #page-news .news-footer .avatar {
