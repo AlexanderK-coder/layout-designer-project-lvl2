@@ -272,11 +272,11 @@ a {
 }
 
 #page-news {
-  margin: 0 auto;
+  margin: 8px auto 0 auto;
   width: 1240px;
 }
 #page-news .news-item {
-  margin-top: 48px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
 }
