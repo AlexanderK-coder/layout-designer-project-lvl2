@@ -2,7 +2,7 @@
   margin: 0 auto;
   width: 1240px;
   .news-item {
-    margin-top: 42px;
+    margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
     @include set-media(414px) {
@@ -16,10 +16,17 @@
     max-width: 575px;
     height: auto;
     text-align: left;
+    margin-left: 42px;
 
     @include set-media(414px) {
       margin-top: 50px;
     }
+  }
+
+  .item2 {
+    margin-left: 0;
+    margin-right: 42px;
+    margin-bottom: 28px;
   }
 
   .news-body {
@@ -82,18 +89,21 @@
   .foto-2 {
     width: 575px;
     height: fit-content;
-    padding: 0 42px 0 0;
+
     @include set-media(414px) {
       padding: 0;
     }
 
-    .foto-2 {
-      order: -1;
-    }
+    // .foto-2 {
+    //   order: -1;
+    // }
 
     img {
       width: 100%;
       height: auto;
     }
+  }
+  .feed {
+    width: 135px;
   }
 }
