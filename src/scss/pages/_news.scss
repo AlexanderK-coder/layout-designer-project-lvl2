@@ -28,6 +28,9 @@
   }
   .news-item-2 {
     margin-top: 65px;
+    @include set-media(414px) {
+      margin-top: 55px;
+    }
   }
 
   .news-info {

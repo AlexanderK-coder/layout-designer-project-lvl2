@@ -309,6 +309,11 @@ a {
 #page-news .news-item-2 {
   margin-top: 65px;
 }
+@media (max-width: 414px) {
+  #page-news .news-item-2 {
+    margin-top: 55px;
+  }
+}
 #page-news .news-info {
   max-width: 575px;
   max-height: 286px;
