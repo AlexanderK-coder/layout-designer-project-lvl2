@@ -285,8 +285,7 @@ a {
   flex-wrap: wrap;
 }
 @media (max-width: 414px) {
-  #page-news .news-item .foto-2,
-#page-news .news-item-2 .foto-2 {
+  #page-news .news-item-2 .foto-2 {
     order: -1;
   }
 }
@@ -296,14 +295,14 @@ a {
 #page-news .news-item-2 {
   margin-top: 65px;
 }
-#page-news s .news-info {
+#page-news .news-info {
   max-width: 575px;
   height: auto;
   text-align: left;
   margin-left: 42px;
 }
 @media (max-width: 414px) {
-  #page-news s .news-info {
+  #page-news .news-info {
     margin-top: 50px;
   }
 }

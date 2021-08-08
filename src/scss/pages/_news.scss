@@ -5,6 +5,8 @@
   .news-item-2 {
     display: flex;
     flex-wrap: wrap;
+  }
+  .news-item-2 {
     @include set-media(414px) {
       .foto-2 {
         order: -1;
@@ -18,7 +20,8 @@
   .news-item-2 {
     margin-top: 65px;
   }
-  s .news-info {
+
+  .news-info {
     max-width: 575px;
     height: auto;
     text-align: left;
