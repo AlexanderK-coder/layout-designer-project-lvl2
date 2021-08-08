@@ -1,11 +1,19 @@
 #page-news {
   margin: 8px auto 0 auto;
-  width: 1240px;
+  max-width: 1240px;
+  @include set-media(414px) {
+    width: 100%;
+    height: 1239px;
+  }
   .news-item,
   .news-item-2 {
     height: 286px;
     display: flex;
     flex-wrap: wrap;
+    @include set-media(414px) {
+      width: 100%;
+      height: 500px;
+    }
   }
   .news-item-2 {
     @include set-media(414px) {
@@ -24,12 +32,15 @@
 
   .news-info {
     max-width: 575px;
-    height: 286px;
+    max-height: 286px;
     text-align: left;
     margin-left: 42px;
 
     @include set-media(414px) {
       margin-top: 50px;
+      margin-left: 0;
+      margin-bottom: 0;
+      height: auto;
     }
   }
 
@@ -37,6 +48,11 @@
     margin-left: 0;
     margin-right: 42px;
     margin-bottom: 28px;
+    @include set-media(414px) {
+      margin-right: 0;
+      margin-bottom: 0;
+      height: auto;
+    }
   }
 
   .news-body {
@@ -55,7 +71,8 @@
       color: $dark-gray;
 
       @include set-media(414px) {
-        padding-top: 16px;
+        margin-top: 16px;
+        padding-top: 0;
       }
     }
   }
@@ -97,16 +114,13 @@
 
   .foto-1,
   .foto-2 {
-    width: 575px;
-    height: 286px;
+    max-width: 575px;
+    max-height: 286px;
 
     @include set-media(414px) {
       padding: 0;
+      height: 186px;
     }
-
-    // .foto-2 {
-    //   order: -1;
-    // }
 
     img {
       width: 100%;

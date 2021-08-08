@@ -277,13 +277,26 @@ a {
 
 #page-news {
   margin: 8px auto 0 auto;
-  width: 1240px;
+  max-width: 1240px;
+}
+@media (max-width: 414px) {
+  #page-news {
+    width: 100%;
+    height: 1239px;
+  }
 }
 #page-news .news-item,
 #page-news .news-item-2 {
   height: 286px;
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 414px) {
+  #page-news .news-item,
+#page-news .news-item-2 {
+    width: 100%;
+    height: 500px;
+  }
 }
 @media (max-width: 414px) {
   #page-news .news-item-2 .foto-2 {
@@ -298,19 +311,29 @@ a {
 }
 #page-news .news-info {
   max-width: 575px;
-  height: 286px;
+  max-height: 286px;
   text-align: left;
   margin-left: 42px;
 }
 @media (max-width: 414px) {
   #page-news .news-info {
     margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: auto;
   }
 }
 #page-news .item2 {
   margin-left: 0;
   margin-right: 42px;
   margin-bottom: 28px;
+}
+@media (max-width: 414px) {
+  #page-news .item2 {
+    margin-right: 0;
+    margin-bottom: 0;
+    height: auto;
+  }
 }
 #page-news .news-body h3 {
   font-size: 30px;
@@ -339,7 +362,8 @@ a {
 }
 @media (max-width: 414px) {
   #page-news .news-body p {
-    padding-top: 16px;
+    margin-top: 16px;
+    padding-top: 0;
   }
 }
 #page-news .news-footer .news-author {
@@ -386,13 +410,14 @@ a {
 }
 #page-news .foto-1,
 #page-news .foto-2 {
-  width: 575px;
-  height: 286px;
+  max-width: 575px;
+  max-height: 286px;
 }
 @media (max-width: 414px) {
   #page-news .foto-1,
 #page-news .foto-2 {
     padding: 0;
+    height: 186px;
   }
 }
 #page-news .foto-1 img,
