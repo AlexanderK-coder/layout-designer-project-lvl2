@@ -1,8 +1,8 @@
 #page-news {
   margin: 8px auto 0 auto;
   width: 1240px;
-  .news-item {
-    margin-top: 40px;
+  .news-item,
+  .news-item-2 {
     display: flex;
     flex-wrap: wrap;
     @include set-media(414px) {
@@ -12,7 +12,13 @@
     }
   }
 
-  .news-info {
+  .news-item {
+    margin-top: 48px;
+  }
+  .news-item-2 {
+    margin-top: 65px;
+  }
+  s .news-info {
     max-width: 575px;
     height: auto;
     text-align: left;
