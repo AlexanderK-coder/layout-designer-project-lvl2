@@ -1,4 +1,5 @@
-#footer {
+.footer {
+  padding-top: 0;
   @include col-gradient($red, $purple);
   & .links-container {
     display: flex;
