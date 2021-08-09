@@ -440,12 +440,31 @@ a {
 }
 
 #page-app {
+  margin: 0 auto 0 auto;
+  max-width: 1240px;
   height: 583px;
   text-align: center;
 }
 @media (max-width: 414px) {
   #page-app {
     height: 822px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+@media (max-width: 414px) {
+  h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
   }
 }
 
@@ -934,6 +953,7 @@ li {
   max-width: 131px;
   height: 53px;
   margin-top: 16px;
+  padding: 16px 40px;
   border-radius: 32px;
   font-size: 12.8px;
   font-style: normal;

@@ -1,9 +1,18 @@
 #page-app {
+  margin: 0 auto 0 auto;
+  max-width: 1240px;
   height: 583px;
   @include set-media(414px) {
     height: 822px;
   }
   text-align: center;
+}
+
+h2 {
+  @include h2;
+  @include set-media(414px) {
+    @include h2-mob;
+  }
 }
 
 .app-text {

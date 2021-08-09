@@ -52,6 +52,7 @@
     max-width: 131px;
     height: 53px;
     margin-top: 16px;
+    padding: 16px 40px;
     @include set-media(414px) {
       margin-bottom: 100px;
     }
