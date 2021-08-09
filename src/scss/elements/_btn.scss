@@ -40,6 +40,7 @@
   &-feed {
     max-width: 135px;
     height: 53px;
+    padding: 16px 29px;
     @include small-text-upp;
 
     border: 1px solid $dark-gray;
