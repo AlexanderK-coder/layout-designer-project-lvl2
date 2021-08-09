@@ -442,7 +442,7 @@ a {
 #page-app {
   margin: 0 auto 0 auto;
   max-width: 1240px;
-  height: 583px;
+  height: 483px;
   text-align: center;
 }
 @media (max-width: 414px) {
