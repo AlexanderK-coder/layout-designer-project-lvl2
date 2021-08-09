@@ -28,8 +28,11 @@ h2 {
     height: 184px;
   }
   .app-text-1 {
-    height: 96px;
+    height: 48px;
     margin-bottom: 16px;
+    @include set-media(414px) {
+      height: 96px;
+    }
   }
 }
 

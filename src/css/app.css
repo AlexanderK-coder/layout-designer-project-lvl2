@@ -487,8 +487,13 @@ h2 {
   }
 }
 .app-text .app-text-1 {
-  height: 96px;
+  height: 48px;
   margin-bottom: 16px;
+}
+@media (max-width: 414px) {
+  .app-text .app-text-1 {
+    height: 96px;
+  }
 }
 
 .iphone {
