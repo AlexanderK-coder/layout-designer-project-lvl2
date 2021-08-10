@@ -1,4 +1,5 @@
 .footer {
+  margin-top: 100px;
   padding-top: 0;
   @include col-gradient($red, $purple);
   & .links-container {
@@ -23,6 +24,7 @@
 
       @include set-media(414px) {
         margin-left: 0;
+        margin-bottom: 0;
       }
     }
 

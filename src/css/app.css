@@ -37,11 +37,6 @@ button {
   margin: 0;
 }
 
-.wrapper {
-  min-height: 100%;
-  overflow: hidden;
-}
-
 section {
   padding: 100px 0 0 0;
 }
@@ -798,6 +793,7 @@ li {
 }
 
 .footer {
+  margin-top: 100px;
   padding-top: 0;
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
@@ -823,6 +819,7 @@ li {
   .footer .links-container .links-item:not(:first-child),
 .footer .links-container .links-img {
     margin-left: 0;
+    margin-bottom: 0;
   }
 }
 .footer .links-container .links-title,
