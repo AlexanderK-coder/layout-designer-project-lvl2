@@ -807,6 +807,7 @@ li {
 @media (max-width: 414px) {
   .footer .links-container {
     width: 100%;
+    padding: 62px 0 73px;
   }
 }
 .footer .links-container > * {
@@ -836,6 +837,15 @@ li {
 .footer .links-container .links-img {
     margin-left: 0;
     margin-bottom: 30px;
+  }
+  .footer .links-container .links-item:not(:first-child) .links-img,
+.footer .links-container .links-img .links-img {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 414px) {
+  .footer .links-container .links-img {
+    margin-bottom: 0;
   }
 }
 .footer .links-container .links-title,
