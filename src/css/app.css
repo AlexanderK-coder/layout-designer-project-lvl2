@@ -795,18 +795,19 @@ li {
 
 .footer {
   margin-top: 100px;
+  padding-top: 0;
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
-}
-@media (max-width: 414px) {
-  .footer {
-    width: 100%;
-  }
 }
 .footer .links-container {
   display: flex;
-  padding: 60px 0 73px;
+  padding: 61px 0 74px;
   flex-wrap: wrap;
   justify-content: flex-between;
+}
+@media (max-width: 414px) {
+  .footer .links-container {
+    width: 100%;
+  }
 }
 .footer .links-container > * {
   width: 100%;
@@ -816,22 +817,25 @@ li {
     margin-bottom: 30px;
   }
 }
-.footer .links-container .links-item:not(:first-child) {
-  margin-left: 40px;
+.footer .links-container .links-item,
+.footer .links-container .links-img {
+  max-width: 270px;
 }
 @media (max-width: 414px) {
-  .footer .links-container .links-item:not(:first-child) {
-    margin-left: 0;
-    margin-bottom: 30px;
+  .footer .links-container .links-item,
+.footer .links-container .links-img {
+    max-width: 374px;
   }
 }
+.footer .links-container .links-item:not(:first-child),
 .footer .links-container .links-img {
   margin-left: 40px;
 }
 @media (max-width: 414px) {
-  .footer .links-container .links-img {
+  .footer .links-container .links-item:not(:first-child),
+.footer .links-container .links-img {
     margin-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 }
 .footer .links-container .links-title,
@@ -845,17 +849,13 @@ li {
   color: #fff;
 }
 .footer .links-container li {
-  width: fit-content;
-  margin-right: 0;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
   color: #e0e0e0;
   text-transform: lowercase;
-}
-.footer .links-container .adress {
-  width: 100%;
+  margin-right: 0;
 }
 .footer .links-container .links-img > ul {
   display: flex;
@@ -869,7 +869,7 @@ li {
   max-height: 20px;
 }
 .footer .links-container hr {
-  border: 1px solid gray;
+  border: 1px solid #e0e0e0;
 }
 .footer .links-last > ul {
   padding: 40px 0 48px;
@@ -879,7 +879,6 @@ li {
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
-  color: #e0e0e0;
 }
 @media (max-width: 414px) {
   .footer .links-last > ul {

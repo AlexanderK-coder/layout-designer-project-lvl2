@@ -1,17 +1,15 @@
 .footer {
   margin-top: 100px;
-  @include set-media(414px) {
-    width: 100%;
-  }
-
+  padding-top: 0;
   @include col-gradient($red, $purple);
-
   & .links-container {
-    // width: 100%;
     display: flex;
-    padding: 60px 0 73px;
+    padding: 61px 0 74px;
     flex-wrap: wrap;
     justify-content: flex-between;
+    @include set-media(414px) {
+      width: 100%;
+    }
 
     & > * {
       width: 100%;
@@ -20,23 +18,21 @@
       }
     }
 
-    // .links-item,
-    // .links-img {
-    //   max-width: 270px;
-    // }
+    .links-item,
+    .links-img {
+      max-width: 270px;
+      @include set-media(414px) {
+        max-width: 374px;
+      }
+    }
 
-    .links-item:not(:first-child) {
+    .links-item:not(:first-child),
+    .links-img {
       margin-left: 40px;
+
       @include set-media(414px) {
         margin-left: 0;
         margin-bottom: 30px;
-      }
-    }
-    .links-img {
-      margin-left: 40px;
-      @include set-media(414px) {
-        margin-left: 0;
-        margin-bottom: 0;
       }
     }
 
@@ -48,15 +44,10 @@
     }
 
     li {
-      width: fit-content;
-      margin-right: 0;
       @include text-size-1;
       color: $gray;
       text-transform: lowercase;
-    }
-
-    .adress {
-      width: 100%;
+      margin-right: 0;
     }
 
     .links-img {
@@ -76,7 +67,7 @@
     }
 
     hr {
-      border: 1px solid gray;
+      border: 1px solid $gray;
     }
   }
 
@@ -86,7 +77,6 @@
       display: flex;
       flex-wrap: wrap;
       @include text-size-1;
-      color: #e0e0e0;
       @include set-media(414px) {
         flex-direction: column;
         padding: 20px 0;
