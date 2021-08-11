@@ -1,16 +1,19 @@
 .footer {
-  margin-top: 100px;
+  margin: 0 auto;
+  width: 1240px;
   padding-top: 0;
   @include col-gradient($red, $purple);
   & .links-container {
     display: flex;
-    padding: 61px 0 74px;
+    padding: 60px 0 73px;
     flex-wrap: wrap;
     justify-content: flex-between;
 
     & > * {
       width: 310px;
-      margin-bottom: 30px;
+      @include set-media(414px) {
+        margin-bottom: 30px;
+      }
     }
 
     .links-item,
@@ -59,9 +62,7 @@
     }
 
     hr {
-      margin: 0;
-      border: 0;
-      border-bottom: 1px solid $gray;
+      border: 0.5px solid gray;
     }
   }
 
@@ -71,6 +72,7 @@
       display: flex;
       flex-wrap: wrap;
       @include text-size-1;
+      color: #e0e0e0;
       @include set-media(414px) {
         flex-direction: column;
         padding: 20px 0;

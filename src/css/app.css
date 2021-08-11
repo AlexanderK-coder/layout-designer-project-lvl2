@@ -32,6 +32,7 @@ ul,
 div,
 form,
 input,
+hr,
 button {
   padding: 0;
   margin: 0;
@@ -793,19 +794,24 @@ li {
 }
 
 .footer {
-  margin-top: 100px;
+  margin: 0 auto;
+  width: 1240px;
   padding-top: 0;
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
 .footer .links-container {
   display: flex;
-  padding: 61px 0 74px;
+  padding: 60px 0 73px;
   flex-wrap: wrap;
   justify-content: flex-between;
 }
 .footer .links-container > * {
   width: 310px;
-  margin-bottom: 30px;
+}
+@media (max-width: 414px) {
+  .footer .links-container > * {
+    margin-bottom: 30px;
+  }
 }
 .footer .links-container .links-item,
 .footer .links-container .links-img {
@@ -853,9 +859,7 @@ li {
   max-height: 20px;
 }
 .footer .links-container hr {
-  margin: 0;
-  border: 0;
-  border-bottom: 1px solid #e0e0e0;
+  border: 0.5px solid gray;
 }
 .footer .links-last > ul {
   padding: 40px 0 48px;
@@ -865,6 +869,7 @@ li {
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
+  color: #e0e0e0;
 }
 @media (max-width: 414px) {
   .footer .links-last > ul {
