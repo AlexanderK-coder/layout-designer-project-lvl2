@@ -1,8 +1,12 @@
 .footer {
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   width: 1240px;
-  padding-top: 0;
+  @include set-media(414px) {
+    width: 100%;
+  }
+  // padding-top: 0;
   @include col-gradient($red, $purple);
+
   & .links-container {
     display: flex;
     padding: 60px 0 73px;
@@ -21,10 +25,15 @@
       max-width: 270px;
     }
 
-    .links-item:not(:first-child),
+    .links-item:not(:first-child) {
+      margin-left: 40px;
+      @include set-media(414px) {
+        margin-left: 0;
+        margin-bottom: 30px;
+      }
+    }
     .links-img {
       margin-left: 40px;
-
       @include set-media(414px) {
         margin-left: 0;
         margin-bottom: 0;
@@ -62,7 +71,7 @@
     }
 
     hr {
-      border: 0.5px solid gray;
+      border: 1px solid gray;
     }
   }
 
