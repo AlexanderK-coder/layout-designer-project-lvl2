@@ -800,7 +800,7 @@ li {
 }
 .footer .links-container {
   display: flex;
-  padding: 61px 0 74px;
+  padding: 60px 0 73px;
   flex-wrap: wrap;
   justify-content: flex-between;
 }
@@ -854,7 +854,7 @@ li {
   font-weight: normal;
   line-height: 24px;
   color: #e0e0e0;
-  text-transform: lowercase;
+  text-transform: none;
   margin-right: 0;
 }
 .footer .links-container .links-img > ul {
@@ -868,29 +868,36 @@ li {
   margin-top: 5px;
   max-height: 20px;
 }
+.footer .links-container .special {
+  max-width: fit-content;
+}
 .footer .links-container hr {
   border: 1px solid #e0e0e0;
 }
-.footer .links-last > ul {
+
+.links-last > ul {
   padding: 40px 0 48px;
   display: flex;
   flex-wrap: wrap;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
 }
 @media (max-width: 414px) {
-  .footer .links-last > ul {
+  .links-last > ul {
     flex-direction: column;
     padding: 20px 0;
   }
 }
-.footer .links-last li:not(:last-child) {
+.links-last > ul > li {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  text-transform: none;
+}
+.links-last li:not(:last-child) {
   margin-right: 15px;
 }
 @media (max-width: 414px) {
-  .footer .links-last li:not(:last-child) {
+  .links-last li:not(:last-child) {
     margin-bottom: 16px;
   }
 }

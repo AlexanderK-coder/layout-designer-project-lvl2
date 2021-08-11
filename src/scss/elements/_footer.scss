@@ -4,7 +4,7 @@
   @include col-gradient($red, $purple);
   & .links-container {
     display: flex;
-    padding: 61px 0 74px;
+    padding: 60px 0 73px;
     flex-wrap: wrap;
     justify-content: flex-between;
     @include set-media(414px) {
@@ -46,7 +46,7 @@
     li {
       @include text-size-1;
       color: $gray;
-      text-transform: lowercase;
+      text-transform: none;
       margin-right: 0;
     }
 
@@ -66,29 +66,37 @@
       max-height: 20px;
     }
 
+    .special {
+      max-width: fit-content;
+    }
+
     hr {
       border: 1px solid $gray;
     }
   }
+}
 
-  & .links-last {
-    & > ul {
-      padding: 40px 0 48px;
-      display: flex;
-      flex-wrap: wrap;
-      @include text-size-1;
-      @include set-media(414px) {
-        flex-direction: column;
-        padding: 20px 0;
-      }
+.links-last {
+  & > ul {
+    padding: 40px 0 48px;
+    display: flex;
+    flex-wrap: wrap;
+    @include set-media(414px) {
+      flex-direction: column;
+      padding: 20px 0;
     }
+  }
 
-    li:not(:last-child) {
-      margin-right: 15px;
+  & > ul > li {
+    @include text-size-1;
+    text-transform: none;
+  }
 
-      @include set-media(414px) {
-        margin-bottom: 16px;
-      }
+  li:not(:last-child) {
+    margin-right: 15px;
+
+    @include set-media(414px) {
+      margin-bottom: 16px;
     }
   }
 }
