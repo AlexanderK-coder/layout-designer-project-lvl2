@@ -882,6 +882,7 @@ li {
 }
 @media (max-width: 414px) {
   .footer .links-container img {
+    margin-top: 0;
     max-height: 20px;
     padding-top: 3px;
     padding-bottom: 0;
