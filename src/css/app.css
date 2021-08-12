@@ -807,7 +807,7 @@ li {
 @media (max-width: 414px) {
   .footer .links-container {
     width: 100%;
-    padding: 62px 0 73px;
+    padding: 62px 0 70px;
   }
 }
 .footer .links-container > * {
@@ -840,7 +840,7 @@ li {
   }
   .footer .links-container .links-item:not(:first-child) .last,
 .footer .links-container .links-img .last {
-    margin-bottom: 30px;
+    margin-bottom: 33px;
   }
 }
 @media (max-width: 414px) {

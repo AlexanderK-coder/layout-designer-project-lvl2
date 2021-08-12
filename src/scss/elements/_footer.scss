@@ -9,7 +9,7 @@
     justify-content: flex-between;
     @include set-media(414px) {
       width: 100%;
-      padding: 62px 0 73px;
+      padding: 62px 0 70px;
     }
 
     & > * {
@@ -35,7 +35,7 @@
         margin-left: 0;
         margin-bottom: 30px;
         .last {
-          margin-bottom: 30px;
+          margin-bottom: 33px;
         }
       }
     }
