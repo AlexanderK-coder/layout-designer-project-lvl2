@@ -129,9 +129,15 @@
 
   li:not(:last-child) {
     margin-right: 15px;
-
     @include set-media(414px) {
       margin-bottom: 16px;
+      margin-right: 0;
     }
+  }
+
+  & > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 }
