@@ -590,15 +590,6 @@ h2 {
   flex-direction: column;
   flex-grow: 1;
   padding-left: 15px;
-  font-size: 12.8px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 19.2px;
-}
-.track-name {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
 }
 .track-timing {
   margin: auto;
@@ -607,6 +598,15 @@ h2 {
   font-weight: normal;
   line-height: 19.2px;
   color: #e0e0e0;
+}
+.track h3 {
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
 }
 .track img {
   width: 55px;

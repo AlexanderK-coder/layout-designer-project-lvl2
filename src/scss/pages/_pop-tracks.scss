@@ -23,22 +23,23 @@
   margin-top: 25px;
 
   &-info {
+    // width: fit-content;
     flex-direction: column;
     flex-grow: 1;
     padding-left: 15px;
-    @include small-text;
-  }
-
-  &-name {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: $white;
   }
 
   &-timing {
     margin: auto;
     @include small-text;
     color: $gray;
+  }
+
+  h3 {
+    @include small-text;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
   }
 
   img {
