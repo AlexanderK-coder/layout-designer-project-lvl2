@@ -130,6 +130,7 @@
   li:not(:last-child) {
     margin-right: 15px;
     @include set-media(414px) {
+      padding-bottom: 0;
       margin-bottom: 16px;
       margin-right: 0;
     }

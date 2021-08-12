@@ -939,6 +939,7 @@ li {
 }
 @media (max-width: 414px) {
   .links-last li:not(:last-child) {
+    padding-bottom: 0;
     margin-bottom: 16px;
     margin-right: 0;
   }
