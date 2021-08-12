@@ -12,6 +12,11 @@
       width: 100%;
     }
 
+    // h3{
+    //   @include h4;
+    //   color: $white;
+    // }
+
     &-name {
       max-width: 100%;
       margin-top: 18px;
