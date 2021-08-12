@@ -925,7 +925,6 @@ li {
 @media (max-width: 414px) {
   .links-last > ul {
     flex-direction: column;
-    padding: 20px 0;
   }
 }
 .links-last > ul > li {

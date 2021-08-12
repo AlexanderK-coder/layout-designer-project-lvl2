@@ -86,12 +86,6 @@
       }
     }
 
-    // .last {
-    //   @include set-media(414px) {
-    //     margin-botom: 34px;
-    //   }
-    // }
-
     .special {
       max-width: fit-content;
       @include set-media(414px) {
@@ -125,7 +119,6 @@
     flex-wrap: wrap;
     @include set-media(414px) {
       flex-direction: column;
-      padding: 20px 0;
     }
   }
 
