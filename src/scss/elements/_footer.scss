@@ -64,6 +64,7 @@
       & > ul {
         display: flex;
         flex-wrap: nowrap;
+        max-height: 24px;
       }
 
       li:not(:first-child) {
@@ -75,7 +76,9 @@
       margin-top: 5px;
       max-height: 20px;
       @include set-media(414px) {
-        margin-top: 0;
+        max-height: 20px;
+        padding-top: 3px;
+        padding-bottom: 0;
       }
     }
 

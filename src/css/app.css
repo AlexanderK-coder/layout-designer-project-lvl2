@@ -871,6 +871,7 @@ li {
 .footer .links-container .links-img > ul {
   display: flex;
   flex-wrap: nowrap;
+  max-height: 24px;
 }
 .footer .links-container .links-img li:not(:first-child) {
   margin-left: 24px;
@@ -881,7 +882,9 @@ li {
 }
 @media (max-width: 414px) {
   .footer .links-container img {
-    margin-top: 0;
+    max-height: 20px;
+    padding-top: 3px;
+    padding-bottom: 0;
   }
 }
 .footer .links-container .special {
