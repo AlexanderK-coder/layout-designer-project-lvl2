@@ -34,6 +34,9 @@
       @include set-media(414px) {
         margin-left: 0;
         margin-bottom: 30px;
+        .last {
+          margin-bottom: 30px;
+        }
       }
     }
 
@@ -82,6 +85,12 @@
         padding-bottom: 0;
       }
     }
+
+    // .last {
+    //   @include set-media(414px) {
+    //     margin-botom: 34px;
+    //   }
+    // }
 
     .special {
       max-width: fit-content;
