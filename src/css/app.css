@@ -838,13 +838,10 @@ li {
     margin-left: 0;
     margin-bottom: 30px;
   }
-  .footer .links-container .links-item:not(:first-child) .last,
-.footer .links-container .links-img .last {
-    margin-bottom: 33px;
-  }
 }
 @media (max-width: 414px) {
   .footer .links-container .links-img {
+    margin-top: 3px;
     margin-bottom: 0;
   }
 }

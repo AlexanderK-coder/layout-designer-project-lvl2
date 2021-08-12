@@ -30,18 +30,15 @@
     .links-item:not(:first-child),
     .links-img {
       margin-left: 40px;
-
       @include set-media(414px) {
         margin-left: 0;
         margin-bottom: 30px;
-        .last {
-          margin-bottom: 33px;
-        }
       }
     }
 
     .links-img {
       @include set-media(414px) {
+        margin-top: 3px;
         margin-bottom: 0;
       }
     }
