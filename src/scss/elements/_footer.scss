@@ -114,7 +114,8 @@
 
 .links-last {
   & > ul {
-    padding: 40px 0 48px;
+    margin-top: 40px;
+    padding: 0 0 48px 0;
     display: flex;
     flex-wrap: wrap;
     @include set-media(414px) {
