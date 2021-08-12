@@ -85,6 +85,22 @@
 
     .special {
       max-width: fit-content;
+      @include set-media(414px) {
+        margin-top: 0;
+        padding-top: 0;
+        max-height: 20px;
+        &:not(:last-child) {
+          margin-bottom: 3px;
+        }
+      }
+    }
+    .adress {
+      @include set-media(414px) {
+        margin-top: 0;
+        padding-top: 0;
+        max-height: 24px;
+        margin-bottom: 2px;
+      }
     }
 
     hr {

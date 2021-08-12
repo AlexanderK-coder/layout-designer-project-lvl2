@@ -891,6 +891,24 @@ li {
 .footer .links-container .special {
   max-width: fit-content;
 }
+@media (max-width: 414px) {
+  .footer .links-container .special {
+    margin-top: 0;
+    padding-top: 0;
+    max-height: 20px;
+  }
+  .footer .links-container .special:not(:last-child) {
+    margin-bottom: 3px;
+  }
+}
+@media (max-width: 414px) {
+  .footer .links-container .adress {
+    margin-top: 0;
+    padding-top: 0;
+    max-height: 24px;
+    margin-bottom: 2px;
+  }
+}
 .footer .links-container hr {
   border: 1px solid #e0e0e0;
 }
