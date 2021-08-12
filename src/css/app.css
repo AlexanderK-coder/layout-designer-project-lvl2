@@ -934,6 +934,11 @@ li {
   line-height: 24px;
   text-transform: none;
 }
+@media (max-width: 414px) {
+  .links-last > ul > li {
+    max-width: 358px;
+  }
+}
 .links-last li:not(:last-child) {
   margin-right: 15px;
 }

@@ -125,6 +125,9 @@
   & > ul > li {
     @include text-size-1;
     text-transform: none;
+    @include set-media(414px) {
+      max-width: 358px;
+    }
   }
 
   li:not(:last-child) {
