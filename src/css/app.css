@@ -1048,6 +1048,7 @@ li {
 .btn-description-purple, .btn-description-red {
   width: 200px;
   height: 62px;
+  padding: 20px 0 20px 0;
   font-size: 12.8px;
   font-style: normal;
   font-weight: normal;
