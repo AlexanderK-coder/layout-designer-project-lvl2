@@ -554,6 +554,8 @@ h2 {
 }
 
 #page-popular-track {
+  margin: 0 auto;
+  width: 1240px;
   min-height: 420px;
 }
 @media (max-width: 414px) {

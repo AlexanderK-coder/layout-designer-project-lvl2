@@ -1,4 +1,6 @@
 #page-popular-track {
+  margin: 0 auto;
+  width: 1240px;
   min-height: 420px;
 
   @include set-media(414px) {
