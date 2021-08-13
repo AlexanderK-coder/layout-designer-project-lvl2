@@ -519,7 +519,6 @@ h2 {
 #page-similar {
   margin: 0 auto;
   width: 1240px;
-  padding-bottom: 100px;
 }
 @media (max-width: 414px) {
   #page-similar {
