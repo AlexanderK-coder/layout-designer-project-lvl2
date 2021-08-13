@@ -669,6 +669,11 @@ h2 {
   text-transform: capitalize;
   color: #fff;
 }
+@media (max-width: 414px) {
+  #page-discography .item-name {
+    word-spacing: -3px;
+  }
+}
 #page-discography .item-date {
   font-size: 16px;
   font-style: normal;

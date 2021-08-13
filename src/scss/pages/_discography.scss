@@ -2,11 +2,13 @@
   margin: 0 auto;
   width: 1240px;
   text-align: left;
+
   @include set-media(414px) {
     margin: 0;
     max-width: 414px;
     height: auto;
   }
+
   .item {
     width: 250px;
     margin: 25px 50px 0 0;
@@ -26,6 +28,10 @@
       margin-top: 10px;
       @include h4;
       color: $white;
+
+      @include set-media(414px) {
+        word-spacing: -3px;
+      }
     }
 
     &-date {
