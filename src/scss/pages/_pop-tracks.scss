@@ -25,7 +25,7 @@
   &-info {
     // width: fit-content;
     flex-direction: column;
-    flex-grow: 1;
+    // flex-grow: 1;
     padding-left: 15px;
   }
 
@@ -45,6 +45,10 @@
   img {
     width: 55px;
     height: 55px;
+  }
+
+  .block {
+    flex-grow: 1;
   }
 }
 

@@ -1,4 +1,6 @@
 #page-discography {
+  margin: 0 auto;
+  width: 1240px;
   text-align: left;
   .item {
     width: 250px;
@@ -11,11 +13,6 @@
     img {
       width: 100%;
     }
-
-    // h3{
-    //   @include h4;
-    //   color: $white;
-    // }
 
     &-name {
       max-width: 100%;

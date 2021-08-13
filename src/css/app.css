@@ -516,6 +516,8 @@ h2 {
 }
 
 #page-similar {
+  margin: 0 auto;
+  width: 1240px;
   padding-bottom: 100px;
 }
 #page-similar .item {
@@ -588,7 +590,6 @@ h2 {
 }
 .track-info {
   flex-direction: column;
-  flex-grow: 1;
   padding-left: 15px;
 }
 .track-timing {
@@ -612,12 +613,17 @@ h2 {
   width: 55px;
   height: 55px;
 }
+.track .block {
+  flex-grow: 1;
+}
 
 .artists {
   color: #e0e0e0;
 }
 
 #page-discography {
+  margin: 0 auto;
+  width: 1240px;
   text-align: left;
 }
 #page-discography .item {
