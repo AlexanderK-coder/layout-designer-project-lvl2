@@ -674,7 +674,7 @@ h2 {
   font-weight: bold;
   line-height: 27px;
   text-transform: capitalize;
-  word-spacing: -3px;
+  letter-spacing: -1px;
   color: #fff;
 }
 #page-discography .item-date {
