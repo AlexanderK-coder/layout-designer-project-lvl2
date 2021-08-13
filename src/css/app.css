@@ -551,6 +551,7 @@ h2 {
   font-weight: bold;
   line-height: 27px;
   text-transform: capitalize;
+  letter-spacing: -1px;
   color: #fff;
 }
 #page-similar .item-info {
