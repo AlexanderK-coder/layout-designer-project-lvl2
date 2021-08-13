@@ -2,6 +2,11 @@
   margin: 0 auto;
   width: 1240px;
   padding-bottom: 100px;
+  @include set-media(414px) {
+    margin: 0;
+    max-width: 414px;
+    height: auto;
+  }
 
   .item {
     width: 250px;
