@@ -42,7 +42,7 @@
     color: $white;
   }
 
-  .artists {
+  span {
     @include small-text;
     color: $gray;
   }
