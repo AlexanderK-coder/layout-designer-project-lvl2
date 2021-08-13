@@ -33,6 +33,7 @@ div,
 form,
 input,
 hr,
+span,
 button {
   padding: 0;
   margin: 0;
@@ -562,6 +563,9 @@ h2 {
 }
 @media (max-width: 414px) {
   #page-popular-track {
+    margin: 0;
+    max-width: 414px;
+    height: auto;
     min-height: 630px;
   }
 }
@@ -587,6 +591,11 @@ h2 {
 .track {
   width: 575px;
   margin-top: 25px;
+}
+@media (max-width: 414px) {
+  .track {
+    width: 374px;
+  }
 }
 .track-info {
   flex-direction: column;

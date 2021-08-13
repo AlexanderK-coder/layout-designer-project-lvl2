@@ -4,9 +4,12 @@
   min-height: 420px;
 
   @include set-media(414px) {
+    margin: 0;
+    max-width: 414px;
+    height: auto;
     min-height: 630px;
   }
-
+  // кроме высоты проп. для desc и mob
   .tracks {
     margin-bottom: 23px;
     @include h2;
@@ -21,11 +24,12 @@
 .track {
   width: 575px;
   margin-top: 25px;
+  @include set-media(414px) {
+    width: 374px;
+  }
 
   &-info {
-    // width: fit-content;
     flex-direction: column;
-    // flex-grow: 1;
     padding-left: 15px;
   }
 
