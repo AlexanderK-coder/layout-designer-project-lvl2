@@ -638,6 +638,13 @@ h2 {
   width: 1240px;
   text-align: left;
 }
+@media (max-width: 414px) {
+  #page-discography {
+    margin: 0;
+    max-width: 414px;
+    height: auto;
+  }
+}
 #page-discography .item {
   width: 250px;
   margin: 25px 50px 0 0;
@@ -649,10 +656,12 @@ h2 {
 }
 #page-discography .item img {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 #page-discography .item-name {
   max-width: 100%;
-  margin-top: 18px;
+  margin-top: 10px;
   font-size: 18px;
   font-style: normal;
   font-weight: bold;

@@ -2,6 +2,11 @@
   margin: 0 auto;
   width: 1240px;
   text-align: left;
+  @include set-media(414px) {
+    margin: 0;
+    max-width: 414px;
+    height: auto;
+  }
   .item {
     width: 250px;
     margin: 25px 50px 0 0;
@@ -12,11 +17,13 @@
 
     img {
       width: 100%;
+      margin: 0;
+      padding: 0;
     }
 
     &-name {
       max-width: 100%;
-      margin-top: 18px;
+      margin-top: 10px;
       @include h4;
       color: $white;
     }
