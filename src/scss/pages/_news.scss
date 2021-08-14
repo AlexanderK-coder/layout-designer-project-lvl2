@@ -24,6 +24,7 @@
 
     @include set-media(414px) {
       margin-top: 55px;
+
       .foto-2 {
         order: -1;
       }

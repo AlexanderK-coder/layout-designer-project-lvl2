@@ -6,8 +6,8 @@
   @include set-media(414px) {
     max-width: 414px;
     height: auto;
-    margin: 0;
     min-height: 630px;
+    margin: 0;
   }
   // кроме высоты проп. для desc и mob
   .tracks {
