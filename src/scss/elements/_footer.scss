@@ -69,15 +69,6 @@
         }
       }
 
-      & > ul > li {
-        @include text-size-1;
-        text-transform: none;
-
-        @include set-media(414px) {
-          max-width: 358px;
-        }
-      }
-
       li {
         @include text-size-1;
         margin-right: 0;
@@ -87,6 +78,15 @@
 
         @include set-media(414px) {
           padding-bottom: 0;
+        }
+      }
+
+      & > ul > li {
+        @include text-size-1;
+        text-transform: none;
+
+        @include set-media(414px) {
+          max-width: 358px;
         }
       }
 
@@ -137,6 +137,7 @@
           }
         }
       }
+
       .adress {
         // сделано для Linter Требует пустую строку
 
