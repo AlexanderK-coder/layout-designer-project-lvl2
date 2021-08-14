@@ -17,8 +17,9 @@
 
     font-family: Arial, sans-serif;
 
-    background-color: $green;
     color: $white;
+
+    background-color: $green;
 
     @include main-btn;
 
@@ -63,6 +64,7 @@
     background-color: $red;
 
     border-radius: 32px;
+
     @include small-text;
   }
 
@@ -70,11 +72,12 @@
 
   &-description-purple,
   &-description-red {
+    justify-content: flex-start;
     width: 200px;
     height: 62px;
-    justify-content: flex-start;
 
     padding: 20px 30px;
+
     @include small-text-upp;
 
     border: 0;
@@ -82,6 +85,7 @@
 
   &-description-purple {
     margin-right: 24px;
+
     background-color: $purple;
 
     @include set-media(414px) {

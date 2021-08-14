@@ -1,7 +1,7 @@
 #page-app {
   max-width: 1240px;
-  margin: 0 auto 0 auto;
   height: 483px;
+  margin: 0 auto 0 auto;
 
   @include set-media(414px) {
     height: 722px;
@@ -27,8 +27,8 @@ h2 {
   text-align: left;
 
   @include set-media(414px) {
-    margin-top: 16px;
     width: 370px;
+    margin-top: 16px;
     height: 184px;
   }
 

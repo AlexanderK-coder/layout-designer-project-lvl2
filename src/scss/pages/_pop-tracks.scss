@@ -1,12 +1,12 @@
 #page-popular-track {
   width: 1240px;
-  margin: 0 auto;
   min-height: 420px;
+  margin: 0 auto;
 
   @include set-media(414px) {
     max-width: 414px;
-    margin: 0;
     height: auto;
+    margin: 0;
     min-height: 630px;
   }
   // кроме высоты проп. для desc и mob
@@ -44,8 +44,8 @@
 
   h3 {
     @include small-text;
-    font-weight: bold;
     color: $white;
+    font-weight: bold;
     text-transform: uppercase;
   }
 

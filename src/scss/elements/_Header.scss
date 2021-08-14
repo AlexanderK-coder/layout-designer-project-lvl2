@@ -1,9 +1,10 @@
 .header {
   position: absolute;
-
   top: 25px;
-  flex-wrap: wrap;
+
   right: 0;
+
+  flex-wrap: wrap;
   left: 0;
 
   min-height: 24px;
@@ -39,8 +40,8 @@
     @include menu-font;
 
     @include set-media(414px) {
-      margin: 5px 0 0 16px;
       max-height: 13px;
+      margin: 5px 0 0 16px;
       padding-top: 0;
 
       @include menu-font-mob;

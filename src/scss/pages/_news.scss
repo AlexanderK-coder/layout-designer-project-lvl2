@@ -18,8 +18,12 @@
       height: 500px;
     }
   }
+
   .news-item-2 {
+    margin-top: 65px;
+
     @include set-media(414px) {
+      margin-top: 55px;
       .foto-2 {
         order: -1;
       }
@@ -30,21 +34,13 @@
     margin-top: 48px;
   }
 
-  .news-item-2 {
-    margin-top: 65px;
-
-    @include set-media(414px) {
-      margin-top: 55px;
-    }
-  }
-
   .news-info {
     max-width: 575px;
     max-height: 286px;
 
-    text-align: left;
-
     margin-left: 42px;
+
+    text-align: left;
 
     @include set-media(414px) {
       height: auto;
@@ -56,8 +52,8 @@
 
   .item2 {
     margin-right: 42px;
-    margin-left: 0;
     margin-bottom: 28px;
+    margin-left: 0;
 
     @include set-media(414px) {
       height: auto;
@@ -148,6 +144,7 @@
       height: auto;
     }
   }
+
   .feed {
     width: 135px;
   }

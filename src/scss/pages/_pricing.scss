@@ -1,12 +1,12 @@
 #page-pricing {
   width: 1240px;
-  margin: 0 auto;
   height: 908px;
+  margin: 0 auto;
 
   @include set-media(414px) {
     max-width: 414px;
-    margin: 0;
     height: auto;
+    margin: 0;
   }
 
   h2 {

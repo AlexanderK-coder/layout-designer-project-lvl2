@@ -1,12 +1,14 @@
 .footer {
   margin-top: 100px;
   padding-top: 0;
+
   @include col-gradient($red, $purple);
   & .links-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 60px 0 73px;
     justify-content: flex-between;
+    padding: 60px 0 73px;
+
     @include set-media(414px) {
       width: 100%;
       padding: 62px 0 70px;
@@ -14,6 +16,7 @@
 
     & > * {
       width: 100%;
+
       @include set-media(414px) {
         margin-bottom: 30px;
       }
@@ -22,6 +25,7 @@
     .links-item,
     .links-img {
       max-width: 270px;
+
       @include set-media(414px) {
         max-width: 374px;
       }
@@ -30,9 +34,10 @@
     .links-item:not(:first-child),
     .links-img {
       margin-left: 40px;
+
       @include set-media(414px) {
-        margin-left: 0;
         margin-bottom: 30px;
+        margin-left: 0;
       }
     }
 
@@ -46,16 +51,18 @@
     .links-title,
     .exclude {
       margin-bottom: 16px;
+
       @include h2-mob;
       color: $white;
     }
 
     .links-last {
       & > ul {
+        display: flex;
         margin-top: 40px;
         padding: 0 0 48px 0;
-        display: flex;
         flex-wrap: wrap;
+
         @include set-media(414px) {
           flex-direction: column;
         }
@@ -64,6 +71,7 @@
       & > ul > li {
         @include text-size-1;
         text-transform: none;
+
         @include set-media(414px) {
           max-width: 358px;
         }
@@ -71,9 +79,9 @@
 
       li {
         @include text-size-1;
+        margin-right: 0;
         color: $gray;
         text-transform: none;
-        margin-right: 0;
 
         @include set-media(414px) {
           padding-bottom: 0;
@@ -92,8 +100,8 @@
 
           @include set-media(414px) {
             margin-right: 0;
-            padding-bottom: 0;
             margin-bottom: 16px;
+            padding-bottom: 0;
           }
         }
         li:not(:first-child) {
@@ -102,11 +110,12 @@
       }
 
       img {
-        margin-top: 5px;
         max-height: 20px;
+        margin-top: 5px;
+
         @include set-media(414px) {
-          margin-top: 0;
           max-height: 20px;
+          margin-top: 0;
           padding-top: 3px;
           padding-bottom: 0;
         }
@@ -114,10 +123,11 @@
 
       .special {
         max-width: fit-content;
+
         @include set-media(414px) {
           margin-top: 0;
-          padding-top: 0;
           max-height: 20px;
+          padding-top: 0;
           &:not(:last-child) {
             margin-bottom: 3px;
           }
@@ -125,9 +135,9 @@
       }
       .adress {
         @include set-media(414px) {
+          max-height: 24px;
           margin-top: 0;
           padding-top: 0;
-          max-height: 24px;
           margin-bottom: 2px;
         }
       }
