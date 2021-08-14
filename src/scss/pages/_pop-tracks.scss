@@ -1,17 +1,18 @@
 #page-popular-track {
-  margin: 0 auto;
   width: 1240px;
+  margin: 0 auto;
   min-height: 420px;
 
   @include set-media(414px) {
-    margin: 0;
     max-width: 414px;
+    margin: 0;
     height: auto;
     min-height: 630px;
   }
   // кроме высоты проп. для desc и mob
   .tracks {
     margin-bottom: 23px;
+
     @include h2;
 
     @include set-media(414px) {
@@ -24,6 +25,7 @@
 .track {
   width: 575px;
   margin-top: 25px;
+
   @include set-media(414px) {
     width: 374px;
   }
@@ -35,6 +37,7 @@
 
   &-timing {
     margin: auto;
+
     @include small-text;
     color: $gray;
   }
@@ -42,8 +45,8 @@
   h3 {
     @include small-text;
     font-weight: bold;
-    text-transform: uppercase;
     color: $white;
+    text-transform: uppercase;
   }
 
   span {

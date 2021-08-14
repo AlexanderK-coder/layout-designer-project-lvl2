@@ -1,24 +1,27 @@
 #page-pricing {
-  margin: 0 auto;
   width: 1240px;
-  // ! Для прохода тестов на 1240 Учесть маргины
+  margin: 0 auto;
   height: 908px;
+
   @include set-media(414px) {
-    margin: 0;
     max-width: 414px;
+    margin: 0;
     height: auto;
   }
+
   h2 {
     @include h2;
+
     @include set-media(414px) {
       @include h2-mob;
     }
   }
 
   .card-container {
+    width: 100%;
     margin: 45px auto;
     padding: 0;
-    width: 100%;
+
     @include set-media(414px) {
       max-width: 374px;
       margin: 45px 0 19px 0;

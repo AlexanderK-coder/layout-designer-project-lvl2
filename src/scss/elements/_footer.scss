@@ -4,8 +4,8 @@
   @include col-gradient($red, $purple);
   & .links-container {
     display: flex;
-    padding: 60px 0 73px;
     flex-wrap: wrap;
+    padding: 60px 0 73px;
     justify-content: flex-between;
     @include set-media(414px) {
       width: 100%;
@@ -50,90 +50,91 @@
       color: $white;
     }
 
-    li {
-      @include text-size-1;
-      color: $gray;
-      text-transform: none;
-      margin-right: 0;
-      @include set-media(414px) {
-        padding-bottom: 0;
-      }
-    }
-
-    .links-img {
+    .links-last {
       & > ul {
+        margin-top: 40px;
+        padding: 0 0 48px 0;
         display: flex;
-        flex-wrap: nowrap;
-        max-height: 24px;
-      }
-
-      li:not(:first-child) {
-        margin-left: 24px;
-      }
-    }
-
-    img {
-      margin-top: 5px;
-      max-height: 20px;
-      @include set-media(414px) {
-        margin-top: 0;
-        max-height: 20px;
-        padding-top: 3px;
-        padding-bottom: 0;
-      }
-    }
-
-    .special {
-      max-width: fit-content;
-      @include set-media(414px) {
-        margin-top: 0;
-        padding-top: 0;
-        max-height: 20px;
-        &:not(:last-child) {
-          margin-bottom: 3px;
+        flex-wrap: wrap;
+        @include set-media(414px) {
+          flex-direction: column;
         }
       }
-    }
-    .adress {
-      @include set-media(414px) {
-        margin-top: 0;
-        padding-top: 0;
-        max-height: 24px;
-        margin-bottom: 2px;
+
+      & > ul > li {
+        @include text-size-1;
+        text-transform: none;
+        @include set-media(414px) {
+          max-width: 358px;
+        }
       }
-    }
 
-    hr {
-      border: 1px solid $gray;
-    }
-  }
-}
+      li {
+        @include text-size-1;
+        color: $gray;
+        text-transform: none;
+        margin-right: 0;
 
-.links-last {
-  & > ul {
-    margin-top: 40px;
-    padding: 0 0 48px 0;
-    display: flex;
-    flex-wrap: wrap;
-    @include set-media(414px) {
-      flex-direction: column;
-    }
-  }
+        @include set-media(414px) {
+          padding-bottom: 0;
+        }
+      }
 
-  & > ul > li {
-    @include text-size-1;
-    text-transform: none;
-    @include set-media(414px) {
-      max-width: 358px;
-    }
-  }
+      .links-img {
+        & > ul {
+          display: flex;
+          flex-wrap: nowrap;
+          max-height: 24px;
+        }
 
-  li:not(:last-child) {
-    margin-right: 15px;
-    @include set-media(414px) {
-      padding-bottom: 0;
-      margin-bottom: 16px;
-      margin-right: 0;
+        li:not(:last-child) {
+          margin-right: 15px;
+
+          @include set-media(414px) {
+            margin-right: 0;
+            padding-bottom: 0;
+            margin-bottom: 16px;
+          }
+        }
+        li:not(:first-child) {
+          margin-left: 24px;
+        }
+      }
+
+      img {
+        margin-top: 5px;
+        max-height: 20px;
+        @include set-media(414px) {
+          margin-top: 0;
+          max-height: 20px;
+          padding-top: 3px;
+          padding-bottom: 0;
+        }
+      }
+
+      .special {
+        max-width: fit-content;
+        @include set-media(414px) {
+          margin-top: 0;
+          padding-top: 0;
+          max-height: 20px;
+          &:not(:last-child) {
+            margin-bottom: 3px;
+          }
+        }
+      }
+      .adress {
+        @include set-media(414px) {
+          margin-top: 0;
+          padding-top: 0;
+          max-height: 24px;
+          margin-bottom: 2px;
+        }
+      }
+
+      hr {
+        border: 1px solid $gray;
+      }
     }
   }
 

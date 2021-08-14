@@ -1,15 +1,18 @@
 #page-news {
-  margin: 8px auto 0 auto;
   max-width: 1240px;
+  margin: 8px auto 0 auto;
+
   @include set-media(414px) {
     width: 100%;
     height: 1239px;
   }
+
   .news-item,
   .news-item-2 {
-    height: 286px;
     display: flex;
     flex-wrap: wrap;
+    height: 286px;
+
     @include set-media(414px) {
       width: 100%;
       height: 500px;
@@ -26,8 +29,10 @@
   .news-item {
     margin-top: 48px;
   }
+
   .news-item-2 {
     margin-top: 65px;
+
     @include set-media(414px) {
       margin-top: 55px;
     }
@@ -36,31 +41,35 @@
   .news-info {
     max-width: 575px;
     max-height: 286px;
+
     text-align: left;
+
     margin-left: 42px;
 
     @include set-media(414px) {
-      margin-top: 43px;
-      margin-left: 0;
-      margin-bottom: 0;
       height: auto;
+      margin-top: 43px;
+      margin-bottom: 0;
+      margin-left: 0;
     }
   }
 
   .item2 {
-    margin-left: 0;
     margin-right: 42px;
+    margin-left: 0;
     margin-bottom: 28px;
+
     @include set-media(414px) {
+      height: auto;
       margin-right: 0;
       margin-bottom: 0;
-      height: auto;
     }
   }
 
   .news-body {
     h3 {
       @include h3-cap;
+
       @include set-media(414px) {
         @include h3-cap-mob;
       }
@@ -71,6 +80,7 @@
 
       margin-top: 30px;
       margin-bottom: 24px;
+
       color: $dark-gray;
 
       @include set-media(414px) {
@@ -84,6 +94,7 @@
     .news-author {
       display: flex;
       margin-bottom: 50px;
+
       @include set-media(414px) {
         margin-bottom: 45px;
       }
@@ -92,11 +103,13 @@
     .avatar {
       width: 19px;
       height: 19px;
+
       background-image: url(/src/images/avatar.png);
     }
 
     .autor {
       margin-left: 16px;
+
       @include small-text;
 
       color: $orange;
@@ -104,6 +117,7 @@
 
     .date {
       margin-left: 16px;
+
       @include small-text;
 
       color: $dark-gray;
@@ -113,6 +127,7 @@
   h2 {
     @include h2;
     text-align: center;
+
     @include set-media(414px) {
       @include h2-mob;
     }
@@ -124,8 +139,8 @@
     max-height: 286px;
 
     @include set-media(414px) {
-      padding: 0;
       height: 186px;
+      padding: 0;
     }
 
     img {

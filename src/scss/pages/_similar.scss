@@ -1,9 +1,10 @@
 #page-similar {
-  margin: 0 auto;
   width: 1240px;
+  margin: 0 auto;
+
   @include set-media(414px) {
-    margin: 0;
     max-width: 414px;
+    margin: 0;
     height: auto;
   }
 
@@ -21,16 +22,17 @@
 
     img {
       max-width: 100%;
+
       border: 0;
-      // border-radius: 50%;
     }
 
     &-name {
       max-width: 100%;
       margin-top: 10px;
+
       @include h4;
-      letter-spacing: -1px;
       color: $white;
+      letter-spacing: -1px;
     }
 
     &-info {

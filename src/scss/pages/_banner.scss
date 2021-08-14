@@ -17,6 +17,7 @@
       @include h2-mob;
     }
   }
+
   .sub {
     @include text-size-1;
     margin-top: 31px;
@@ -27,15 +28,18 @@
       margin-bottom: 17px;
     }
   }
+
   .sub-art {
     margin-top: 16px;
     margin-bottom: 48px;
+
     @include text-size-1;
   }
 }
 
 .desc {
   margin-top: 0;
+
   @include set-media(414px) {
     margin-top: 48px;
   }
@@ -43,6 +47,7 @@
 
 .art-desc {
   margin-top: 50px;
+
   @include set-media(414px) {
     margin-top: 25px;
   }
@@ -54,13 +59,16 @@
   @include set-media(414px) {
     height: 853px;
   }
+
   @include bg-image("banner.png");
 }
 
 .artists-banner {
   height: 713px;
+
   @include set-media(414px) {
     height: 730px;
   }
+
   @include bg-image("Morten Harket.png");
 }

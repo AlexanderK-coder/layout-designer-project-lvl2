@@ -14,12 +14,14 @@
     flex: 1 1 570px;
     max-width: 570px;
     min-height: 57px;
-    background-color: $green;
+
     font-family: Arial, sans-serif;
+
+    background-color: $green;
+    color: $white;
 
     @include main-btn;
 
-    color: $white;
     border: none;
   }
 
@@ -41,6 +43,7 @@
     max-width: 135px;
     height: 53px;
     padding: 16px 30px;
+
     @include small-text-upp;
     font-size: 12px;
 
@@ -53,12 +56,14 @@
     height: 53px;
     margin-top: 16px;
     padding: 16px 40px;
+
     @include set-media(414px) {
       margin-bottom: 100px;
     }
+    background-color: $red;
+
     border-radius: 32px;
     @include small-text;
-    background-color: $red;
   }
 
   //   // choose
@@ -67,16 +72,17 @@
   &-description-red {
     width: 200px;
     height: 62px;
+    justify-content: flex-start;
+
     padding: 20px 30px;
     @include small-text-upp;
 
-    justify-content: flex-start;
     border: 0;
   }
 
   &-description-purple {
-    background-color: $purple;
     margin-right: 24px;
+    background-color: $purple;
 
     @include set-media(414px) {
       margin-bottom: 24px;
@@ -90,7 +96,7 @@
   &-icon {
     width: 20px;
     height: 20px;
-    margin-left: 0;
     margin-right: 16px;
+    margin-left: 0;
   }
 }

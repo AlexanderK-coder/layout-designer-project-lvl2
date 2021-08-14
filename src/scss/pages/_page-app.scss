@@ -1,7 +1,8 @@
 #page-app {
-  margin: 0 auto 0 auto;
   max-width: 1240px;
+  margin: 0 auto 0 auto;
   height: 483px;
+
   @include set-media(414px) {
     height: 722px;
   }
@@ -10,6 +11,7 @@
 
 h2 {
   @include h2;
+
   @include set-media(414px) {
     @include h2-mob;
   }
@@ -19,17 +21,21 @@ h2 {
   width: 600px;
   height: 112px;
   margin-top: 64px;
+
   @include text-size-1;
   color: $dark-gray;
   text-align: left;
+
   @include set-media(414px) {
     margin-top: 16px;
     width: 370px;
     height: 184px;
   }
+
   .app-text-1 {
     height: 48px;
     margin-bottom: 16px;
+
     @include set-media(414px) {
       height: 96px;
     }
@@ -50,6 +56,7 @@ h2 {
 .app-flex {
   display: flex;
   flex-direction: row;
+
   @include set-media(414px) {
     display: flex;
     flex-direction: column-reverse;
